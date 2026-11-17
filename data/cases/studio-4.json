@@ -1,0 +1,505 @@
+{
+  "id": "studio-4",
+  "slug": "echoes-in-studio-4",
+  "title": "Echoes in Studio 4",
+  "subtitle": "Jonah Cross was dead before the show ended. His voice kept broadcasting.",
+  "difficulty": "hard",
+  "estimatedMinutes": 9,
+  "location": "Radio Meridian, Studio 4",
+  "date": "Friday, 27 March 2026",
+  "timeWindow": "21:10 — 23:20",
+  "description": "At 23:12, security found radio host Jonah Cross dead in Studio 4. He had been on air until 23:00. Producers, engineers and a co-host all insist they heard him speaking live. The audio files say the voice was recorded thirty minutes before it was broadcast. The killer used the station's own schedule as an alibi.",
+  "briefing": "Jonah Cross's nightly current-affairs show ended at 23:00. Twelve minutes later he was found beside the mixing desk with a head wound. The studio door was locked and the broadcast ran without interruption. To solve this, you must separate what listeners heard from what actually happened inside Studio 4.",
+  "cover": {
+    "accent": "#B86F8A",
+    "secondary": "#653347",
+    "motif": "studio"
+  },
+  "scene": {
+    "summary": "Studio 4 is a soundproofed capsule of foam panels and blinking equipment. Jonah Cross lies beside the mixing desk. A heavy cable reel rests against the wall, a dark smear on its rim. The ON AIR light is still glowing, though the broadcast ended twelve minutes ago.",
+    "details": [
+      "Death was caused by blunt-force trauma to the left temple. Estimated time of death: 22:35–22:45.",
+      "A heavy metal cable reel bears a bloodstain and has been wiped of fingerprints.",
+      "The studio door was locked from inside, but its electronic log records two keycard entries around the time of death.",
+      "The final 25 minutes of the broadcast were a pre-recorded interview, not live audio.",
+      "Jonah's microphone was muted at 22:35 and never unmuted.",
+      "A producer's playout account queued the pre-recorded file at 22:34."
+    ],
+    "initialObservations": [
+      "Death before broadcast ended",
+      "Final segment pre-recorded",
+      "Studio bloodstain on cable reel"
+    ]
+  },
+  "victim": {
+    "name": "Jonah Cross",
+    "label": "Victim",
+    "age": 48,
+    "occupation": "Radio host and investigative journalist",
+    "status": "Deceased — 22:40 (estimated)",
+    "background": "Jonah hosted Nightline for eleven years. He was known for aggressive interviews and a confidential source network called 'the Ledger'. He had recently accused the station of protecting someone who sold source identities to a rival network.",
+    "forensic": "A single blunt-force impact to the left temple, delivered from close range. The weapon was a metal cable reel. Death was rapid. No defensive wounds. A faint transfer of silver paint on the victim's shirt matches the reel's chipped rim."
+  },
+  "suspects": [
+    {
+      "id": "lena-marn",
+      "name": "Lena Marn",
+      "role": "Producer",
+      "age": 41,
+      "occupation": "Senior producer",
+      "summary": "The only person who controlled the broadcast clock, the playout queue, and Jonah's schedule. Calm and precise, she was quick to call the death a tragic accident.",
+      "background": "Lena produced Nightline for six years. She had access to the source-management system and the station's playout software. Jonah had recently confronted her about an anonymous leak to a rival network.",
+      "motive": "Jonah was preparing to expose her for selling the Ledger source list to a rival broadcaster.",
+      "alibi": "In the control room throughout the broadcast, speaking to Jonah through the glass. She says he was alive at 23:00.",
+      "relationship": "Producer, gatekeeper of the show, and secret source-list leaker.",
+      "pressure": "A station investigation into the source leak was scheduled for Monday.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "When did you last see Jonah alive?",
+          "answer": "At the end of the show. He waved through the studio glass and gave me a thumbs-up. I was in the control room. I didn't go in afterward; I assumed he was reviewing the recording."
+        },
+        {
+          "id": "q2",
+          "text": "Why was the final segment pre-recorded?",
+          "answer": "It was a scheduled interview special. Jonah wanted a clean edit for the podcast. That's standard. The fact that it was pre-recorded doesn't mean anything sinister."
+        },
+        {
+          "id": "q3",
+          "text": "Your keycard opened Studio 4 at 22:36 and again at 22:42.",
+          "answer": "I never went in. I lent my card to Priya earlier for a patch panel check. She must have used it. I was at the control desk the whole time. Ask anyone who saw me."
+        },
+        {
+          "id": "q4",
+          "text": "Jonah accused you of selling the Ledger list. What did you say to him?",
+          "answer": "He was paranoid. The Ledger was his obsession. I told him to take a week off. We argued, but I did not kill him. If he had proof, he would have gone to the board, not confronted me."
+        }
+      ]
+    },
+    {
+      "id": "theo-lang",
+      "name": "Theo Lang",
+      "role": "Co-host",
+      "age": 35,
+      "occupation": "Broadcaster",
+      "summary": "Jonah's younger co-host, ambitious and openly frustrated by playing second microphone. He argued with Jonah on air twenty minutes before the murder.",
+      "background": "Theo has co-hosted Nightline for two years. He wants his own show and believed Jonah blocked his promotion. Their on-air argument about a guest booking was clipped and shared widely.",
+      "motive": "Replace Jonah as the station's lead host.",
+      "alibi": "In the production booth from 22:15 to 23:00, editing a segment. The booth is adjacent to Studio 4 and shares a window.",
+      "relationship": "Co-host and professional rival.",
+      "pressure": "Station management had warned him about the on-air argument.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about the on-air argument.",
+          "answer": "He cut off my interview to take a call. It was humiliating. I shouted. It wasn't the first time. But I was in the booth when he died; the window was right there."
+        },
+        {
+          "id": "q2",
+          "text": "What did you hear after 22:35?",
+          "answer": "The interview special playing. It sounded normal. I saw Jonah through the glass once, but only his back. Lena was at the control desk. I was wearing headphones, editing."
+        },
+        {
+          "id": "q3",
+          "text": "Did you know the final segment was pre-recorded?",
+          "answer": "Of course. I recorded my parts yesterday. But Jonah's voice was on it too. The whole thing was scheduled. It doesn't explain why he was dead."
+        },
+        {
+          "id": "q4",
+          "text": "Did Jonah tell you what he suspected about Lena?",
+          "answer": "He said she'd been meeting someone from a rival network. He had a copy of the transfer in his notebook. He was going to confront her before Monday's board meeting."
+        }
+      ]
+    },
+    {
+      "id": "priya-shah",
+      "name": "Priya Shah",
+      "role": "Broadcast engineer",
+      "age": 29,
+      "occupation": "Audio engineer",
+      "summary": "The station's systems expert, currently on a final warning after a broadcast failure. She knows how to make a pre-recorded file sound live.",
+      "background": "Priya maintains the playout servers and studio equipment. She was working in the server room during the broadcast. She has admin access to the audio system but no access to the source list.",
+      "motive": "Johan blamed her for a previous audio failure and threatened to have her fired.",
+      "alibi": "In the server room from 22:20 to 23:05, resolving a log error. The keycard log and a remote support call support it.",
+      "relationship": "Station engineer; fixed the audio system Jonah publicly criticised.",
+      "pressure": "A final warning and a possible dismissal.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Could someone fake a live broadcast?",
+          "answer": "With access to the playout queue, yes. You load a file, tag it as live, and let it run. The ON AIR light stays on. The station hears the feed, not the room. Any producer can do it. It isn't hard."
+        },
+        {
+          "id": "q2",
+          "text": "Where were you during the murder?",
+          "answer": "Server room. I was on a remote call with the vendor, fixing a metadata error. The door log shows me entering at 22:20 and leaving at 23:05. I didn't go anywhere near Studio 4."
+        },
+        {
+          "id": "q3",
+          "text": "Did you lend anyone your access card?",
+          "answer": "No. Lena asked to borrow it around six, but I said no. My card was in my pocket all night. She was annoyed. She said she needed to get into the cabinet below the control desk."
+        },
+        {
+          "id": "q4",
+          "text": "Who controls the playout queue?",
+          "answer": "The producer on duty. Lena's account. We engineers can override, but she doesn't need an override. She schedules the whole show. If a file was queued at 22:34, it was queued by her account."
+        }
+      ]
+    },
+    {
+      "id": "marcus-vale",
+      "name": "Marcus Vale",
+      "role": "Night security",
+      "age": 54,
+      "occupation": "Security guard",
+      "summary": "A quiet night guard who found the body. He admits he did not check Studio 4 when the ON AIR light stayed on after the broadcast ended.",
+      "background": "Vale has worked nights at the station for eight years. He knew Jonah well and often brought him coffee. He was on the third floor during the relevant hour and has keys to the outer doors, but not the studio.",
+      "motive": "None established. He was close to Jonah and visibly shaken.",
+      "alibi": "Patrolling floors two to four from 22:20 to 23:05. The patrol app records check-ins at 22:26, 22:48 and 23:03.",
+      "relationship": "Night guard and informal friend of the victim.",
+      "pressure": "He blames himself for not entering the studio sooner.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "How did you find the body?",
+          "answer": "The ON AIR light was still on at ten past eleven. I knocked, got no answer, and let myself into the outer studio lobby. The inner door was unlocked. Jonah was on the floor. I called emergency services."
+        },
+        {
+          "id": "q2",
+          "text": "Why didn't you check earlier?",
+          "answer": "The show ended at eleven and I was on the far side of the building. I assumed he was reviewing the recording. He often stayed late. I did my rounds and came back when the light bothered me."
+        },
+        {
+          "id": "q3",
+          "text": "Did you see Lena Marn near the studio?",
+          "answer": "I saw her walking from the studio corridor around quarter to eleven. She had her headphones around her neck and looked angry. She said Jonah was being difficult and she was going home."
+        },
+        {
+          "id": "q4",
+          "text": "Who normally locks Studio 4?",
+          "answer": "The producer or the host. Lena usually locks up after the show. Security only checks the outer doors. The inner studio door locks automatically when it closes."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "ana-duarte",
+      "name": "Ana Duarte",
+      "role": "Night cleaner",
+      "statement": "I was polishing the corridor floor outside Studio 4 at about twenty to eleven. I saw Ms. Marn go into the studio. She came out a few minutes later and shut the door hard. She didn't look at me. I remember because she usually says goodnight.",
+      "reliability": "High",
+      "summary": "Saw Lena Marn enter Studio 4 around 22:40 and leave minutes later.",
+      "notes": "Duarte was not interviewed until after the body was found and had no knowledge of the keycard logs."
+    },
+    {
+      "id": "ollie-brant",
+      "name": "Ollie Brant",
+      "role": "Control-room assistant",
+      "statement": "Lena was at the control desk when the interview special started, then I went to get coffee at 22:35. She wasn't there when I came back at 22:45. She returned around 22:50 and told me she had been checking the studio. The broadcast never dropped.",
+      "reliability": "Medium",
+      "summary": "Lena left the control room between 22:35 and 22:45 and returned at 22:50.",
+      "notes": "Brant was a temp and did not have studio access."
+    },
+    {
+      "id": "listener-log",
+      "name": "Listener call log",
+      "role": "Technical statement",
+      "statement": "There were no live callers after 22:31. The broadcast's final segment contains the same ambient gap at 22:47 as the pre-recorded file created at 21:12. The playout log shows a file cue at 22:34 and no live microphone input after 22:35.",
+      "reliability": "High",
+      "summary": "The last 25 minutes were pre-recorded; Jonah's microphone was silent.",
+      "notes": "The station's audio logger stores the master feed independently of the playout system."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-audio",
+      "name": "Audio Fingerprint Match",
+      "category": "Digital",
+      "summary": "The final 25 minutes of the broadcast were a pre-recorded file with a telltale ambient gap.",
+      "description": "The master audio log shows no live microphone input after 22:35. The broadcast from 22:35 to 23:00 matches a pre-recorded file created at 21:12, including a distinctive 0.8-second ambient dropout at 22:47. A live studio feed cannot contain a pre-existing dropout.",
+      "location": "Audio logging server",
+      "analysis": "Jonah was not broadcasting live after 22:35. His voice after that time proves nothing about his location or health.",
+      "tags": ["digital", "audio", "timeline"],
+      "relatedSuspects": ["lena-marn", "priya-shah"],
+      "foundAt": "23:40"
+    },
+    {
+      "id": "e-door",
+      "name": "Studio 4 Keycard Log",
+      "category": "Digital",
+      "summary": "Lena Marn's keycard unlocked Studio 4 at 22:36 and 22:42.",
+      "description": "The studio door controller records Lena Marn's card opening the inner door at 22:36:12 and again at 22:42:44. No other card was used. The outer door log shows no entry by Priya Shah or Theo Lang during that window.",
+      "location": "Studio 4 door controller",
+      "analysis": "Lena was inside the studio during the estimated time of death. Her claim that she never entered is false, and her borrowed-card explanation is contradicted by Priya.",
+      "tags": ["digital", "access", "timeline"],
+      "relatedSuspects": ["lena-marn"],
+      "foundAt": "23:45"
+    },
+    {
+      "id": "e-weapon",
+      "name": "Cable Reel",
+      "category": "Forensic",
+      "summary": "A metal cable reel with a bloodstain and chipped silver paint was wiped clean.",
+      "description": "The reel's rim carries Jonah's blood and a silver paint transfer matching a mark on his shirt. The surface was wiped with a paper towel found in the studio bin. A partial palm smudge remains on the underside, sized for a small hand.",
+      "location": "Studio 4, beside mixing desk",
+      "analysis": "The killer used a heavy object already in the studio and took time to wipe it. The reel was not moved afterward, suggesting the killer knew where it belonged.",
+      "tags": ["forensic", "weapon", "studio"],
+      "relatedSuspects": ["lena-marn", "theo-lang"],
+      "foundAt": "23:55"
+    },
+    {
+      "id": "e-playout",
+      "name": "Playout Queue Record",
+      "category": "Digital",
+      "summary": "Lena's producer account queued the pre-recorded interview at 22:34.",
+      "description": "The playout server logs a queue command at 22:34:08 from user LMARN. The command inserted 'Nightline Interview Special — Final' into the live slot and marked it as live. No engineer override was used. The file duration is 25 minutes.",
+      "location": "Playout server",
+      "analysis": "Lena controlled the switch to pre-recorded audio. She could then leave the control room while the station believed Jonah was still live.",
+      "tags": ["digital", "broadcast", "premeditation"],
+      "relatedSuspects": ["lena-marn"],
+      "foundAt": "23:50"
+    },
+    {
+      "id": "e-notebook",
+      "name": "Jonah's Source Ledger",
+      "category": "Documentary",
+      "summary": "Jonah's notebook alleges Lena sold the Ledger source list to a rival network.",
+      "description": "A page in Jonah's notebook reads: 'LM — 14 Feb transfer — 12 names to Meridian West. Confront before board Monday. She knows I copied the email.' Another page lists meeting times and a bank transfer reference.",
+      "location": "Studio 4, victim's jacket",
+      "analysis": "This gives Lena a specific, urgent motive. Jonah intended to expose her within days.",
+      "tags": ["motive", "documentary", "source-list"],
+      "relatedSuspects": ["lena-marn"],
+      "foundAt": "00:10"
+    },
+    {
+      "id": "e-email",
+      "name": "Scheduled Disclosure Email",
+      "category": "Digital",
+      "summary": "Jonah scheduled an email to the station board for Monday morning with the subject 'Lena Marn — source leak'.",
+      "description": "Jonah's email client contains a scheduled message to the board with an attachment named 'ledger_transfer.pdf'. The subject is 'Lena Marn — source leak — evidence'. It was set to send Monday at 08:00.",
+      "location": "Jonah's workstation",
+      "analysis": "The disclosure was not a vague threat. It was ready to send, which explains why Lena acted before Monday.",
+      "tags": ["motive", "digital", "evidence"],
+      "relatedSuspects": ["lena-marn"],
+      "foundAt": "00:25"
+    },
+    {
+      "id": "e-engineer",
+      "name": "Priya's Server Log",
+      "category": "Digital",
+      "summary": "Priya Shah was on a vendor support call in the server room from 22:20 to 23:05.",
+      "description": "The vendor's call record and the server-room door log place Priya in the server room throughout the murder window. She had no keycard entry to Studio 4. She also refused Lena's request to borrow her card earlier that evening.",
+      "location": "Server room and vendor records",
+      "analysis": "Priya had technical knowledge but no opportunity to enter the studio. Her card refusal further weakens Lena's borrowed-card story.",
+      "tags": ["alibi", "digital", "engineer"],
+      "relatedSuspects": ["priya-shah"],
+      "foundAt": "00:30"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "21:12",
+      "title": "Interview special completed",
+      "detail": "The pre-recorded final segment is exported with an ambient gap at 22:47.",
+      "source": "Audio file metadata",
+      "verified": true,
+      "disputed": false,
+      "actors": ["jonah-cross", "theo-lang"]
+    },
+    {
+      "id": "t2",
+      "time": "22:00",
+      "title": "Nightline goes live",
+      "detail": "Jonah begins the broadcast in Studio 4.",
+      "source": "Broadcast log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["jonah-cross"]
+    },
+    {
+      "id": "t3",
+      "time": "22:31",
+      "title": "Last live caller",
+      "detail": "The final live phone call ends. No live callers follow.",
+      "source": "Call log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["jonah-cross"]
+    },
+    {
+      "id": "t4",
+      "time": "22:34",
+      "title": "Pre-recorded segment queued",
+      "detail": "Lena's producer account inserts the interview special as a live broadcast.",
+      "source": "Playout server",
+      "verified": true,
+      "disputed": false,
+      "actors": ["lena-marn"]
+    },
+    {
+      "id": "t5",
+      "time": "22:35",
+      "title": "Jonah's mic goes silent",
+      "detail": "The live feed ends and the pre-recorded file begins.",
+      "source": "Audio master log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["jonah-cross", "lena-marn"]
+    },
+    {
+      "id": "t6",
+      "time": "22:36",
+      "title": "Lena enters Studio 4",
+      "detail": "Her keycard opens the inner studio door.",
+      "source": "Door controller",
+      "verified": true,
+      "disputed": false,
+      "actors": ["lena-marn"]
+    },
+    {
+      "id": "t7",
+      "time": "22:40",
+      "title": "Jonah is killed",
+      "detail": "A blow to the temple with the cable reel causes fatal trauma.",
+      "source": "Medical examiner",
+      "verified": true,
+      "disputed": false,
+      "actors": ["jonah-cross", "lena-marn"]
+    },
+    {
+      "id": "t8",
+      "time": "22:42",
+      "title": "Lena leaves the studio",
+      "detail": "Her keycard opens the door again; the cleaner sees her leave.",
+      "source": "Door log and witness",
+      "verified": true,
+      "disputed": false,
+      "actors": ["lena-marn"]
+    },
+    {
+      "id": "t9",
+      "time": "23:00",
+      "title": "Broadcast ends",
+      "detail": "The pre-recorded file finishes. The station believes the show has ended normally.",
+      "source": "Broadcast log",
+      "verified": true,
+      "disputed": false,
+      "actors": []
+    },
+    {
+      "id": "t10",
+      "time": "23:12",
+      "title": "Body discovered",
+      "detail": "Marcus Vale finds Jonah dead in Studio 4.",
+      "source": "Security log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["marcus-vale"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-lena-live",
+      "title": "The voice after death",
+      "detail": "Lena says Jonah was alive and waved at her at 23:00. The master audio log shows no live microphone after 22:35; the broadcast was a pre-recorded file. Jonah died around 22:40.",
+      "suspectId": "lena-marn",
+      "evidenceIds": ["e-audio", "e-playout"],
+      "questions": ["lena-marn:q1"],
+      "hint": "A radio listener hears the feed, not the room. Compare the broadcast file with the time of death."
+    },
+    {
+      "id": "c-lena-studio",
+      "title": "The borrowed keycard",
+      "detail": "Lena says she never entered Studio 4 and lent her card to Priya. The door log shows her card at 22:36 and 22:42; Priya's own card was in her pocket and she refused to lend it. The cleaner saw Lena enter and leave.",
+      "suspectId": "lena-marn",
+      "evidenceIds": ["e-door", "e-engineer"],
+      "questions": ["lena-marn:q3"],
+      "hint": "The keycard story collapses if the person who supposedly borrowed it was elsewhere."
+    },
+    {
+      "id": "c-lena-motive",
+      "title": "The Ledger leak",
+      "detail": "Lena calls Jonah's accusation paranoia. His notebook names her, and a scheduled disclosure email with evidence was set to reach the board Monday morning.",
+      "suspectId": "lena-marn",
+      "evidenceIds": ["e-notebook", "e-email"],
+      "questions": ["lena-marn:q4"],
+      "hint": "The motive is not vague resentment. There was a deadline."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "leak",
+      "text": "Silence Jonah before he exposed her sale of the Ledger source list to a rival network."
+    },
+    {
+      "id": "promotion",
+      "text": "Take over the show permanently by eliminating its host."
+    },
+    {
+      "id": "audio",
+      "text": "Punish Jonah for publicly blaming her for a broadcast failure."
+    },
+    {
+      "id": "inheritance",
+      "text": "Inherit a share of the station through a secret agreement."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "prerecord",
+      "text": "Queued a pre-recorded segment to fake a live broadcast, entered Studio 4 during it, killed Jonah with a cable reel, and returned to the control room."
+    },
+    {
+      "id": "after",
+      "text": "Waited until the show ended, argued with Jonah, struck him, and locked the studio from outside."
+    },
+    {
+      "id": "remote",
+      "text": "Remotely overloaded the studio power system and made the death look like an electrical accident."
+    },
+    {
+      "id": "theo",
+      "text": "Used Theo Lang's booth access to enter the studio and kill Jonah during an argument about airtime."
+    }
+  ],
+  "hints": [
+    "A live broadcast is not the same thing as a live room. Check the master audio log against the playout queue.",
+    "Jonah's time of death is earlier than the end of the show. Find who entered the studio during the pre-recorded segment.",
+    "The motive had a Monday deadline. Look at Jonah's notes and scheduled messages."
+  ],
+  "solution": {
+    "culpritId": "lena-marn",
+    "motiveId": "leak",
+    "methodId": "prerecord",
+    "evidenceIds": ["e-audio", "e-door", "e-weapon"],
+    "headline": "The producer made a dead man sound live.",
+    "summary": "Lena Marn queued a pre-recorded interview to replace the final 25 minutes of the live show, entered Studio 4 while it played, killed Jonah Cross with a cable reel, and returned to the control room. She killed to stop Jonah exposing her sale of the Ledger source list.",
+    "explanation": [
+      "The master audio log proves the last 25 minutes were pre-recorded. Jonah's microphone went silent at 22:35, and the broadcast matched a file created hours earlier, including a distinctive ambient dropout. Lena told investigators she saw Jonah alive at 23:00; that was impossible.",
+      "Lena's producer account queued the file at 22:34. Her keycard opened Studio 4 at 22:36 and 22:42, the window in which Jonah died. The cleaner saw her enter and leave. Priya Shah was in the server room and had refused to lend her card, destroying Lena's explanation.",
+      "The murder weapon was a cable reel from the studio, wiped clean. The killer knew the room, had time to wipe it, and left through a door that locked behind her.",
+      "The motive was urgent. Jonah's notebook and his scheduled Monday email show he had evidence that Lena sold twelve confidential source identities to a rival network. He was going to send it to the board. Lena used the tools of live radio to create an alibi out of a recording."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "22:34",
+        "event": "Lena queues the pre-recorded interview special as a live broadcast."
+      },
+      {
+        "time": "22:35",
+        "event": "The live microphone cuts out. Listeners hear recorded Jonah while the real Jonah is in the studio."
+      },
+      {
+        "time": "22:36",
+        "event": "Lena enters Studio 4 and confronts Jonah about the source-leak evidence."
+      },
+      {
+        "time": "22:42",
+        "event": "She leaves after killing him with the cable reel, returns to the control room, and lets the recording finish."
+      }
+    ],
+    "redHerring": "Theo Lang had a public rivalry with Jonah and was near the studio, but he remained in the production booth and his voice appears on the pre-recorded segment. Priya Shah understood the playout system but was on a recorded vendor call in the server room and did not enter Studio 4. Marcus Vale's delayed check was negligence, not murder."
+  }
+}

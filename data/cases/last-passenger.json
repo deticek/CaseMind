@@ -1,0 +1,494 @@
+{
+  "id": "last-passenger",
+  "slug": "the-last-passenger",
+  "title": "The Last Passenger",
+  "subtitle": "At 01:05, compartment 9 was empty. The train had not stopped at a station all night.",
+  "difficulty": "easy",
+  "estimatedMinutes": 6,
+  "location": "Aurora Nightliner, Calden — Vossberg",
+  "date": "Sunday, 15 March 2026",
+  "timeWindow": "23:40 — 01:15",
+  "description": "Investigative journalist Lila Hart boarded the overnight train with a notebook and a warning. Somewhere between Calden and Vossberg, she vanished. Her coat, phone and recorder were still in compartment 9. The train made no scheduled stops. Someone on board knows how she left — and why.",
+  "briefing": "Lila Hart was travelling to Vossberg to meet a source. At 01:05 another passenger found her compartment empty and her belongings untouched. The train was searched from engine to mail van with no sign of her. The conductor reports a quiet journey. The event recorder tells a different story.",
+  "cover": {
+    "accent": "#6C8EA4",
+    "secondary": "#314C5C",
+    "motif": "train"
+  },
+  "scene": {
+    "summary": "Compartment 9 is immaculate: a folded blanket, a coat on its hook, a phone charging on the table. A teacup sits in the cup holder, half empty. The corridor carpet bears a fresh drag mark leading toward the rear service door.",
+    "details": [
+      "Lila's phone is unlocked and still logged into her cloud notes. Her bag is present but her notebook has been torn open.",
+      "A teacup on the table contains traces of a sedative. The cup was delivered to the compartment around 23:50.",
+      "The corridor camera was blocked between 00:35 and 00:52 by a cleaning trolley.",
+      "A drag mark runs from compartment 9 to the rear service vestibule.",
+      "The mail van's lock was opened with a conductor's master key at 00:42."
+    ],
+    "initialObservations": [
+      "No struggle inside the compartment",
+      "Sedative in the tea",
+      "Mail van unlocked during an unscheduled stop"
+    ]
+  },
+  "victim": {
+    "name": "Lila Hart",
+    "label": "Missing person",
+    "age": 31,
+    "occupation": "Investigative journalist",
+    "status": "Missing — presumed abducted",
+    "background": "Hart was investigating irregularities in regional rail contracts. She had told her editor she had a source on board. She was last seen accepting a pot of tea shortly before midnight.",
+    "forensic": "A bruise pattern on the compartment door frame is consistent with a shoulder impact. Fibres from her green coat were found on the mail van ramp. The teacup tested positive for midazolam. No blood was recovered."
+  },
+  "suspects": [
+    {
+      "id": "rowan-pike",
+      "name": "Rowan Pike",
+      "role": "Conductor",
+      "age": 38,
+      "occupation": "Senior train conductor",
+      "summary": "A twelve-year railway veteran with a master key, a calm manner, and an explanation for everything. He was on duty throughout the night.",
+      "background": "Pike manages the sleeper car and the mail van. He has access to every service door and keeps the master key on a chain. Lila's notebook contains three pages on rail ticket anomalies, and one name appears repeatedly: Pike.",
+      "motive": "Lila had evidence that Pike was skimming ticket revenue and facilitating freight smuggling. She planned to publish within days.",
+      "alibi": "In the crew car from 00:10 to 01:00, completing ticket reconciliation.",
+      "relationship": "Delivered the tea tray to compartment 9 and held the only master key on board.",
+      "pressure": "Rail inspectors are waiting in Vossberg.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you between midnight and one?",
+          "answer": "In the crew car. Ticket reconciliation takes an hour when the scanner is slow. I signed off at one, then started the morning checks."
+        },
+        {
+          "id": "q2",
+          "text": "The train stopped for eight minutes at a signal. What did you do?",
+          "answer": "Nothing. I announced a brief signal delay. These things happen. I stayed in the crew car and drank coffee. Eight minutes is not long enough to lose a passenger."
+        },
+        {
+          "id": "q3",
+          "text": "The mail van was opened with your master key at 00:42.",
+          "answer": "The master key opens every service lock. I lend it to the sleeper attendant when we take on linen. Elise had it for most of the evening. Anyone could have used it."
+        },
+        {
+          "id": "q4",
+          "text": "Lila's notebook names you in a ticket-fraud investigation.",
+          "answer": "She was confused. I've been accused before by passengers who don't understand the fare system. If she has proof, show me. A notebook is not evidence."
+        }
+      ]
+    },
+    {
+      "id": "nadia-bell",
+      "name": "Nadia Bell",
+      "role": "Travel writer",
+      "age": 34,
+      "occupation": "Freelance journalist",
+      "summary": "A polished travel writer with a sharp tongue. She and Lila argued loudly in the bar car shortly before Lila disappeared.",
+      "background": "Bell and Hart had once been friends and collaborators. Their falling-out followed a disputed byline. Bell was travelling to the same conference in Vossberg.",
+      "motive": "Professional rivalry and a long-running dispute over credit for a major story.",
+      "alibi": "In compartment 8 from 23:55 onward. She says she heard a door and a muffled thud around 00:45.",
+      "relationship": "Rival journalist and former friend of the victim.",
+      "pressure": "The argument makes her an obvious suspect.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about your argument with Lila.",
+          "answer": "She accused me of stealing a source. I told her she was paranoid. We raised our voices; we did not attack each other. She left the bar at twenty to midnight."
+        },
+        {
+          "id": "q2",
+          "text": "What did you hear after midnight?",
+          "answer": "A trolley rattled past, then a door. Around quarter to one I heard a thud from the corridor, like something heavy being dropped. I looked out and saw a man in a conductor's uniform near the rear door."
+        },
+        {
+          "id": "q3",
+          "text": "Did you see the conductor's face?",
+          "answer": "Only his back, but it was Pike. I'd recognise that uniform and the way he walks. He was dragging a linen cart. I assumed he was working."
+        },
+        {
+          "id": "q4",
+          "text": "Did Lila tell you she was afraid?",
+          "answer": "She said, 'If anything happens to me, the ledger is in my bag.' I thought it was melodrama. I wish I had taken it seriously."
+        }
+      ]
+    },
+    {
+      "id": "viktor-hale",
+      "name": "Viktor Hale",
+      "role": "Passenger, compartment 11",
+      "age": 46,
+      "occupation": "Private investigator",
+      "summary": "A broad-shouldered man travelling alone with a locked briefcase. He was evasive about why he was on the train.",
+      "background": "Hale is a licensed investigator hired by Lila's editor to accompany her. He was meant to remain discreet. His briefcase contains audio equipment and a signed contract.",
+      "motive": "None established. His history includes a dismissed assault charge from a previous case.",
+      "alibi": "In the dining car until 00:20, then compartment 11. The waiter confirms the dining-car time.",
+      "relationship": "Hired protection, though Lila did not tell the conductor.",
+      "pressure": "His concealed role makes him look suspicious to investigators.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why are you on this train, Mr. Hale?",
+          "answer": "I was asked to keep an eye on Ms. Hart by her editor. She didn't want the conductor knowing. I was supposed to be invisible. I failed at that."
+        },
+        {
+          "id": "q2",
+          "text": "Did you see Lila after midnight?",
+          "answer": "No. I was in the dining car until twenty past midnight, then went to my compartment. I heard the train stop and the mail van door slide open, but I assumed it was routine."
+        },
+        {
+          "id": "q3",
+          "text": "Why is your briefcase locked?",
+          "answer": "Because it contains a recorder and confidential client material. I'll open it for you, but it won't help find her. The last recording is from the bar argument, not from after midnight."
+        },
+        {
+          "id": "q4",
+          "text": "Who had reason to harm her?",
+          "answer": "She was chasing a ticket-fraud story. The conductor was in her notes. She also said there was a second man, someone who handled freight at the stops. I never got a name."
+        }
+      ]
+    },
+    {
+      "id": "elise-moreau",
+      "name": "Elise Moreau",
+      "role": "Sleeper attendant",
+      "age": 27,
+      "occupation": "Train attendant",
+      "summary": "New to the route and visibly nervous during questioning. She prepared Lila's tea and handled the linen trolley.",
+      "background": "Moreau joined the Aurora crew six weeks ago. Pike trained her and controls her shift assignments. She owes him money for rent, a fact she admits reluctantly.",
+      "motive": "Financial reliance on Pike gives her a reason to protect him, but no clear reason to hurt Lila.",
+      "alibi": "In the galley until 00:30, then in the crew car. Pike says she had the master key.",
+      "relationship": "Trained and supervised by Pike; prepared the victim's tea.",
+      "pressure": "She is afraid of losing her job and possibly being blamed.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Who prepared Lila's tea?",
+          "answer": "I made the pot. She asked for chamomile with honey. Pike carried it to her because I was handling a linen delivery from the postal clerk."
+        },
+        {
+          "id": "q2",
+          "text": "Did Pike have the master key at midnight?",
+          "answer": "Yes. I returned it to him at eleven. He keeps it on a chain. I only had it briefly for the linen cart."
+        },
+        {
+          "id": "q3",
+          "text": "What did you hear during the signal stop?",
+          "answer": "The mail van door. Then a cart being rolled. I thought it was the postal clerk unloading, but no clerk boarded at the signal. When the train started again, Pike came back looking pale."
+        },
+        {
+          "id": "q4",
+          "text": "Are you afraid of Rowan Pike?",
+          "answer": "He's been good to me. He lent me money. But he keeps a ledger of favours. If he asks for something, you say yes. I didn't know what he was doing last night. I swear."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "marta-reyes",
+      "name": "Marta Reyes",
+      "role": "Dining-car waiter",
+      "statement": "Ms. Hart ordered tea at 23:48. Mr. Pike was in the service corridor when I passed at 23:52. He told me the sleeper attendant would take the tray. I saw Pike carrying the tray himself a few minutes later. He looked annoyed that I noticed.",
+      "reliability": "High",
+      "summary": "Pike personally carried Lila's tea despite saying the attendant handled it.",
+      "notes": "Reyes has worked the route for nine years and knows the crew rotation."
+    },
+    {
+      "id": "oskar-lind",
+      "name": "Oskar Lind",
+      "role": "Vossberg station dispatcher",
+      "statement": "A private courier van was waiting at the freight platform at 05:08. The driver signed for two mail containers using a conductor's authorisation code. One container was heavier than its manifest claimed and was marked 'priority medical samples'. I found it odd, but the paperwork was in order.",
+      "reliability": "High",
+      "summary": "A private courier collected a suspicious 'medical sample' container at Vossberg.",
+      "notes": "The courier company's records later showed a fake pickup order."
+    },
+    {
+      "id": "ines-kovac",
+      "name": "Ines Kovac",
+      "role": "Signal control operator",
+      "statement": "The Aurora was held at signal B-14 from 00:43 to 00:51 due to a freight movement. It was a routine hold. The conductor acknowledged the delay by radio and said there was no emergency.",
+      "reliability": "High",
+      "summary": "The unscheduled stop lasted eight minutes, not the two minutes Pike reported.",
+      "notes": "The radio exchange was recorded."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-teacup",
+      "name": "Sedative in the Teacup",
+      "category": "Forensic",
+      "summary": "Lila's tea contained midazolam, a fast-acting sedative that would cause confusion and drowsiness.",
+      "description": "The teacup from compartment 9 contained chamomile tea, honey, and a significant dose of midazolam. The drug is prescription-only. No empty vial was found. A second cup on Pike's tray had no sedative.",
+      "location": "Compartment 9, table",
+      "analysis": "Lila was almost certainly incapacitated before she left the compartment. Midazolam can cause compliant drowsiness within fifteen minutes.",
+      "tags": ["forensic", "sedative", "tea"],
+      "relatedSuspects": ["rowan-pike", "elise-moreau"],
+      "foundAt": "01:25"
+    },
+    {
+      "id": "e-keylog",
+      "name": "Mail Van Lock Log",
+      "category": "Digital",
+      "summary": "The mail van was unlocked at 00:42 with Pike's conductor master key.",
+      "description": "The electronic lock records key serial K-17 at 00:42:09, held open for three minutes, and relocking at 00:45:20. Key K-17 is assigned to Rowan Pike and remains on his person. Elise Moreau returned the spare key at 23:00.",
+      "location": "Mail van, rear of train",
+      "analysis": "The van was opened during the signal stop. Pike's key was used. The door log confirms a three-minute window in which something could be loaded.",
+      "tags": ["access", "timeline", "mail-van"],
+      "relatedSuspects": ["rowan-pike"],
+      "foundAt": "02:10"
+    },
+    {
+      "id": "e-button",
+      "name": "Brass Uniform Button",
+      "category": "Physical",
+      "summary": "A brass conductor's button found in the mail van matches a missing button on Pike's jacket.",
+      "description": "A brass button embossed with the Aurora Nightliner crest was recovered from the mail van ramp. Pike's uniform jacket is missing its third button. The thread residue matches the jacket exactly.",
+      "location": "Mail van loading ramp",
+      "analysis": "Pike physically entered the mail van during the critical window. The missing button undercuts his claim that he never left the crew car.",
+      "tags": ["physical", "transfer", "mail-van"],
+      "relatedSuspects": ["rowan-pike"],
+      "foundAt": "02:25"
+    },
+    {
+      "id": "e-notebook",
+      "name": "Lila's Torn Notebook Page",
+      "category": "Documentary",
+      "summary": "A page on rail ticket skimming names Pike and describes a 'freight side business'.",
+      "description": "The surviving pages of Lila's notebook outline £18,400 in unaccounted ticket revenue over three months. A margin note reads: 'Pike — mail van ledger — 12 Mar — ask about the 00:40 stop.' The page after it was torn out.",
+      "location": "Compartment 9, victim's bag",
+      "analysis": "This establishes Lila's motive to confront Pike and gives him a concrete reason to silence her.",
+      "tags": ["motive", "documentary", "investigation"],
+      "relatedSuspects": ["rowan-pike"],
+      "foundAt": "01:30"
+    },
+    {
+      "id": "e-signal",
+      "name": "Signal Stop Recorder",
+      "category": "Digital",
+      "summary": "The train was stationary for eight minutes at signal B-14, from 00:43 to 00:51.",
+      "description": "The event recorder shows a full stop at 00:43:12 and departure at 00:51:07. Pike told investigators the delay was two minutes. The radio log records him acknowledging a freight movement and stating, 'No assistance required.'",
+      "location": "Locomotive event recorder",
+      "analysis": "Pike had eight minutes to move an incapacitated passenger. His underestimate of the stop's length is significant.",
+      "tags": ["timeline", "opportunity", "signal"],
+      "relatedSuspects": ["rowan-pike"],
+      "foundAt": "03:00"
+    },
+    {
+      "id": "e-camera",
+      "name": "Obstructed Corridor Camera",
+      "category": "Digital",
+      "summary": "The corridor camera was deliberately blocked by a linen trolley between 00:35 and 00:52.",
+      "description": "The camera feed shows a linen trolley being parked directly beneath the lens at 00:35. Only sleeper crew have keys to that trolley. The obstruction was removed at 00:52, after the train resumed moving.",
+      "location": "Sleeper corridor camera",
+      "analysis": "The obstruction covers the exact period of the stop and the mail van opening. It was not accidental: the trolley brake was deliberately set.",
+      "tags": ["digital", "cover-up", "timeline"],
+      "relatedSuspects": ["rowan-pike", "elise-moreau"],
+      "foundAt": "01:50"
+    },
+    {
+      "id": "e-courier",
+      "name": "Courier Pickup Manifest",
+      "category": "Documentary",
+      "summary": "A private courier collected a heavy 'medical sample' container at Vossberg under Pike's authorisation.",
+      "description": "The manifest lists two containers from the mail van, one marked 'priority medical samples'. The authorisation code belongs to Pike. The courier company has no record of the job; the pickup order used a disposable phone number.",
+      "location": "Vossberg freight platform",
+      "analysis": "Someone arranged for Lila to leave the train in the mail van and be collected by a private van. Pike's code authorises the release.",
+      "tags": ["documentary", "transport", "accomplice"],
+      "relatedSuspects": ["rowan-pike"],
+      "foundAt": "05:40"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "21:40",
+      "title": "Aurora Nightliner departs Calden",
+      "detail": "Lila Hart boards with a notebook and a locked briefcase; Viktor Hale boards separately.",
+      "source": "Ticket manifest",
+      "verified": true,
+      "disputed": false,
+      "actors": ["lila-hart", "viktor-hale"]
+    },
+    {
+      "id": "t2",
+      "time": "23:40",
+      "title": "Argument in the bar car",
+      "detail": "Lila and Nadia Bell argue loudly about a disputed source.",
+      "source": "Witnesses and bar receipt",
+      "verified": true,
+      "disputed": false,
+      "actors": ["nadia-bell"]
+    },
+    {
+      "id": "t3",
+      "time": "23:48",
+      "title": "Tea ordered",
+      "detail": "Lila orders chamomile tea to compartment 9.",
+      "source": "Dining-car log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["rowan-pike", "elise-moreau"]
+    },
+    {
+      "id": "t4",
+      "time": "00:35",
+      "title": "Corridor camera blocked",
+      "detail": "A linen trolley is parked beneath the camera.",
+      "source": "CCTV",
+      "verified": true,
+      "disputed": false,
+      "actors": ["rowan-pike"]
+    },
+    {
+      "id": "t5",
+      "time": "00:42",
+      "title": "Mail van opened",
+      "detail": "Pike's master key unlocks the mail van.",
+      "source": "Electronic lock log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["rowan-pike"]
+    },
+    {
+      "id": "t6",
+      "time": "00:43",
+      "title": "Unscheduled signal stop",
+      "detail": "The train halts at signal B-14 for eight minutes.",
+      "source": "Event recorder",
+      "verified": true,
+      "disputed": false,
+      "actors": ["rowan-pike"]
+    },
+    {
+      "id": "t7",
+      "time": "00:45",
+      "title": "Nadia sees a conductor",
+      "detail": "Nadia Bell sees a conductor dragging a linen cart toward the rear door.",
+      "source": "Witness: Nadia Bell",
+      "verified": true,
+      "disputed": false,
+      "actors": ["rowan-pike", "nadia-bell"]
+    },
+    {
+      "id": "t8",
+      "time": "01:05",
+      "title": "Compartment 9 found empty",
+      "detail": "Nadia alerts the crew. Lila's belongings remain but Lila is gone.",
+      "source": "Crew report",
+      "verified": true,
+      "disputed": false,
+      "actors": ["nadia-bell"]
+    },
+    {
+      "id": "t9",
+      "time": "05:08",
+      "title": "Courier collects container",
+      "detail": "A private van takes a heavy 'medical sample' container from Vossberg.",
+      "source": "Freight platform log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["rowan-pike"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-pike-corridor",
+      "title": "The crew-car alibi",
+      "detail": "Pike says he stayed in the crew car from 00:10 to 01:00. Nadia Bell saw him in the rear corridor at 00:45, and his master key opened the mail van at 00:42.",
+      "suspectId": "rowan-pike",
+      "evidenceIds": ["e-keylog", "e-camera"],
+      "questions": ["rowan-pike:q1", "nadia-bell:q2"],
+      "hint": "Put the conductor's claimed location beside the mail van lock time and Nadia's sighting."
+    },
+    {
+      "id": "c-pike-stop",
+      "title": "Two minutes or eight?",
+      "detail": "Pike described a brief two-minute signal delay. The event recorder shows eight minutes — long enough to move an unconscious woman into the mail van.",
+      "suspectId": "rowan-pike",
+      "evidenceIds": ["e-signal"],
+      "questions": ["rowan-pike:q2"],
+      "hint": "Compare Pike's version of the stop with the locomotive's own clock."
+    },
+    {
+      "id": "c-pike-key",
+      "title": "The borrowed key",
+      "detail": "Pike claims Elise had the master key and anyone could have used it. The lock log records his serial K-17, which he keeps on his person; Elise returned the spare at 23:00.",
+      "suspectId": "rowan-pike",
+      "evidenceIds": ["e-keylog"],
+      "questions": ["rowan-pike:q3", "elise-moreau:q2"],
+      "hint": "Ask the attendant when she returned the key, then check which key serial opened the mail van."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "silence",
+      "text": "Silence a journalist who had uncovered his ticket fraud and freight smuggling."
+    },
+    {
+      "id": "rivalry",
+      "text": "Help Nadia Bell eliminate a professional rival."
+    },
+    {
+      "id": "inheritance",
+      "text": "Claim an inheritance that Lila's investigation would have blocked."
+    },
+    {
+      "id": "robbery",
+      "text": "Steal the cash Lila was carrying for a confidential source."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "mailvan",
+      "text": "Sedated her with tea, moved her through the service corridor into the mail van during the signal stop, and had an accomplice collect her at Vossberg."
+    },
+    {
+      "id": "push",
+      "text": "Pushed her from the moving train during the signal stop and returned to the crew car."
+    },
+    {
+      "id": "compartment",
+      "text": "Locked her in a hidden compartment beneath the sleeper car and waited for the search to end."
+    },
+    {
+      "id": "station",
+      "text": "Persuaded her to leave the train at an unscheduled stop and drive to Vossberg."
+    }
+  ],
+  "hints": [
+    "The tea is a starting point. A sedative explains why there was no struggle in compartment 9.",
+    "The train's event recorder and the mail van lock share a timeline. Check when the van opened relative to the unscheduled stop.",
+    "Look for a physical trace in the mail van that connects the person who opened it to the inside of the van."
+  ],
+  "solution": {
+    "culpritId": "rowan-pike",
+    "motiveId": "silence",
+    "methodId": "mailvan",
+    "evidenceIds": ["e-keylog", "e-button", "e-teacup"],
+    "headline": "The conductor used his own train as a hiding place.",
+    "summary": "Rowan Pike sedated Lila Hart with her evening tea, moved her into the mail van during an unscheduled signal stop, and arranged for a fake courier to collect her at Vossberg. He acted to stop her publishing evidence of his ticket fraud and freight smuggling.",
+    "explanation": [
+      "Lila's tea contained a significant dose of midazolam. No struggle occurred in compartment 9, consistent with a passenger who had been made drowsy and compliant before being moved.",
+      "Pike claims he spent the critical hour in the crew car. The mail van lock log records his master key at 00:42, and Nadia Bell saw him moving a linen cart toward the rear door at 00:45. His uniform button was later found on the van ramp.",
+      "The train stopped for eight minutes at signal B-14, not the two minutes Pike reported. That window was used to move Lila into the mail van. A private courier then collected a heavy 'medical sample' container at Vossberg under Pike's authorisation code.",
+      "The motive is documented in Lila's notebook: missing ticket revenue, a mail-van ledger, and Pike's name. The torn page suggests he searched her bag for the evidence before the search of the train began."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "23:48",
+        "event": "Lila orders tea. Pike personally carries the tray and adds the sedative."
+      },
+      {
+        "time": "00:35",
+        "event": "The corridor camera is blocked with a linen trolley."
+      },
+      {
+        "time": "00:43",
+        "event": "During the eight-minute signal stop, Pike moves Lila into the mail van."
+      },
+      {
+        "time": "05:08",
+        "event": "A fake courier collects the container containing Lila at Vossberg."
+      }
+    ],
+    "redHerring": "Nadia Bell's argument with Lila gave her a visible motive, and Viktor Hale's concealed role looked suspicious. Both have documented alibis during the critical window. The physical evidence points to the one person with the master key, the master schedule, and the opportunity to use the mail van."
+  }
+}

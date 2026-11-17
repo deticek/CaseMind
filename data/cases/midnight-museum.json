@@ -1,0 +1,494 @@
+{
+  "id": "midnight-museum",
+  "slug": "midnight-at-the-museum",
+  "title": "Midnight at the Museum",
+  "subtitle": "A priceless astrolabe vanished from a locked gallery. The cameras saw nothing.",
+  "difficulty": "easy",
+  "estimatedMinutes": 6,
+  "location": "Ashford Museum of Antiquities, London",
+  "date": "Saturday, 14 March 2026",
+  "timeWindow": "23:40 — 00:40",
+  "description": "The Meridian Astrolabe — a twelfth-century navigation instrument valued at £2.4 million — is missing from its display case. There is no broken glass, no forced door, and the night guard swears nobody entered the gallery. The museum closes for a full audit on Monday. You have one night to find the truth.",
+  "briefing": "At 00:40 the night guard discovered the Meridian Astrolabe was no longer on its velvet mount. The gallery was locked, the alarm was armed, and the display case showed no sign of force. Three staff members were in the building during the closing shift, and a prominent collector had visited earlier that evening. Follow the access logs, test the alibis, and recover the object before the museum's insurers arrive.",
+  "cover": {
+    "accent": "#C9A36A",
+    "secondary": "#7A5D32",
+    "motif": "museum"
+  },
+  "scene": {
+    "summary": "The Meridian Gallery is a long, hushed room of glass cases and sandstone columns. The empty display case stands at its far end beneath a single warm spotlight. The velvet mount is undisturbed, but a faint rectangular impression remains where the astrolabe rested.",
+    "details": [
+      "The display case is intact. Its electronic lock was opened with a valid curator override, not forced.",
+      "A service elevator at the rear of the gallery connects to the loading bay. Its gate was left ajar.",
+      "The main security camera covering the gallery went offline at 23:58. The fault was logged as 'maintenance'.",
+      "A narrow trail of graphite dust leads from the case toward the service elevator.",
+      "The visitor ledger shows only one external appointment yesterday: collector Theo Marsh, 22:00–22:35."
+    ],
+    "initialObservations": [
+      "No forced entry",
+      "Camera blackout at 23:58",
+      "Service elevator left ajar"
+    ]
+  },
+  "victim": {
+    "name": "The Meridian Astrolabe",
+    "label": "Stolen artefact",
+    "age": "c. 1180",
+    "occupation": "Celestial navigation instrument",
+    "status": "Missing, presumed stolen",
+    "background": "A brass astrolabe attributed to the Andalusian craftsman Ibn al-Saffar. The museum bought it at auction eight months ago for £2.4 million. A provenance audit was scheduled for Monday morning.",
+    "forensic": "The velvet display mount retains a faint weight impression. The case seal was opened electronically at 00:12 using curator credentials. No fingerprints were recovered from the lock panel."
+  },
+  "suspects": [
+    {
+      "id": "elena-voss",
+      "name": "Dr. Elena Voss",
+      "role": "Curator of Antiquities",
+      "age": 47,
+      "occupation": "Museum curator",
+      "summary": "Brilliant, exacting, and fiercely protective of her department. Voss negotiated the astrolabe's purchase and has been under pressure over its disputed provenance.",
+      "background": "Fifteen years at the Ashford Museum. She controls the gallery override codes and signed off on the astrolabe acquisition. Colleagues describe her as composed, but the upcoming audit has visibly rattled her.",
+      "motive": "The Monday audit could expose irregularities in the astrolabe's ownership history and her role in the purchase.",
+      "alibi": "Left the museum at 23:10, took a taxi home, and was asleep before midnight.",
+      "relationship": "Direct supervisor of Mina Cho and the museum's liaison with collectors such as Theo Marsh.",
+      "pressure": "Museum director wants answers before the insurers arrive.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Walk me through your evening, Doctor.",
+          "answer": "I left at ten past eleven. The guard saw me out. I took a cab straight home and was in bed before a quarter to twelve. I have not set foot in that gallery since."
+        },
+        {
+          "id": "q2",
+          "text": "Can anyone confirm you were home at midnight?",
+          "answer": "My neighbour may have seen my kitchen light, but I live alone. I don't keep a diary of my sleeping habits, Detective. I was exhausted."
+        },
+        {
+          "id": "q3",
+          "text": "Your credentials disabled the gallery camera at 00:04 and opened the display case at 00:12.",
+          "answer": "That's impossible. I gave Mina my secondary key card weeks ago because she kept complaining about the conservation-room locks. Anyone could have copied it. I never shared my PIN."
+        },
+        {
+          "id": "q4",
+          "text": "A red silk thread was caught in the service elevator. Do you own a red scarf?",
+          "answer": "I don't wear red. Too theatrical for a museum. You should be asking who had access to the service corridor, not inspecting my wardrobe."
+        }
+      ]
+    },
+    {
+      "id": "elias-ward",
+      "name": "Elias Ward",
+      "role": "Night Security Guard",
+      "age": 34,
+      "occupation": "Security officer",
+      "summary": "A former warehouse guard with a spotless record and a stack of unpaid bills. He was at the front desk when the case was opened.",
+      "background": "Ward has worked nights at the museum for two years. He knows every camera blind spot. He was passed over for a supervisory role last month and has been unusually quiet since.",
+      "motive": "Financial pressure and resentment over a denied promotion.",
+      "alibi": "At the front security desk from 23:30 to 00:40. The guard log and a desk camera support this.",
+      "relationship": "Reported to the museum operations manager, not to Voss.",
+      "pressure": "His gambling debts are known to several colleagues.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you when the case was opened?",
+          "answer": "At the front desk. I do a gallery round at half past eleven, then I stay put unless an alarm sounds. I logged the empty case at twenty to one."
+        },
+        {
+          "id": "q2",
+          "text": "You know every camera blind spot. Was this an inside job?",
+          "answer": "Could be. The service lift camera has been temperamental for months. I filed two maintenance requests. If someone knew the building, they could move through the east corridor without being seen."
+        },
+        {
+          "id": "q3",
+          "text": "Did Dr. Voss ask you to cover for her?",
+          "answer": "No. She left at ten past eleven like always. Didn't seem upset. She did ask me to log the camera outage as routine if it happened again. Said the audit was making everyone jumpy."
+        },
+        {
+          "id": "q4",
+          "text": "Did you enter the Meridian Gallery after midnight?",
+          "answer": "Only when I found the empty case. Check the desk camera. I didn't leave that chair until I saw the display light flicker on the monitor."
+        }
+      ]
+    },
+    {
+      "id": "mina-cho",
+      "name": "Mina Cho",
+      "role": "Conservator",
+      "age": 29,
+      "occupation": "Artefact conservator",
+      "summary": "A gifted conservator who has publicly questioned the astrolabe's attribution. She was working late in the conservation lab.",
+      "background": "Cho joined the museum three years ago. She believes the astrolabe may be a later reproduction and clashed with Voss after her report was buried. She has access to the display case tools.",
+      "motive": "Professional frustration. If the astrolabe were discredited, her report would be vindicated.",
+      "alibi": "In the conservation lab from 23:00 until 00:30, working on a bronze bowl. A time-lapse camera shows her at the bench.",
+      "relationship": "Reports to Voss; their disagreement over the astrolabe is well known.",
+      "pressure": "Her research budget has been cut and her report removed from the audit file.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why were you still here after midnight?",
+          "answer": "The bronze bowl needed a humidity cycle. I signed in for overtime. I was at my bench until half past twelve, then I went home."
+        },
+        {
+          "id": "q2",
+          "text": "Did Dr. Voss give you her secondary key card?",
+          "answer": "She gave me access to the conservation room, not the gallery. I have my own card. And before you ask, no, I did not copy hers."
+        },
+        {
+          "id": "q3",
+          "text": "You believe the astrolabe is a forgery. Did that make you angry enough to steal it?",
+          "answer": "I wanted the truth on the record, not the object in my bag. I told Voss I would take the report to the board. She said I was embarrassing the museum. That was our argument."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see or hear anything unusual?",
+          "answer": "The service lift chimed around quarter past midnight. It is loud through the wall. Then at about half past, I heard a taxi horn from the loading bay."
+        }
+      ]
+    },
+    {
+      "id": "theo-marsh",
+      "name": "Theo Marsh",
+      "role": "Private Collector",
+      "age": 58,
+      "occupation": "Antiquities collector",
+      "summary": "Wealthy, charming, and used to getting what he wants. He viewed the astrolabe hours before it disappeared and offered to buy it privately.",
+      "background": "Marsh has courted the museum for years, donating selectively and buying aggressively. He was seen leaving through the public entrance at 22:35. His collection includes several objects with murky provenance.",
+      "motive": "Possession of the astrolabe and resentment at being refused a private sale.",
+      "alibi": "Left the museum at 22:35 and attended a dinner at the Wren Club until 00:30. Several witnesses.",
+      "relationship": "Negotiated with Voss over a private sale.",
+      "pressure": "His club dinner is easily confirmed, making him a weak physical suspect.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why did you visit the museum last night?",
+          "answer": "I wanted to see the astrolabe one last time. Voss refused my offer. She was almost insulting about it. Still, I left at half past ten — your guard can confirm."
+        },
+        {
+          "id": "q2",
+          "text": "Where were you at midnight?",
+          "answer": "At the Wren Club, eating a very dull pheasant. Half the club can confirm it. You can call them; I'll wait."
+        },
+        {
+          "id": "q3",
+          "text": "Would you pay for stolen antiquities?",
+          "answer": "I pay for provenance, Detective. Though between us, the astrolabe's provenance was never as clean as Voss claimed. She knew it. I suspect the audit was going to make her very uncomfortable."
+        },
+        {
+          "id": "q4",
+          "text": "What did you notice during your visit?",
+          "answer": "Voss was nervous. Kept checking her phone. And there was a red scarf on the back of her office chair. She never used to wear colour."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "priya-nair",
+      "name": "Priya Nair",
+      "role": "Evening cleaner",
+      "statement": "I was emptying bins in the east corridor a little after midnight when a woman came out of the service lift. She wore a long dark coat and a red scarf. She carried a flat black case and walked quickly toward the loading bay. I assumed it was Dr. Voss — she sometimes works late.",
+      "reliability": "High",
+      "summary": "Saw a woman in a red scarf with a flat case near the service lift at 00:15.",
+      "notes": "Nair has no connection to any suspect and was interviewed before the theft was announced."
+    },
+    {
+      "id": "samuel-okafor",
+      "name": "Samuel Okafor",
+      "role": "Taxi driver",
+      "statement": "I picked up a fare at the museum service entrance at 00:27. The booking was under E. Voss. She was wearing a dark coat and a red scarf. She asked me to take her to Chiswick and put a flat black case in the boot herself. She tipped generously and told me to keep the route quiet.",
+      "reliability": "High",
+      "summary": "Collected Dr. Voss at 00:27 with a flat black case.",
+      "notes": "Trip record and payment receipt were recovered from the taxi company."
+    },
+    {
+      "id": "thomas-reed",
+      "name": "Thomas Reed",
+      "role": "Museum director",
+      "statement": "The provenance audit was my decision. Elena insisted the astrolabe was authentic, but the paperwork had holes. I told her we would disclose everything Monday. She said she would fix it before then. I assumed she meant the documentation.",
+      "reliability": "Medium",
+      "summary": "Voss faced a Monday provenance audit and promised to 'fix it'.",
+      "notes": "Reed arrived after the theft and has no access to the gallery override system."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-case-lock",
+      "name": "Display Case Access Log",
+      "category": "Digital",
+      "summary": "The case was opened at 00:12 with Voss's curator override, using both key card and PIN.",
+      "description": "The electronic lock stores credential ID, timestamp, and override method. It records a valid curator-level override at 00:12:44. The PIN entered was Voss's personal six-digit code, not a borrowed card alone.",
+      "location": "Meridian Gallery, display case console",
+      "analysis": "The case was not forced. Whoever opened it used a credential that required Voss's card and her private PIN.",
+      "tags": ["access", "timeline", "override"],
+      "relatedSuspects": ["elena-voss", "mina-cho"],
+      "foundAt": "00:40"
+    },
+    {
+      "id": "e-fiber",
+      "name": "Red Silk Fibre",
+      "category": "Forensic",
+      "summary": "A strand of oxblood-red silk caught in the service elevator gate.",
+      "description": "Forensics recovered a 4 cm strand of fine silk, dyed oxblood red, from the inner edge of the service elevator gate. The fibre is recent and matches the type used in high-end scarves. A second strand was found on a coat hook in Voss's office.",
+      "location": "Service elevator, east corridor",
+      "analysis": "The fibre links the service route to a red scarf. The cleaner's description and the taxi driver's statement independently place a red scarf on the person leaving with the case.",
+      "tags": ["physical", "transfer", "service-route"],
+      "relatedSuspects": ["elena-voss"],
+      "foundAt": "01:05"
+    },
+    {
+      "id": "e-taxi",
+      "name": "Taxi Booking Record",
+      "category": "Documentary",
+      "summary": "A taxi collected 'E. Voss' from the service entrance at 00:27, not 23:10.",
+      "description": "The taxi company's dispatch record shows a booking made at 23:56 from the museum's landline under the name E. Voss. The driver picked up a passenger at the service entrance at 00:27. A card payment of £34.80 is time-stamped 00:26:12.",
+      "location": "Taxi company dispatch system",
+      "analysis": "This directly contradicts Voss's claim that she left at 23:10 and was home before midnight. She was still at the museum when the case was opened.",
+      "tags": ["timeline", "alibi", "documentary"],
+      "relatedSuspects": ["elena-voss"],
+      "foundAt": "08:15"
+    },
+    {
+      "id": "e-camera",
+      "name": "Camera Maintenance Login",
+      "category": "Digital",
+      "summary": "The gallery cameras were disabled at 00:04 using Voss's admin account from the gallery control terminal.",
+      "description": "An authentication log shows Voss's museum account logging into the camera maintenance portal at 00:04:18. The gallery feed was set to 'maintenance blackout' for 26 minutes. An attempt to delete the log failed.",
+      "location": "Museum security server",
+      "analysis": "The blackout was deliberate and timed eight minutes before the case was opened. The login came from the gallery's own terminal, not Voss's office.",
+      "tags": ["digital", "access", "cover-up"],
+      "relatedSuspects": ["elena-voss", "elias-ward"],
+      "foundAt": "08:40"
+    },
+    {
+      "id": "e-email",
+      "name": "Unsigned Insurance Draft",
+      "category": "Digital",
+      "summary": "A draft insurance claim for £2.4 million was created on Voss's account at 22:50.",
+      "description": "The museum's mail server contains an unsent draft to Meridian Underwriters headed 'Meridian loss — preliminary notification'. It cites theft by persons unknown and requests urgent settlement. The draft was created at 22:50, almost two hours before the theft was discovered.",
+      "location": "Museum mail server, Voss account",
+      "analysis": "This is strong evidence of premeditation. It also supplies a financial motive: the £2.4 million payout would cover the acquisition loss and complicate the provenance audit.",
+      "tags": ["motive", "digital", "premeditation"],
+      "relatedSuspects": ["elena-voss"],
+      "foundAt": "09:10"
+    },
+    {
+      "id": "e-guard-log",
+      "name": "Guard's Desk Log",
+      "category": "Documentary",
+      "summary": "Elias Ward remained at the front desk from 23:30 to 00:40, according to log and camera.",
+      "description": "The paper log records Ward's gallery round at 23:30 and his discovery of the empty case at 00:40. The desk camera shows him seated or standing at the desk throughout the intervening period. The front desk is 90 metres from the service lift.",
+      "location": "Security office",
+      "analysis": "Ward had opportunity to know the building, but not to open the case or use the service lift unseen. His alibi is solid.",
+      "tags": ["alibi", "timeline", "security"],
+      "relatedSuspects": ["elias-ward"],
+      "foundAt": "01:20"
+    },
+    {
+      "id": "e-replica",
+      "name": "Plaster Cast Fragment",
+      "category": "Physical",
+      "summary": "A fresh plaster cast of the astrolabe's base was found in Voss's office bin.",
+      "description": "The cast matches the astrolabe's base dimensions and the display mount's impression. Traces of the display seal adhesive are embedded in the plaster. The cast was made within the last three days.",
+      "location": "Voss's office waste bin",
+      "analysis": "Someone made a weighted study of the astrolabe's footprint, consistent with preparing a substitute or testing how the empty mount would look.",
+      "tags": ["physical", "premeditation", "staging"],
+      "relatedSuspects": ["elena-voss"],
+      "foundAt": "09:35"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "22:35",
+      "title": "Theo Marsh leaves the museum",
+      "detail": "Marsh exits through the public entrance after a tense private viewing.",
+      "source": "Front desk log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["theo-marsh"]
+    },
+    {
+      "id": "t2",
+      "time": "22:50",
+      "title": "Insurance draft created",
+      "detail": "An unsent £2.4 million claim is drafted on Voss's museum account.",
+      "source": "Mail server log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elena-voss"]
+    },
+    {
+      "id": "t3",
+      "time": "23:10",
+      "title": "Voss says she leaves",
+      "detail": "Voss claims she took a taxi home and was asleep before midnight.",
+      "source": "Suspect statement",
+      "verified": false,
+      "disputed": true,
+      "actors": ["elena-voss"]
+    },
+    {
+      "id": "t4",
+      "time": "23:30",
+      "title": "Guard's gallery round",
+      "detail": "Elias Ward confirms the astrolabe is still on display.",
+      "source": "Guard's desk log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elias-ward"]
+    },
+    {
+      "id": "t5",
+      "time": "23:58",
+      "title": "Cameras go dark",
+      "detail": "The Meridian Gallery feed is disabled as a 'maintenance blackout'.",
+      "source": "Security server",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elena-voss"]
+    },
+    {
+      "id": "t6",
+      "time": "00:12",
+      "title": "Display case opened",
+      "detail": "A valid curator override with Voss's PIN opens the case.",
+      "source": "Case lock log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elena-voss"]
+    },
+    {
+      "id": "t7",
+      "time": "00:15",
+      "title": "Woman with red scarf",
+      "detail": "Cleaner sees a woman carrying a flat black case near the service lift.",
+      "source": "Witness: Priya Nair",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elena-voss"]
+    },
+    {
+      "id": "t8",
+      "time": "00:27",
+      "title": "Taxi pickup",
+      "detail": "A taxi collects 'E. Voss' from the service entrance with a flat black case.",
+      "source": "Taxi dispatch and driver",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elena-voss"]
+    },
+    {
+      "id": "t9",
+      "time": "00:40",
+      "title": "Empty case discovered",
+      "detail": "Ward finds the astrolabe gone and raises the alarm.",
+      "source": "Guard's desk log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elias-ward"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-voss-taxi",
+      "title": "Home before midnight?",
+      "detail": "Voss says she left at 23:10 and was home by 23:45. The taxi dispatch record shows her pickup at 00:27 — 77 minutes later, from the service entrance, carrying a flat case.",
+      "suspectId": "elena-voss",
+      "evidenceIds": ["e-taxi"],
+      "questions": ["elena-voss:q1"],
+      "hint": "Compare Voss's account of leaving with the taxi company's exact pickup time."
+    },
+    {
+      "id": "c-voss-access",
+      "title": "The private PIN",
+      "detail": "Voss claims her key card was borrowed and that she never shared her PIN. The case log shows a curator override using both her card and her personal PIN, eight minutes after her admin account disabled the gallery cameras.",
+      "suspectId": "elena-voss",
+      "evidenceIds": ["e-case-lock", "e-camera"],
+      "questions": ["elena-voss:q3"],
+      "hint": "A key card can be copied. A six-digit PIN is harder to explain."
+    },
+    {
+      "id": "c-voss-scarf",
+      "title": "The red scarf",
+      "detail": "Voss says she does not wear red. A cleaner and a taxi driver both describe her in a red scarf, and a matching silk fibre was caught in the service elevator. Theo Marsh also saw the scarf in her office.",
+      "suspectId": "elena-voss",
+      "evidenceIds": ["e-fiber"],
+      "questions": ["elena-voss:q4"],
+      "hint": "The fibre needs a source. Compare the cleaner's description and Marsh's observation."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "insurance",
+      "text": "Insurance fraud — conceal the failed provenance audit by claiming the astrolabe was stolen."
+    },
+    {
+      "id": "jealousy",
+      "text": "Professional jealousy — frame Mina Cho after their public disagreement."
+    },
+    {
+      "id": "collector",
+      "text": "A private sale to Theo Marsh for a sum far above the museum's valuation."
+    },
+    {
+      "id": "debt",
+      "text": "Gambling debts — sell the astrolabe through a private dealer."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "override",
+      "text": "Used curator credentials to blind the cameras and open the case, then left through the service lift to a waiting taxi."
+    },
+    {
+      "id": "forced",
+      "text": "Forced the display case with a conservation tool and walked out through the public entrance."
+    },
+    {
+      "id": "guard",
+      "text": "Persuaded the night guard to unlock the case and cover the camera during his rounds."
+    },
+    {
+      "id": "skylight",
+      "text": "Entered through the skylight, lowered the astrolabe on a rope, and left before the cameras reset."
+    }
+  ],
+  "hints": [
+    "Start with the access logs. The display case was opened without force, so the question is whose credential opened it.",
+    "A physical trace was caught in the service elevator. Compare it with what witnesses saw on the person using that route.",
+    "Check the timing of the taxi. Voss's statement about leaving at 23:10 does not survive the dispatch record."
+  ],
+  "solution": {
+    "culpritId": "elena-voss",
+    "motiveId": "insurance",
+    "methodId": "override",
+    "evidenceIds": ["e-case-lock", "e-fiber", "e-taxi"],
+    "headline": "The curator stole her own exhibit to bury a provenance scandal.",
+    "summary": "Dr. Elena Voss staged the theft of the Meridian Astrolabe to collect £2.4 million in insurance and deflect the Monday provenance audit. She used her curator override to blind the cameras and open the case, then left through the service lift with the astrolabe in a flat black case.",
+    "explanation": [
+      "Voss's museum account disabled the gallery cameras at 00:04. Eight minutes later, the display case was opened using a curator override that required both her key card and her personal PIN — not a borrowed card alone.",
+      "Priya Nair saw a woman in a red scarf carrying a flat black case near the service lift at 00:15. A matching red silk fibre was caught in the lift gate, and Voss's claim that she does not wear red collapses against both the cleaner's and the taxi driver's statements.",
+      "The decisive contradiction is the taxi record. Voss said she left at 23:10 and was home before midnight. The dispatch record shows a pickup under her name at 00:27 from the service entrance, with a flat case placed in the boot.",
+      "The unsent insurance draft at 22:50 and the fresh plaster cast in her bin show preparation. The theft was not opportunistic: it was a staged loss built to survive the audit."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "22:50",
+        "event": "Voss drafts the insurance claim, preparing to report a theft that has not happened."
+      },
+      {
+        "time": "00:04",
+        "event": "Voss disables the gallery cameras from the gallery terminal."
+      },
+      {
+        "time": "00:12",
+        "event": "She opens the display case with her curator override and removes the astrolabe."
+      },
+      {
+        "time": "00:27",
+        "event": "She leaves by the service lift and enters a waiting taxi with the astrolabe."
+      }
+    ],
+    "redHerring": "Elias Ward had debts and knew the camera blind spots, but the desk camera places him at the front desk throughout the theft. Mina Cho had a professional grievance, but her conservation-lab time-lapse confirms her alibi. Theo Marsh's dinner alibi is equally solid."
+  }
+}

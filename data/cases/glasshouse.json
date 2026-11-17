@@ -1,0 +1,450 @@
+{
+  "id": "glasshouse",
+  "slug": "the-glasshouse-murder",
+  "title": "The Glasshouse Murder",
+  "subtitle": "A locked greenhouse. A dead botanist. A poison garden with one missing flower.",
+  "difficulty": "medium",
+  "estimatedMinutes": 7,
+  "location": "Bellingham Botanical Gardens, Kent",
+  "date": "Thursday, 26 March 2026",
+  "timeWindow": "17:45 — 19:15",
+  "description": "Dr. Iris Vale was found dead in the tropical glasshouse with a thermos of tea beside her. The door was locked from the outside. The cause looks like a heart attack — until the medical examiner notices the monkshood missing from the poison bed. Someone turned the garden's own collection into a weapon.",
+  "briefing": "The glasshouse was closed to visitors at 18:00. Dr. Vale stayed behind to inspect a rare specimen. At 19:05 a volunteer found her collapsed beside the orchid benches. The door was locked. Vale's thermos contained a lethal dose of aconitine, and a freshly cut stem in the poison bed points to a killer who knew exactly which plant to choose.",
+  "cover": {
+    "accent": "#6CB38A",
+    "secondary": "#2F6045",
+    "motif": "glasshouse"
+  },
+  "scene": {
+    "summary": "The tropical glasshouse is heavy with warm mist and the smell of wet soil. Dr. Vale lies between the orchid benches, one hand reaching toward her thermos. The locked door is intact. In the poison garden beyond the glass partition, a monkshood plant has been freshly cut.",
+    "details": [
+      "The victim has no visible injury. Her pupils are dilated and her lips are tinged blue.",
+      "The thermos cup contains tea with a bitter, numbing smell.",
+      "The glasshouse keypad shows an unlock at 18:22 and a lock at 18:34. Both used Eli Ward's staff code.",
+      "Only Dr. Vale and Eli Ward have glasshouse codes; Margaret Hale has a physical master key.",
+      "A monkshood stem in the poison bed has been cut cleanly. The missing flower is not in the compost.",
+      "A pair of pruning gloves hangs in Eli Ward's potting shed, one fingertip stained brown."
+    ],
+    "initialObservations": [
+      "Suspected plant poisoning",
+      "Door locked from outside",
+      "Fresh monkshood cutting"
+    ]
+  },
+  "victim": {
+    "name": "Dr. Iris Vale",
+    "label": "Victim",
+    "age": 58,
+    "occupation": "Botanist and glasshouse director",
+    "status": "Deceased — 18:55 (estimated)",
+    "background": "Dr. Vale spent thirty years at Bellingham and was preparing to hand the glasshouse to a successor. She was strict about specimen records and had recently launched an internal audit of rare plant sales.",
+    "forensic": "Aconitine poisoning. The alkaloid was ingested in tea and would cause numbness, arrhythmia, and death within 30–60 minutes. There are no defensive injuries. The dose was high, suggesting a concentrated plant extract rather than accidental exposure."
+  },
+  "suspects": [
+    {
+      "id": "eli-ward",
+      "name": "Eli Ward",
+      "role": "Research assistant",
+      "age": 25,
+      "occupation": "Botany assistant",
+      "summary": "Iris Vale's protégé and the only other person with a glasshouse code. Charming and knowledgeable, he runs the garden's social media and knows the rare-plant trade.",
+      "background": "Ward joined Bellingham three years ago. He has a side business selling rare cuttings online, which he describes as legal propagation. Vale discovered discrepancies in the specimen log two weeks ago and told him she was reviewing the records.",
+      "motive": "Vale was about to expose his illegal trade in rare plant cuttings and end his career.",
+      "alibi": "Says he left at 18:10 and spent the next hour in the potting shed, away from the main glasshouse.",
+      "relationship": "Mentee, research assistant, and glasshouse codeholder.",
+      "pressure": "The missing monkshood and the audit both point toward him.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you between six and half past six?",
+          "answer": "In the potting shed, repotting seedlings. I left the glasshouse at ten past six. Iris wanted to check the orchids alone. I didn't go back until the alarm was raised."
+        },
+        {
+          "id": "q2",
+          "text": "Your code unlocked and locked the glasshouse door during that time.",
+          "answer": "That can't be right. I didn't use the keypad. Iris sometimes uses my code when her hands are full; everyone shares. The log must be confused."
+        },
+        {
+          "id": "q3",
+          "text": "A monkshood flower was cut from the poison bed. Do you know aconitine?",
+          "answer": "Every botanist here knows it. It's why the poison garden is behind glass. I've never extracted it. I wouldn't even know the dose."
+        },
+        {
+          "id": "q4",
+          "text": "Vale was auditing rare plant sales. Did she find your online shop?",
+          "answer": "I sell propagated succulents and common orchids. She knew about it. She didn't approve, but it wasn't a secret. The audit was about provenance, not me."
+        }
+      ]
+    },
+    {
+      "id": "margaret-hale",
+      "name": "Margaret Hale",
+      "role": "Head gardener",
+      "age": 52,
+      "occupation": "Head gardener",
+      "summary": "A blunt, weather-beaten veteran who has worked the gardens for twenty-eight years. She has a master key and clashed with Vale over budget cuts.",
+      "background": "Hale built the poison garden and resents Vale's plan to close it as part of a safety review. She has a physical master key that opens every glasshouse door and knows the properties of every plant on site.",
+      "motive": "Prevent Vale from closing the poison garden, or retaliate for years of budget cuts.",
+      "alibi": "In the Jubilee greenhouse with two volunteers from 18:00 to 19:00. The volunteers and a time-stamped watering log support it.",
+      "relationship": "Senior gardener and keeper of the poison collection.",
+      "pressure": "The poison garden is her legacy and is being shut down.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you during the relevant hour?",
+          "answer": "Jubilee greenhouse, watering the ferns with two volunteers. We logged every tray. I didn't set foot in the tropical house until the volunteer shouted for help."
+        },
+        {
+          "id": "q2",
+          "text": "You had access to the poison bed. Why would Eli Ward need it?",
+          "answer": "The poison bed is behind a glass partition, not a vault. Anyone with a staff code can walk in. Eli has been eyeing those specimens for months. He thinks I don't notice."
+        },
+        {
+          "id": "q3",
+          "text": "You disagreed with Dr. Vale about the poison garden.",
+          "answer": "We disagreed about everything. She wanted to concrete over thirty years of work. But I don't kill people over a garden. I gave her cuttings for her own experiments. She was difficult, not evil."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see Eli near the glasshouse?",
+          "answer": "I saw him leave in a hurry around half past six. He had his satchel and a thermos in his hand. He looked ill. I assumed he'd eaten something bad."
+        }
+      ]
+    },
+    {
+      "id": "priya-sen",
+      "name": "Priya Sen",
+      "role": "Rare plant dealer",
+      "age": 36,
+      "occupation": "Botanical trader",
+      "summary": "A well-dressed dealer with an encyclopedic knowledge of rare species. She visited Vale that afternoon to negotiate a specimen swap and left angry.",
+      "background": "Sen supplies rare orchids to private collectors. She wanted Vale's prize paphiopedilum and was refused. Their argument was overheard in the visitor center. She left the site at 18:00.",
+      "motive": "Revenge for a refused sale, or acquisition of the rare orchid through theft.",
+      "alibi": "Her signed visitor pass records an exit at 18:00. A parking camera shows her car leaving at 18:03.",
+      "relationship": "External dealer and occasional source for the glasshouse.",
+      "pressure": "Vale threatened to report her for trading restricted species.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why did you argue with Dr. Vale?",
+          "answer": "She promised me a division of the paphiopedilum, then changed her mind. I was annoyed. I said things I regret. But I left before six; the gate log proves it."
+        },
+        {
+          "id": "q2",
+          "text": "You know how to extract aconitine.",
+          "answer": "I know the plant. Knowing a plant's chemistry and murdering someone with it are different things. I sell legally propagated stock; I don't make poison."
+        },
+        {
+          "id": "q3",
+          "text": "Who else knew the value of the missing monkshood?",
+          "answer": "Eli. He handled the poison-garden inventory. He kept asking whether the aconitum was 'properly documented'. I thought he was being diligent. Turns out he was appraising it."
+        },
+        {
+          "id": "q4",
+          "text": "Did you notice anything unusual when you left?",
+          "answer": "Eli was walking toward the glasshouse with his satchel. He had a thermos. I thought he was taking Dr. Vale tea. It was a nice gesture — or so I assumed."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "tessa-quinn",
+      "name": "Tessa Quinn",
+      "role": "Volunteer gardener",
+      "statement": "At about ten past six, I saw Eli Ward go into the tropical house with a thermos. At half past six he came out without it, locked the door, and walked toward the potting shed. He looked pale. When I went to bring Dr. Vale her evening checklist at five past seven, the door was locked and she didn't answer.",
+      "reliability": "High",
+      "summary": "Eli entered with a thermos at 18:10 and left at 18:30, locking the door.",
+      "notes": "Quinn has volunteered for six years and has no access to the poison garden."
+    },
+    {
+      "id": "owen-park",
+      "name": "Owen Park",
+      "role": "Groundskeeper",
+      "statement": "I was raking leaves by the conifer walk. I saw Eli Ward come out of the tropical house around half six. He was moving fast and kept his head down. I called to him and he ignored me. He went into the potting shed and shut the door.",
+      "reliability": "Medium",
+      "summary": "Eli left the glasshouse quickly at 18:30 and ignored a colleague.",
+      "notes": "Park's view was partly blocked by hedges; his timing is approximate."
+    },
+    {
+      "id": "botanical-board",
+      "name": "Bellingham board minutes",
+      "role": "Documentary statement",
+      "statement": "Dr. Vale requested the audit after discovering that eleven rare specimens had been logged as 'propagated' but sold to external collectors. The board was due to discuss the missing plants on Friday. Vale had not named a suspect in writing.",
+      "reliability": "High",
+      "summary": "Vale's audit concerned missing rare specimens and their sale.",
+      "notes": "The audit documents were recovered from her office computer."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-tea",
+      "name": "Aconitine in the Thermos",
+      "category": "Forensic",
+      "summary": "The thermos tea contains a lethal dose of aconitine, extracted from monkshood.",
+      "description": "The thermos cup holds tea with a high concentration of aconitine. The compound is water-soluble and was likely steeped directly from a fresh plant. No sediment of plant tissue remains, suggesting a filtered extract. The victim drank roughly half a cup.",
+      "location": "Beside the victim",
+      "analysis": "This was not accidental exposure. Aconitine requires deliberate preparation, and the thermos was brought to the glasshouse from outside.",
+      "tags": ["forensic", "poison", "tea"],
+      "relatedSuspects": ["eli-ward", "margaret-hale", "priya-sen"],
+      "foundAt": "19:20"
+    },
+    {
+      "id": "e-monkshood",
+      "name": "Cut Monkshood Stem",
+      "category": "Forensic",
+      "summary": "A fresh cut in the poison bed matches the aconitine used and the missing flower.",
+      "description": "A monk's-hood plant in the poison garden has been cut at a sharp angle with pruning shears. The sap is still wet. A trace of the same sap was found on the blade of Eli Ward's pruning knife in his shed, along with a brown stain on his glove.",
+      "location": "Poison garden",
+      "analysis": "The killer used the garden's own aconitum. The cutting tool links the plant to Eli Ward's equipment.",
+      "tags": ["forensic", "plant", "weapon"],
+      "relatedSuspects": ["eli-ward", "margaret-hale"],
+      "foundAt": "19:30"
+    },
+    {
+      "id": "e-keypad",
+      "name": "Glasshouse Keypad Log",
+      "category": "Digital",
+      "summary": "Eli Ward's staff code unlocked the glasshouse at 18:22 and locked it at 18:34.",
+      "description": "The keypad records code EW-04 at 18:22:11 (unlock) and again at 18:34:06 (lock). No other code or master key was used between those times. Eli claims he left at 18:10 and did not return.",
+      "location": "Tropical glasshouse door",
+      "analysis": "This places Eli inside the glasshouse during the period when the poison was most likely administered. His statement about leaving at 18:10 is false.",
+      "tags": ["digital", "access", "timeline"],
+      "relatedSuspects": ["eli-ward"],
+      "foundAt": "19:40"
+    },
+    {
+      "id": "e-camera",
+      "name": "Visitor-Centre Camera",
+      "category": "Digital",
+      "summary": "Eli Ward was recorded walking toward the glasshouse at 18:10 carrying a thermos, and leaving at 18:31 without it.",
+      "description": "The visitor-centre camera covers the path to the tropical house. At 18:10 Eli passes with a stainless thermos. At 18:31 he returns without the thermos, walking quickly. Dr. Vale's own thermos is later found beside her body.",
+      "location": "Visitor centre exterior camera",
+      "analysis": "The thermos in the footage is the same model found at the scene. Eli had both the opportunity and the means to deliver the poisoned tea.",
+      "tags": ["digital", "timeline", "thermos"],
+      "relatedSuspects": ["eli-ward"],
+      "foundAt": "19:50"
+    },
+    {
+      "id": "e-shop",
+      "name": "Rare Plant Sales Messages",
+      "category": "Digital",
+      "summary": "Eli's encrypted shop account shows sales of rare specimens logged as 'propagated' at Bellingham.",
+      "description": "Recovered messages show Eli arranging sales of at least eleven rare plants, several of which match the missing specimens in Vale's audit. One buyer asks for 'the blue monkshood' and Eli replies: 'Not yet. It's still in the poison bed. Soon.'",
+      "location": "Eli Ward's phone backup",
+      "analysis": "This establishes both the illegal trade and his access to the monkshood. It also supplies a motive: Vale's audit would have exposed him.",
+      "tags": ["motive", "digital", "trafficking"],
+      "relatedSuspects": ["eli-ward"],
+      "foundAt": "20:20"
+    },
+    {
+      "id": "e-email",
+      "name": "Vale's Draft Audit Email",
+      "category": "Documentary",
+      "summary": "Vale drafted an email to the board naming Eli's specimen discrepancies for Friday.",
+      "description": "In Vale's draft folder is an email to the botanical board: 'The discrepancies cluster around E. Ward's propagation records. I will present the evidence Friday and recommend suspension pending investigation.' The draft is dated Thursday, 17:40.",
+      "location": "Vale's office computer",
+      "analysis": "Vale was preparing to expose Eli the next day. The timing gives him a strong motive to silence her that evening.",
+      "tags": ["motive", "documentary", "audit"],
+      "relatedSuspects": ["eli-ward"],
+      "foundAt": "20:35"
+    },
+    {
+      "id": "e-volunteer",
+      "name": "Volunteer Timing",
+      "category": "Documentary",
+      "summary": "Margaret Hale was in the Jubilee greenhouse with two volunteers during the murder window.",
+      "description": "The Jubilee watering log records three people, including Margaret Hale, working from 18:02 to 19:02. The volunteers independently confirm she never left. The Jubilee greenhouse is 120 metres from the tropical house.",
+      "location": "Jubilee greenhouse",
+      "analysis": "Hale had a motive and master-key access, but her alibi is corroborated by two witnesses and a logging system.",
+      "tags": ["alibi", "timeline", "documentary"],
+      "relatedSuspects": ["margaret-hale"],
+      "foundAt": "19:15"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "17:40",
+      "title": "Vale drafts the audit email",
+      "detail": "She names Eli Ward's propagation records and plans to present evidence Friday.",
+      "source": "Vale's computer",
+      "verified": true,
+      "disputed": false,
+      "actors": ["iris-vale", "eli-ward"]
+    },
+    {
+      "id": "t2",
+      "time": "17:50",
+      "title": "Priya Sen leaves",
+      "detail": "The dealer exits after a tense negotiation and argument.",
+      "source": "Visitor log and parking camera",
+      "verified": true,
+      "disputed": false,
+      "actors": ["priya-sen"]
+    },
+    {
+      "id": "t3",
+      "time": "18:00",
+      "title": "Glasshouse closes",
+      "detail": "Visitors leave. Vale remains to inspect the orchids.",
+      "source": "Visitor log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["iris-vale"]
+    },
+    {
+      "id": "t4",
+      "time": "18:10",
+      "title": "Eli arrives with thermos",
+      "detail": "Camera shows Eli walking toward the glasshouse with a thermos.",
+      "source": "Visitor-centre camera",
+      "verified": true,
+      "disputed": false,
+      "actors": ["eli-ward"]
+    },
+    {
+      "id": "t5",
+      "time": "18:22",
+      "title": "Door unlocked with Eli's code",
+      "detail": "The glasshouse keypad records his staff code.",
+      "source": "Keypad log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["eli-ward"]
+    },
+    {
+      "id": "t6",
+      "time": "18:34",
+      "title": "Door locked",
+      "detail": "The keypad is used again to lock the glasshouse.",
+      "source": "Keypad log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["eli-ward"]
+    },
+    {
+      "id": "t7",
+      "time": "18:55",
+      "title": "Vale collapses",
+      "detail": "Aconitine causes fatal arrhythmia beside the orchid benches.",
+      "source": "Medical examiner estimate",
+      "verified": true,
+      "disputed": false,
+      "actors": ["iris-vale"]
+    },
+    {
+      "id": "t8",
+      "time": "19:05",
+      "title": "Body found",
+      "detail": "Tessa Quinn finds Vale through the glass and calls for help.",
+      "source": "Witness: Tessa Quinn",
+      "verified": true,
+      "disputed": false,
+      "actors": ["tessa-quinn"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-eli-glasshouse",
+      "title": "He never went back",
+      "detail": "Eli says he left at 18:10 and stayed in the potting shed. His staff code unlocked the glasshouse at 18:22 and locked it at 18:34, and two witnesses saw him leave at 18:30.",
+      "suspectId": "eli-ward",
+      "evidenceIds": ["e-keypad", "e-camera"],
+      "questions": ["eli-ward:q1"],
+      "hint": "Door logs and eyewitnesses disagree with Eli's shed alibi."
+    },
+    {
+      "id": "c-eli-monkshood",
+      "title": "The gardener's knife",
+      "detail": "Eli denies extracting aconitine. A fresh monkshood cut in the poison bed matches sap on his pruning knife and a brown stain on his glove.",
+      "suspectId": "eli-ward",
+      "evidenceIds": ["e-monkshood", "e-tea"],
+      "questions": ["eli-ward:q3"],
+      "hint": "The poison source is a plant in the garden. Find what cut it."
+    },
+    {
+      "id": "c-eli-motive",
+      "title": "Propagation or theft?",
+      "detail": "Eli describes his side business as harmless propagation. His messages arrange sales of missing specimens and mention the blue monkshood 'still in the poison bed'.",
+      "suspectId": "eli-ward",
+      "evidenceIds": ["e-shop", "e-email"],
+      "questions": ["eli-ward:q4"],
+      "hint": "Read the shop messages alongside Vale's draft audit email."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "exposure",
+      "text": "Silence Vale before she exposed his illegal trade in rare plant cuttings."
+    },
+    {
+      "id": "garden",
+      "text": "Stop Vale from closing the poison garden by force."
+    },
+    {
+      "id": "sale",
+      "text": "Acquire the rare orchid after Priya Sen was refused."
+    },
+    {
+      "id": "inheritance",
+      "text": "Inherit Vale's private botanical estate."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "aconitine",
+      "text": "Extracted aconitine from the poison-garden monkshood, poisoned Vale's thermos, and left her locked inside."
+    },
+    {
+      "id": "injection",
+      "text": "Injected her with a plant alkaloid while she was examining the orchids."
+    },
+    {
+      "id": "gas",
+      "text": "Released toxic fumes into the sealed glasshouse and waited outside."
+    },
+    {
+      "id": "fall",
+      "text": "Struck her during an argument and staged a collapse beside the benches."
+    }
+  ],
+  "hints": [
+    "The door was locked from outside, so the killer had a code or a key. Check the keypad log.",
+    "The poison came from the garden itself. Look for a fresh cut and the tool that made it.",
+    "Vale's audit was due Friday. Who would lose everything if it went ahead?"
+  ],
+  "solution": {
+    "culpritId": "eli-ward",
+    "motiveId": "exposure",
+    "methodId": "aconitine",
+    "evidenceIds": ["e-tea", "e-keypad", "e-monkshood"],
+    "headline": "The protégé used the poison garden to bury the audit.",
+    "summary": "Eli Ward extracted aconitine from the poison-garden monkshood, poisoned Iris Vale's thermos, and left her locked in the tropical glasshouse. Vale was preparing to expose his illegal trade in rare plant cuttings the next morning.",
+    "explanation": [
+      "Vale's thermos contained a lethal dose of aconitine. The poison garden had a fresh monkshood cut, and matching sap was found on Eli Ward's pruning knife and glove. He knew the plant, had access to the bed, and had prepared the extract.",
+      "Eli claimed he left at 18:10 and spent the hour in the potting shed. His staff code unlocked the glasshouse at 18:22 and locked it at 18:34. The visitor-centre camera shows him arriving with a thermos and leaving without it.",
+      "Tessa Quinn saw him leave the glasshouse at 18:30 and lock the door. Owen Park saw him hurry away and ignore a colleague. Vale was alone inside, already showing symptoms.",
+      "The motive is documented in Vale's draft audit email and Eli's sales messages. Vale planned to present evidence of missing specimens on Friday; Eli was selling those specimens online and had already discussed the blue monkshood as stock. He killed to stop the audit."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "17:40",
+        "event": "Vale drafts an email naming Eli's specimen discrepancies and plans to present it Friday."
+      },
+      {
+        "time": "18:10",
+        "event": "Eli arrives at the glasshouse with a thermos of poisoned tea."
+      },
+      {
+        "time": "18:22",
+        "event": "His staff code unlocks the door. He leaves the thermos with Vale."
+      },
+      {
+        "time": "18:34",
+        "event": "He locks the glasshouse using his code, leaving Vale inside to die."
+      }
+    ],
+    "redHerring": "Margaret Hale had master access and a bitter dispute about the poison garden, but she was watering the Jubilee greenhouse with two volunteers throughout the murder window. Priya Sen argued with Vale, but her car left at 18:03. Eli is the only person whose code, tool, camera trail, and motive all align."
+  }
+}

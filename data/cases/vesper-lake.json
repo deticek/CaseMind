@@ -1,0 +1,517 @@
+{
+  "id": "vesper-lake",
+  "slug": "the-vanishing-at-vesper-lake",
+  "title": "The Vanishing at Vesper Lake",
+  "subtitle": "Her kayak came back empty. Her online posts kept appearing. Her manager kept smiling.",
+  "difficulty": "hard",
+  "estimatedMinutes": 9,
+  "location": "Vesper Lake Cabins, Oregon",
+  "date": "Saturday, 4 April 2026",
+  "timeWindow": "20:40 — 23:50",
+  "description": "Travel influencer Celeste Rios vanished from a lakeside cabin after a livestream. Her kayak was found drifting at dawn, her phone inside a dry bag, her blood on the dock. Her manager says Celeste went paddling alone. The scheduled posts say otherwise. So does the mud on an abandoned pump house.",
+  "briefing": "Celeste arrived at Vesper Lake on Friday for a weekend shoot. On Saturday night she streamed from the dock, then stopped answering messages. Her kayak was found at 07:10. Blood on the dock matches her. No body has been recovered. Four people were near the lake. One of them has been controlling Celeste's story for months.",
+  "cover": {
+    "accent": "#76A6B8",
+    "secondary": "#2E5362",
+    "motif": "lake"
+  },
+  "scene": {
+    "summary": "The cabin deck faces a black mirror of water. A few metres away, the dock boards are stained with diluted blood. The kayak is propped against the ranger station, its dry bag still sealed. A trail of scuffed mud leads from the dock around the boathouse toward a disused pump house half-swallowed by reeds.",
+    "details": [
+      "Blood on the dock matches Celeste Rios. It is diluted, consistent with rain and lake water.",
+      "A fresh drag mark runs from the dock around the boathouse toward the old pump house.",
+      "The kayak's footrests are set for someone about 178 cm tall. Celeste was 170 cm.",
+      "Celeste's phone was found in the kayak's dry bag. It made no manual unlock after 20:52.",
+      "The pump-house door has fresh mud on the latch and a broken padlock.",
+      "Dana Quill's rental car GPS places the car on the service road from 21:10 to 23:40."
+    ],
+    "initialObservations": [
+      "Blood at the dock",
+      "Kayak staged",
+      "Pump house recently entered"
+    ]
+  },
+  "victim": {
+    "name": "Celeste Rios",
+    "label": "Missing person",
+    "age": 26,
+    "occupation": "Travel influencer",
+    "status": "Missing — presumed deceased",
+    "background": "Celeste had 2.4 million followers and a lucrative brand partnership. She was planning to leave her management agency and launch her own company. She arrived at Vesper Lake for a solo weekend, but told friends she intended to confront her manager about missing money.",
+    "forensic": "Blood at the dock matches Celeste. Dilution and spatter pattern suggest a blunt-force injury near the water, with attempts to wash the surface. No body has been recovered. A torn yellow synthetic fibre was found on a dock nail."
+  },
+  "suspects": [
+    {
+      "id": "dana-quill",
+      "name": "Dana Quill",
+      "role": "Manager",
+      "age": 39,
+      "occupation": "Talent manager",
+      "summary": "Celeste's manager and closest business adviser. Polished, protective in public, and ruthless about control. She claims she spent Saturday night at a motel in town.",
+      "background": "Dana built Celeste's brand from a small travel blog into a seven-figure business. She controls the agency accounts and Celeste's social media schedule. A forensic accountant recently flagged transfers to a shell company.",
+      "motive": "Silence Celeste before she exposed Dana's embezzlement and left the agency.",
+      "alibi": "At the Lakeside Motor Inn from 21:00 until midnight, reviewing contracts.",
+      "relationship": "Manager, financial controller, and keeper of Celeste's content calendar.",
+      "pressure": "Celeste scheduled a meeting with a lawyer for Monday.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you when Celeste disappeared?",
+          "answer": "At the Lakeside Motor Inn. I checked in at nine and ordered room service. Celeste wanted a quiet weekend; I stayed out of her way. I only learned she was missing when the ranger called me at seven."
+        },
+        {
+          "id": "q2",
+          "text": "Your rental car was on the lake service road from 21:10 to 23:40.",
+          "answer": "The GPS is wrong. I lent the car to Noah for the evening. He wanted to pick up camera equipment. I was at the motel. Ask the clerk."
+        },
+        {
+          "id": "q3",
+          "text": "Celeste's posts after 21:14 were scheduled in advance. Did you schedule them?",
+          "answer": "I schedule her content. That's my job. She often asks me to keep the feed active while she's offline. It doesn't mean I knew she was dead."
+        },
+        {
+          "id": "q4",
+          "text": "Transfers from Celeste's account went to a company linked to you.",
+          "answer": "Business expenses. I moved money between accounts all the time. Celeste approved every transfer. If she had a problem, she should have spoken to me instead of a lawyer."
+        }
+      ]
+    },
+    {
+      "id": "noah-mercer",
+      "name": "Noah Mercer",
+      "role": "Boyfriend and photographer",
+      "age": 28,
+      "occupation": "Photographer",
+      "summary": "Celeste's boyfriend of two years and her usual photographer. He was at the cabin earlier, and they argued loudly enough for a neighbour to hear.",
+      "background": "Noah shoots most of Celeste's brand campaigns. Their relationship had become tangled with business; he wanted to leave the team and she asked him to stay through the launch. He was in town at a bar during the critical hour, though his alibi is not perfect.",
+      "motive": "Jealousy, resentment, or a dispute over the new company's ownership.",
+      "alibi": "At the Copper Dock bar from 21:15 to 23:30. The bartender remembers him, but the receipt is untimed.",
+      "relationship": "Boyfriend, photographer, and business partner.",
+      "pressure": "Several of Celeste's messages mention an argument about the company.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What did you argue about?",
+          "answer": "The new company. She wanted me to run visuals and take equity instead of salary. I said it felt like a leash. I left around eight to cool off and went to the Copper Dock."
+        },
+        {
+          "id": "q2",
+          "text": "Did Dana borrow your car?",
+          "answer": "No. My car was in the lot. Dana had her own rental. I saw it parked near the service road when I drove past around nine, but I didn't think anything of it."
+        },
+        {
+          "id": "q3",
+          "text": "Where were you at 21:20?",
+          "answer": "At the bar. I ordered a beer and watched the game. The bartender knows me. I wasn't at the lake. Celeste was still posting; I assumed she was fine."
+        },
+        {
+          "id": "q4",
+          "text": "Did Celeste tell you she was confronting Dana?",
+          "answer": "She said she'd found something in the accounts and was going to end the management contract. She was scared, but she was also determined. Dana built a cage around her and called it a brand."
+        }
+      ]
+    },
+    {
+      "id": "sasha-voss",
+      "name": "Sasha Voss",
+      "role": "Friend and assistant",
+      "age": 27,
+      "occupation": "Content assistant",
+      "summary": "Celeste's oldest friend and newest assistant. She was at the cabin earlier, helping set up the shoot, and is the only person with the social media passwords.",
+      "background": "Sasha grew up with Celeste and recently joined her team. Their friendship became strained as Sasha handled more work for little credit. She was in town at a motel during the critical hour, but her phone was off.",
+      "motive": "Resentment over being underpaid and overlooked, and access to Celeste's accounts.",
+      "alibi": "At the Pine Rest Motel from 20:00. No camera or clerk confirms it; she paid cash.",
+      "relationship": "Best friend, assistant, and social media backup.",
+      "pressure": "She had access to Celeste's accounts and knew the post schedule.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why did you leave the cabin?",
+          "answer": "Celeste wanted to be alone before the confrontation. I set up the ring light and left around eight. I stayed at the Pine Rest, paid cash because I lost my card. I know how that looks."
+        },
+        {
+          "id": "q2",
+          "text": "You can access Celeste's accounts.",
+          "answer": "I have backup access for emergencies. I didn't post anything Saturday. Dana controls the content calendar; I only have the passwords in case something breaks."
+        },
+        {
+          "id": "q3",
+          "text": "Was Celeste afraid of Dana?",
+          "answer": "Not physically. She said Dana was stealing from her and had been lying about the numbers. She planned to fire her Monday. She told me to stay away so Dana wouldn't suspect we'd talked."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see Dana near the lake?",
+          "answer": "No. But when I left at eight, Dana's rental was already parked by the service road. She told everyone she was in town. I thought maybe she was checking on Celeste."
+        }
+      ]
+    },
+    {
+      "id": "felix-ward",
+      "name": "Felix Ward",
+      "role": "Lake ranger",
+      "age": 45,
+      "occupation": "Park ranger",
+      "summary": "The ranger who found the kayak. He knows every trail, every cabin, and the old pump house. He also had a public argument with Celeste about filming off-trail.",
+      "background": "Ward has patrolled Vesper Lake for twelve years. He controls access to the pump house and the ranger station. He was cited last year for failing to log a missing hiker, and the incident made him defensive.",
+      "motive": "Silence Celeste after she threatened to report him for harassment, or hide evidence of an illegal rental scheme.",
+      "alibi": "On the north-shore patrol from 20:30 to 23:30. The patrol radio logs three check-ins, but the trail is long and sparsely covered.",
+      "relationship": "Park ranger with access to the pump house and lake equipment.",
+      "pressure": "His previous missing-person case and a grudge against Celeste.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "How did you find the kayak?",
+          "answer": "Dawn patrol. It was drifting near the north reeds. I towed it in and found the phone in the dry bag. I called the sheriff. I didn't know whose it was until I saw the logo."
+        },
+        {
+          "id": "q2",
+          "text": "What happened between you and Celeste?",
+          "answer": "She filmed inside a closed nesting area. I told her to leave. She called me a petty bureaucrat. That was it. I didn't threaten her, despite what she told her followers."
+        },
+        {
+          "id": "q3",
+          "text": "You have a key to the pump house.",
+          "answer": "It's a maintenance building, not a prison. The padlock was broken by vandals. I haven't been inside in months. If someone used it, they didn't need my key."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see Dana Quill that night?",
+          "answer": "I saw her rental car on the service road around half nine. I assumed she was working late at the cabin. I didn't see her on the water. The lake was too calm for an accident, if you ask me."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "june-alvarez",
+      "name": "June Alvarez",
+      "role": "Neighbour across the cove",
+      "statement": "At about half nine I saw two women on the dock. One wore a yellow raincoat and was taller; the other was Celeste. Their voices carried over the water. I heard Celeste say, 'You can't just take it.' Then a thud. I thought something had fallen into the lake.",
+      "reliability": "High",
+      "summary": "Saw Celeste and a taller woman in a yellow raincoat arguing on the dock around 21:30.",
+      "notes": "Alvarez had binoculars and knew Celeste from previous visits."
+    },
+    {
+      "id": "owen-pike",
+      "name": "Owen Pike",
+      "role": "Lakeside Motor Inn clerk",
+      "statement": "Ms. Quill checked in at 20:50, but I didn't see her again until she came back at 23:55. Her rental car was not in the lot when I did my 21:30 round. She told me she was working in her room.",
+      "reliability": "High",
+      "summary": "Dana checked in early but her car and person were absent from the motel during the critical hours.",
+      "notes": "The motel's lot camera shows the empty space assigned to room 14."
+    },
+    {
+      "id": "copper-bartender",
+      "name": "Lena Ortiz",
+      "role": "Bartender",
+      "statement": "Noah Mercer was here from around nine to half past eleven. He had two beers and barely spoke. He kept checking his phone. He left just before midnight.",
+      "reliability": "High",
+      "summary": "Noah was at the Copper Dock bar throughout the critical window.",
+      "notes": "Ortiz has no connection to Celeste or the agency."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-blood",
+      "name": "Diluted Blood on the Dock",
+      "category": "Forensic",
+      "summary": "Blood at the dock matches Celeste and shows an attempt to wash the scene.",
+      "description": "The dock boards hold diluted blood matching Celeste Rios. Spatter direction is consistent with a blow near the water's edge. The blood was partially rinsed, and a mop was found in the boathouse with lake water and trace blood in its fibres.",
+      "location": "Cabin dock",
+      "analysis": "Celeste was injured at the dock, not in a kayak accident. Someone tried to clean the scene and moved her along the boathouse path.",
+      "tags": ["forensic", "blood", "scene"],
+      "relatedSuspects": ["dana-quill"],
+      "foundAt": "09:20"
+    },
+    {
+      "id": "e-oar",
+      "name": "Missing Kayak Oar",
+      "category": "Physical",
+      "summary": "A kayak oar with Celeste's blood and Dana's fingerprint was found behind the pump house.",
+      "description": "One oar from the kayak was missing from the dry bag. It was found behind the pump house with a bloodstain matching Celeste and a clear thumbprint belonging to Dana Quill. The oar's shaft has a hairline crack consistent with impact.",
+      "location": "Behind the old pump house",
+      "analysis": "The oar was likely the weapon. Dana's print places her at the object after the attack, and the blood ties it to the victim.",
+      "tags": ["physical", "weapon", "fingerprint"],
+      "relatedSuspects": ["dana-quill"],
+      "foundAt": "10:10"
+    },
+    {
+      "id": "e-car",
+      "name": "Rental Car GPS",
+      "category": "Digital",
+      "summary": "Dana's rental car was parked on the lake service road from 21:10 to 23:40.",
+      "description": "The rental company's telematics place Dana's car on the lake service road, 200 metres from the cabin, from 21:10:44 to 23:40:12. The car then returned to the Lakeside Motor Inn. Dana told the clerk she was working in her room.",
+      "location": "Rental car telematics",
+      "analysis": "Dana had opportunity and lied about her location. The timing brackets the murder and the staging of the kayak.",
+      "tags": ["digital", "timeline", "opportunity"],
+      "relatedSuspects": ["dana-quill"],
+      "foundAt": "11:00"
+    },
+    {
+      "id": "e-pump",
+      "name": "Pump House Evidence",
+      "category": "Forensic",
+      "summary": "Celeste's bracelet, fresh drag marks, and Dana's boot print were found in the old pump house.",
+      "description": "The disused pump house contains a fresh drag trail from the door to a maintenance pit. Celeste's silver bracelet is caught on the pit ladder. A boot print in the mud matches Dana's size and tread. A strand of yellow raincoat fabric is snagged on the broken padlock.",
+      "location": "Old pump house",
+      "analysis": "This is where Celeste was taken after the attack. The evidence links Dana's clothing and footwear to the scene.",
+      "tags": ["forensic", "body-site", "staging"],
+      "relatedSuspects": ["dana-quill"],
+      "foundAt": "10:40"
+    },
+    {
+      "id": "e-schedule",
+      "name": "Scheduled Social Posts",
+      "category": "Digital",
+      "summary": "Celeste's posts after 21:14 were scheduled in advance; her phone was never unlocked.",
+      "description": "Three posts went live at 21:14, 22:02 and 23:01 from Celeste's account. The phone's secure log shows no manual unlock after 20:52. The posts were scheduled through the agency's content tool under Dana Quill's login at 19:40.",
+      "location": "Social media management platform",
+      "analysis": "The posts were designed to create the impression Celeste was alive and posting. Dana controlled the scheduling account.",
+      "tags": ["digital", "staging", "timeline"],
+      "relatedSuspects": ["dana-quill", "sasha-voss"],
+      "foundAt": "12:10"
+    },
+    {
+      "id": "e-finance",
+      "name": "Agency Bank Transfers",
+      "category": "Documentary",
+      "summary": "Celeste's earnings were routed through a shell company controlled by Dana.",
+      "description": "Bank records show twelve transfers from Celeste's brand account to Northstar Talent Holdings, a shell company registered to Dana's brother. The total is $312,000 over eight months. Celeste requested the statements on Friday and emailed a lawyer for a Monday meeting.",
+      "location": "Bank and agency records",
+      "analysis": "This is a concrete embezzlement motive. Celeste was about to expose Dana and terminate the management contract.",
+      "tags": ["motive", "documentary", "finance"],
+      "relatedSuspects": ["dana-quill"],
+      "foundAt": "13:00"
+    },
+    {
+      "id": "e-raincoat",
+      "name": "Yellow Raincoat Fibre",
+      "category": "Forensic",
+      "summary": "A yellow synthetic fibre caught on a dock nail matches Dana's raincoat.",
+      "description": "A torn yellow fibre was recovered from a nail at the edge of the dock. It matches the synthetic raincoat found in Dana's motel room, which has a fresh tear at the hem. Dana told investigators she never visited the lake that night.",
+      "location": "Cabin dock",
+      "analysis": "The fibre places Dana's raincoat at the dock. Combined with the neighbour's description, it undermines her claim of staying in town.",
+      "tags": ["forensic", "transfer", "presence"],
+      "relatedSuspects": ["dana-quill"],
+      "foundAt": "11:30"
+    },
+    {
+      "id": "e-livestream",
+      "name": "Livestream Audio",
+      "category": "Digital",
+      "summary": "Celeste's final livestream captures a second voice saying 'put the phone down'.",
+      "description": "The livestream ends at 21:02. At 20:59, a female voice off-camera says, 'Put the phone down, Celeste. We can talk about this like adults.' The voice's cadence and tone match Dana Quill. A timestamped viewer comment reads: 'Who is that with her?'",
+      "location": "Archived livestream",
+      "analysis": "Dana was at the cabin before the attack, contradicting her motel alibi. The conversation was confrontational and Celeste was recording.",
+      "tags": ["digital", "presence", "audio"],
+      "relatedSuspects": ["dana-quill"],
+      "foundAt": "12:40"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "19:40",
+      "title": "Posts scheduled",
+      "detail": "Dana's login schedules three posts for the evening.",
+      "source": "Content platform",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill"]
+    },
+    {
+      "id": "t2",
+      "time": "20:50",
+      "title": "Dana checks into motel",
+      "detail": "Dana checks into room 14 but leaves the car unaccounted for.",
+      "source": "Motel clerk",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill"]
+    },
+    {
+      "id": "t3",
+      "time": "20:59",
+      "title": "Voice on livestream",
+      "detail": "A woman matching Dana's voice tells Celeste to put her phone down.",
+      "source": "Archived livestream",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill"]
+    },
+    {
+      "id": "t4",
+      "time": "21:10",
+      "title": "Rental car arrives",
+      "detail": "Dana's car is logged on the lake service road.",
+      "source": "Car telematics",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill"]
+    },
+    {
+      "id": "t5",
+      "time": "21:30",
+      "title": "Dock argument",
+      "detail": "A neighbour sees two women arguing; Celeste says, 'You can't just take it.'",
+      "source": "Witness: June Alvarez",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill", "celeste-rios"]
+    },
+    {
+      "id": "t6",
+      "time": "21:45",
+      "title": "Celeste killed",
+      "detail": "Blunt-force injury at the dock; blood is diluted and partially washed.",
+      "source": "Forensic estimate",
+      "verified": true,
+      "disputed": false,
+      "actors": ["celeste-rios", "dana-quill"]
+    },
+    {
+      "id": "t7",
+      "time": "22:10",
+      "title": "Body hidden",
+      "detail": "Drag marks lead to the old pump house.",
+      "source": "Forensic evidence",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill"]
+    },
+    {
+      "id": "t8",
+      "time": "22:30",
+      "title": "Kayak launched",
+      "detail": "The kayak is set adrift with Celeste's phone in the dry bag.",
+      "source": "Kayak and phone evidence",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill"]
+    },
+    {
+      "id": "t9",
+      "time": "23:40",
+      "title": "Dana leaves the lake",
+      "detail": "Her rental car returns to the motel.",
+      "source": "Car telematics",
+      "verified": true,
+      "disputed": false,
+      "actors": ["dana-quill"]
+    },
+    {
+      "id": "t10",
+      "time": "07:10",
+      "title": "Kayak found",
+      "detail": "Ranger Ward tows in the empty kayak and finds the phone.",
+      "source": "Ranger log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["felix-ward"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-dana-motel",
+      "title": "The motel alibi",
+      "detail": "Dana says she was at the motel from 21:00. The clerk saw her car missing, and telematics place it on the lake service road from 21:10 to 23:40. A livestream also captures her voice at 20:59.",
+      "suspectId": "dana-quill",
+      "evidenceIds": ["e-car", "e-livestream"],
+      "questions": ["dana-quill:q1", "dana-quill:q2"],
+      "hint": "The rental car has its own memory. Compare it with the motel clerk's rounds."
+    },
+    {
+      "id": "c-dana-raincoat",
+      "title": "The yellow raincoat",
+      "detail": "Dana says she never visited the lake. A yellow fibre matching her torn raincoat was caught on the dock, and a neighbour saw a taller woman in a yellow raincoat arguing with Celeste.",
+      "suspectId": "dana-quill",
+      "evidenceIds": ["e-raincoat"],
+      "questions": ["dana-quill:q1"],
+      "hint": "The neighbour's description and the torn hem point to the same person."
+    },
+    {
+      "id": "c-dana-money",
+      "title": "Business expenses",
+      "detail": "Dana calls the transfers routine business. $312,000 went to a shell company owned by her brother, and Celeste had contacted a lawyer for Monday.",
+      "suspectId": "dana-quill",
+      "evidenceIds": ["e-finance"],
+      "questions": ["dana-quill:q4"],
+      "hint": "Follow the money and the Monday meeting."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "embezzlement",
+      "text": "Silence Celeste before she exposed $312,000 in embezzlement and terminated the management contract."
+    },
+    {
+      "id": "jealousy",
+      "text": "Punish Celeste for a romantic betrayal with Noah."
+    },
+    {
+      "id": "inheritance",
+      "text": "Inherit Celeste's social media accounts and brand deals."
+    },
+    {
+      "id": "ranger",
+      "text": "Protect the lake's illegal rental scheme from Celeste's investigation."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "dock",
+      "text": "Confronted Celeste at the dock, struck her with a kayak oar, hid the body in the old pump house, and set the empty kayak adrift to fake a drowning."
+    },
+    {
+      "id": "drown",
+      "text": "Drugged Celeste, put her in the kayak, and capsized it in deep water."
+    },
+    {
+      "id": "pumphouse",
+      "text": "Locked Celeste in the pump house and left her to be found after the weekend."
+    },
+    {
+      "id": "noah",
+      "text": "Used Noah's bar alibi to cover a jealous attack, then staged the kayak with his camera equipment."
+    }
+  ],
+  "hints": [
+    "The posts after 21:14 came from a scheduler, not from Celeste's phone. Check who controlled the schedule.",
+    "The dock blood and the drag marks tell a different story from a kayaking accident. Follow the path around the boathouse.",
+    "The rental car's GPS and the motel clerk contradict Dana's story. Then ask why she needed to be at the lake."
+  ],
+  "solution": {
+    "culpritId": "dana-quill",
+    "motiveId": "embezzlement",
+    "methodId": "dock",
+    "evidenceIds": ["e-oar", "e-car", "e-pump"],
+    "headline": "The manager erased the influencer and kept posting.",
+    "summary": "Dana Quill attacked Celeste Rios at the dock, hid her body in the old pump house, and set the kayak adrift to stage a drowning. She had embezzled $312,000 and Celeste was about to expose her. Dana used the content scheduler to keep Celeste's account active after the murder.",
+    "explanation": [
+      "Celeste's blood was found on the dock and partially washed away. A drag trail led to the old pump house, where her bracelet, fresh drag marks, Dana's boot print, and a yellow raincoat fibre were recovered. The missing kayak oar, bearing Celeste's blood and Dana's fingerprint, was found behind the pump house.",
+      "Dana claimed she spent the night at the Lakeside Motor Inn. Her rental car's telematics place it on the lake service road from 21:10 to 23:40, and the motel clerk saw the parking space empty. A livestream archived at 20:59 captures Dana's voice telling Celeste to put the phone down.",
+      "The posts after 21:14 were scheduled in advance under Dana's agency login; Celeste's phone was never manually unlocked after 20:52. The kayak's footrests were set for Dana's height, not Celeste's. The scene was staged to look like a solo paddling accident.",
+      "The motive is financial. $312,000 had been moved from Celeste's brand account to a shell company owned by Dana's brother. Celeste had obtained the statements and emailed a lawyer for a Monday meeting. Dana killed her to stop the exposure and keep control of the business."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "20:59",
+        "event": "Dana confronts Celeste on the livestream; Celeste keeps recording."
+      },
+      {
+        "time": "21:30",
+        "event": "The argument moves to the dock. A neighbour hears Celeste say, 'You can't just take it.'"
+      },
+      {
+        "time": "21:45",
+        "event": "Dana strikes Celeste with a kayak oar and hides the body in the pump house."
+      },
+      {
+        "time": "22:30",
+        "event": "Dana sets the empty kayak adrift with Celeste's phone inside, then returns to the motel."
+      }
+    ],
+    "redHerring": "Noah Mercer argued with Celeste and had a business motive, but the bartender places him at the Copper Dock throughout the critical window. Sasha Voss had social media access but was not at the lake and did not control the scheduler. Ranger Ward had pump-house keys and a grudge, but his patrol log and radio checks place him on the north shore. Dana's car, raincoat, fingerprint, and financial motive converge."
+  }
+}

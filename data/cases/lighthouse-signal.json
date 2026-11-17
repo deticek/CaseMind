@@ -1,0 +1,450 @@
+{
+  "id": "lighthouse-signal",
+  "slug": "the-lighthouse-signal",
+  "title": "The Lighthouse Signal",
+  "subtitle": "The storm swallowed the light. It also swallowed the truth about how the keeper died.",
+  "difficulty": "medium",
+  "estimatedMinutes": 8,
+  "location": "Cape Brannock Lighthouse, Northumberland",
+  "date": "Wednesday, 1 April 2026",
+  "timeWindow": "21:30 — 23:40",
+  "description": "Keeper Elias Voss was found at the bottom of the lighthouse stairs during a violent storm. The assistant keeper says he heard an argument, then a crash. The death looks like a fall — until the autopsy finds two impact wounds and a brass lamp with blood in its seam. The island's only boat pilot has a story too, and it does not match her GPS.",
+  "briefing": "Cape Brannock is cut off by weather until morning. Elias Voss, the keeper, was found dead at the base of the spiral stairs at 23:15. His sister Mara was supposedly at the mainland inn. The assistant keeper, Tom Ridley, was in the generator shed. The boat pilot, Cora Bell, ferried someone to the island — but her log says the wrong time. Find out who used the storm as cover.",
+  "cover": {
+    "accent": "#5E91A8",
+    "secondary": "#274A5A",
+    "motif": "lighthouse"
+  },
+  "scene": {
+    "summary": "The lighthouse is cold and echoing in the storm. Elias Voss lies at the foot of the spiral stairs, one arm across the bottom step. A brass storm lamp lies on its side near the supply crate, its glass intact. Rainwater has pooled across the stone floor, washing away any footprints near the door.",
+    "details": [
+      "The victim has two impact wounds on the back of the skull, inconsistent with a single fall.",
+      "A heavy brass storm lamp was found behind a supply crate. Its base is dented and blood is trapped in the seam.",
+      "The lighthouse logbook's last entry is 22:20: 'Mara here. Wants to talk about the sale.'",
+      "A wet boot print under the stairs is a women's size 39, matching Mara Voss's boots.",
+      "The lighthouse generator failed for seven minutes around 22:40; the backup lamp was manually switched on.",
+      "The island's boat GPS shows Cora Bell's launch leaving at 22:04 and returning at 23:02."
+    ],
+    "initialObservations": [
+      "Wounds inconsistent with fall",
+      "Blood on brass lamp",
+      "Boat GPS contradicts pilot's statement"
+    ]
+  },
+  "victim": {
+    "name": "Elias Voss",
+    "label": "Victim",
+    "age": 64,
+    "occupation": "Lighthouse keeper",
+    "status": "Deceased — 22:45 (estimated)",
+    "background": "Elias kept Cape Brannock for twenty-six years. He was negotiating to sell the island's cottage and surrounding land to a conservation trust. His sister Mara believed the land should stay in the family.",
+    "forensic": "Cause of death is a traumatic brain injury from a blunt object. Two separate impact marks indicate repeated blows rather than a fall. A faint rectangular contusion matches the base of the brass lamp. Time of death is between 22:30 and 23:00."
+  },
+  "suspects": [
+    {
+      "id": "mara-voss",
+      "name": "Mara Voss",
+      "role": "Victim's sister",
+      "age": 57,
+      "occupation": "Antiques dealer",
+      "summary": "Elias's younger sister, sharp-tongued and financially strained. She claims she spent the night at the mainland Anchor Inn, but her name appears in the lighthouse log.",
+      "background": "Mara and Elias inherited the island together. Elias wanted to sell his share to a conservation trust; Mara wanted to develop it. Their dispute had grown bitter. Her antiques business is close to bankruptcy.",
+      "motive": "Stop Elias from selling the family land to the trust, and secure the property for herself.",
+      "alibi": "At the Anchor Inn from 21:00 until 23:30. She says she never crossed to the island that night.",
+      "relationship": "Sister and co-heir to the island property.",
+      "pressure": "The sale contract was due to be signed Friday.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you last night?",
+          "answer": "At the Anchor Inn. I had soup, a glass of wine, and an early night. The storm kept everyone in. I didn't go to the island. I don't know why Elias would write that in his log."
+        },
+        {
+          "id": "q2",
+          "text": "Your brother wrote that you were there at 22:20.",
+          "answer": "He was drinking again. He wrote all sorts of things. Or someone else wrote it. I wasn't there, and I certainly wasn't arguing with him about the sale."
+        },
+        {
+          "id": "q3",
+          "text": "The boat pilot says she brought you over. Why would she lie?",
+          "answer": "Cora? She's confused. She ferried supplies earlier. Maybe she saw someone else in the rain. I've known Cora for years; she has no reason to lie about me."
+        },
+        {
+          "id": "q4",
+          "text": "You inherit the island if Elias dies before the sale.",
+          "answer": "I inherit a half-share, not the whole island. And I loved my brother, even when he was impossible. You are looking at a family quarrel and calling it murder."
+        }
+      ]
+    },
+    {
+      "id": "tom-ridley",
+      "name": "Tom Ridley",
+      "role": "Assistant keeper",
+      "age": 31,
+      "occupation": "Assistant lighthouse keeper",
+      "summary": "Elias's assistant for three years. He found the body and insists he heard Mara's voice before the crash. He was in the generator shed during the failure.",
+      "background": "Tom maintains the generator and the fog signal. Elias had recently threatened to dismiss him over repeated lateness. Tom admits they argued, but says it was about the generator, not the land.",
+      "motive": "Keep his job, or retaliate for a threatened dismissal.",
+      "alibi": "In the generator shed from 22:15 to 22:55, trying to restore power. His log entries are time-stamped.",
+      "relationship": "Assistant keeper and witness to the argument.",
+      "pressure": "Elias planned to replace him in the spring.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What did you hear before the crash?",
+          "answer": "Elias shouting. A woman's voice shouting back. I thought it was Mara; she has a very distinctive way of saying his name. Then a heavy thud. I was busy with the generator and assumed something had fallen."
+        },
+        {
+          "id": "q2",
+          "text": "Why didn't you investigate?",
+          "answer": "The generator was failing. If the light went out in that storm, ships could hit the rocks. I switched to backup and only went into the tower at quarter past eleven. That's when I found him."
+        },
+        {
+          "id": "q3",
+          "text": "You had a motive to resent Elias.",
+          "answer": "He was going to fire me. I was angry, but I needed the job. Killing him would leave me stranded on an island with a dead man and no income. Use your head."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see a boat?",
+          "answer": "I saw a launch heading back toward the harbor just before eleven. It was Cora's boat; I'd know that engine anywhere. I assumed she was taking Mara back. I didn't see who was inside."
+        }
+      ]
+    },
+    {
+      "id": "cora-bell",
+      "name": "Cora Bell",
+      "role": "Boat pilot",
+      "age": 42,
+      "occupation": "Island ferry and charter pilot",
+      "summary": "Cora knows every current around Cape Brannock. She says she made one late-night run to collect Mara, but her GPS says the boat was out for nearly an hour.",
+      "background": "Cora runs the island launch and occasional private charters. She has known the Voss family for years. She is in debt and has been known to bend licensing rules for cash jobs.",
+      "motive": "Money, if she was paid to ferry Mara and lie about the time.",
+      "alibi": "At the harbor until 23:00, then a single run to the island to collect Mara at 23:10.",
+      "relationship": "Ferry pilot and long-time family acquaintance.",
+      "pressure": "Her GPS and fuel records do not match her statement.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "When did you take Mara to the island?",
+          "answer": "I didn't take her there. I brought her back at ten past eleven. She called me from the lighthouse and asked for a pickup. She'd been there for hours."
+        },
+        {
+          "id": "q2",
+          "text": "Your GPS shows the boat leaving at 22:04 and returning at 23:02.",
+          "answer": "The GPS is old. It drops out in storms. I was at the harbor, doing paperwork. The launch was tied up."
+        },
+        {
+          "id": "q3",
+          "text": "Why would Mara call you for a pickup if she wasn't there?",
+          "answer": "Ask her. I only know what she told me. She was upset. She said there had been an accident."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see Elias alive when you arrived?",
+          "answer": "No. I waited outside. Mara came down the path alone, carrying a bag. She paid me double to forget the earlier trip. I should have called the police."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "harbor-master",
+      "name": "Niall Brody",
+      "role": "Harbor master",
+      "statement": "I logged Cora Bell's launch out at 22:04 and back at 23:02. The weather was foul, but she's experienced. I saw two figures get out at the harbor. One walked toward the inn and one stayed to tie up the boat.",
+      "reliability": "High",
+      "summary": "Cora's boat left at 22:04 and returned at 23:02 with two people aboard.",
+      "notes": "Brody's log is independent of the GPS and kept in the harbor office."
+    },
+    {
+      "id": "inn-clerk",
+      "name": "Sasha Doyle",
+      "role": "Anchor Inn receptionist",
+      "statement": "Ms. Voss checked in at 21:10, but I didn't see her after that. Her keycard was not used after 21:20. The kitchen closed at 21:30. I can't say whether she was in her room.",
+      "reliability": "Medium",
+      "summary": "Mara checked in, but her keycard was not used after 21:20.",
+      "notes": "The inn's side door has no camera and opens onto the harbor path."
+    },
+    {
+      "id": "fisherman",
+      "name": "Peter Crane",
+      "role": "Lobster fisherman",
+      "statement": "Cora's launch passed me near the point around half ten. There were two people in it. The woman in the stern wore a yellow oilskin. Cora doesn't own a yellow oilskin; Mara Voss does.",
+      "reliability": "High",
+      "summary": "Saw a woman in Mara's distinctive yellow oilskin on Cora's launch around 22:30.",
+      "notes": "Crane knows both women and has no connection to the inheritance dispute."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-wounds",
+      "name": "Autopsy Findings",
+      "category": "Forensic",
+      "summary": "Two impact wounds show the keeper was struck twice, not killed by a fall.",
+      "description": "The victim has two distinct blunt-force injuries on the back of the skull, one above the other, with parallel edges. There are no fractures consistent with a stair fall. A rectangular contusion on the shoulder matches the base of a storm lamp.",
+      "location": "County morgue",
+      "analysis": "This was homicide staged as a fall. The attacker struck from behind, twice, with a heavy rectangular object.",
+      "tags": ["forensic", "homicide", "staging"],
+      "relatedSuspects": ["mara-voss"],
+      "foundAt": "09:30"
+    },
+    {
+      "id": "e-lamp",
+      "name": "Brass Storm Lamp",
+      "category": "Physical",
+      "summary": "A dented brass lamp was hidden behind a supply crate; blood is trapped in its seam.",
+      "description": "The lighthouse's brass storm lamp has a dented base matching the victim's shoulder contusion. Dried blood is trapped in the base seam. The lamp was wiped on the outside but not cleaned inside. A partial fingerprint on the underside belongs to Mara Voss.",
+      "location": "Supply crate at the stair base",
+      "analysis": "This is the murder weapon. The attempt to hide and wipe it indicates deliberate staging.",
+      "tags": ["physical", "weapon", "fingerprint"],
+      "relatedSuspects": ["mara-voss"],
+      "foundAt": "23:35"
+    },
+    {
+      "id": "e-boat",
+      "name": "Launch GPS Record",
+      "category": "Digital",
+      "summary": "Cora's boat left at 22:04 and returned at 23:02, contradicting her single 23:10 trip.",
+      "description": "The launch's GPS logger records departure at 22:04:16 and return at 23:02:48. The track goes directly to Cape Brannock and waits offshore for 47 minutes. It does not support Cora's claim that she was at the harbor until 23:00.",
+      "location": "Cora Bell's launch",
+      "analysis": "Cora lied about the timing. The boat could have carried Mara to the island before the murder and brought her back afterward.",
+      "tags": ["digital", "timeline", "boat"],
+      "relatedSuspects": ["mara-voss", "cora-bell"],
+      "foundAt": "08:50"
+    },
+    {
+      "id": "e-logbook",
+      "name": "Lighthouse Logbook",
+      "category": "Documentary",
+      "summary": "Elias wrote at 22:20: 'Mara here. Wants to talk about the sale.'",
+      "description": "The lighthouse logbook contains Elias's handwriting: '22:20 — Mara here. Wants to talk about the sale. Told her no. She is furious.' The entry is the last one in his hand. The book was found open on the watch desk.",
+      "location": "Watch room desk",
+      "analysis": "This places Mara on the island before the murder and establishes the subject of their argument.",
+      "tags": ["documentary", "timeline", "motive"],
+      "relatedSuspects": ["mara-voss"],
+      "foundAt": "23:30"
+    },
+    {
+      "id": "e-deed",
+      "name": "Conservation Sale Contract",
+      "category": "Documentary",
+      "summary": "Elias was selling his share to a trust, cutting Mara out of the island's future.",
+      "description": "A draft sale contract dated Friday would transfer Elias's share of Cape Brannock to the Northumberland Conservation Trust for £1.8 million. The contract excludes Mara's cottage and development rights but prevents her from selling the island as a resort. Mara's antiques business is named in a separate bankruptcy filing.",
+      "location": "Victim's desk",
+      "analysis": "This is a concrete financial motive. The sale would destroy Mara's plan to develop the island and leave her with debts.",
+      "tags": ["motive", "documentary", "inheritance"],
+      "relatedSuspects": ["mara-voss"],
+      "foundAt": "23:45"
+    },
+    {
+      "id": "e-boot",
+      "name": "Wet Boot Print",
+      "category": "Forensic",
+      "summary": "A women's size 39 boot print under the stairs matches Mara's yellow-oilskin outfit.",
+      "description": "A partial wet print on the stone floor under the stairs matches a size 39 walking boot with a distinctive diamond tread. Mara Voss's boots, recovered from the inn, have the same tread and island mud in the sole. The print was protected by the overhanging stair.",
+      "location": "Lighthouse stair base",
+      "analysis": "Mara was inside the lighthouse, not merely on the path. The mud matches the island's clay.",
+      "tags": ["forensic", "footprint", "presence"],
+      "relatedSuspects": ["mara-voss"],
+      "foundAt": "23:40"
+    },
+    {
+      "id": "e-generator",
+      "name": "Generator Shed Log",
+      "category": "Documentary",
+      "summary": "Tom Ridley was in the generator shed during the murder window.",
+      "description": "The generator log records Tom's entries at 22:16, 22:31, and 22:52, along with a radio check at 22:25. The shed is 60 metres from the lighthouse and has no view of the stairwell. His wet-weather gear was hung by the door and remained soaked.",
+      "location": "Generator shed",
+      "analysis": "Tom had no opportunity to reach the lighthouse, kill Elias, and return without leaving the shed logs and radio records. The timing is too tight.",
+      "tags": ["alibi", "documentary", "timeline"],
+      "relatedSuspects": ["tom-ridley"],
+      "foundAt": "09:10"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "21:10",
+      "title": "Mara checks into the inn",
+      "detail": "She takes a room but leaves through the side door unseen.",
+      "source": "Inn keycard",
+      "verified": true,
+      "disputed": false,
+      "actors": ["mara-voss"]
+    },
+    {
+      "id": "t2",
+      "time": "22:04",
+      "title": "Cora's launch leaves harbor",
+      "detail": "GPS records the boat heading toward Cape Brannock.",
+      "source": "Launch GPS",
+      "verified": true,
+      "disputed": false,
+      "actors": ["cora-bell", "mara-voss"]
+    },
+    {
+      "id": "t3",
+      "time": "22:20",
+      "title": "Mara enters the lighthouse",
+      "detail": "Elias's logbook records her arrival and their argument about the sale.",
+      "source": "Logbook",
+      "verified": true,
+      "disputed": false,
+      "actors": ["mara-voss", "elias-voss"]
+    },
+    {
+      "id": "t4",
+      "time": "22:35",
+      "title": "Argument heard",
+      "detail": "Tom hears Elias and a woman shouting, then a heavy thud.",
+      "source": "Witness: Tom Ridley",
+      "verified": true,
+      "disputed": false,
+      "actors": ["mara-voss", "elias-voss"]
+    },
+    {
+      "id": "t5",
+      "time": "22:45",
+      "title": "Elias dies",
+      "detail": "Two blows from the brass lamp cause fatal brain injury.",
+      "source": "Medical examiner",
+      "verified": true,
+      "disputed": false,
+      "actors": ["elias-voss"]
+    },
+    {
+      "id": "t6",
+      "time": "22:55",
+      "title": "Mara boards the launch",
+      "detail": "A fisherman sees a woman in a yellow oilskin aboard Cora's boat.",
+      "source": "Witness: Peter Crane",
+      "verified": true,
+      "disputed": false,
+      "actors": ["mara-voss", "cora-bell"]
+    },
+    {
+      "id": "t7",
+      "time": "23:02",
+      "title": "Launch returns",
+      "detail": "Two figures disembark at the harbor; one walks toward the inn.",
+      "source": "Harbor master and GPS",
+      "verified": true,
+      "disputed": false,
+      "actors": ["mara-voss", "cora-bell"]
+    },
+    {
+      "id": "t8",
+      "time": "23:15",
+      "title": "Body found",
+      "detail": "Tom finds Elias at the stair base and radios for help.",
+      "source": "Witness: Tom Ridley",
+      "verified": true,
+      "disputed": false,
+      "actors": ["tom-ridley"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-mara-inn",
+      "title": "The inn alibi",
+      "detail": "Mara says she never left the Anchor Inn. Her brother's log places her at the lighthouse at 22:20, and the fisherman saw a woman in her yellow oilskin on Cora's launch.",
+      "suspectId": "mara-voss",
+      "evidenceIds": ["e-logbook", "e-boat"],
+      "questions": ["mara-voss:q1", "mara-voss:q2"],
+      "hint": "Compare the logbook entry and the fisherman's description with the inn's keycard record."
+    },
+    {
+      "id": "c-mara-fall",
+      "title": "A fall with two impacts",
+      "detail": "Mara calls it a family quarrel, not murder. The autopsy shows two separate blows, and a dented brass lamp with her fingerprint and Elias's blood was hidden behind a supply crate.",
+      "suspectId": "mara-voss",
+      "evidenceIds": ["e-wounds", "e-lamp"],
+      "questions": ["mara-voss:q4"],
+      "hint": "The body and the weapon tell the same story: this was not a fall."
+    },
+    {
+      "id": "c-cora-lie",
+      "title": "The boat pilot's missing hour",
+      "detail": "Cora says she collected Mara at 23:10. The launch GPS records a trip from 22:04 to 23:02, and the harbor master logged the same departure and return. She was paid to lie.",
+      "suspectId": "cora-bell",
+      "evidenceIds": ["e-boat"],
+      "questions": ["cora-bell:q1", "cora-bell:q2"],
+      "hint": "Two independent systems record the launch's real trip. The discrepancy is not a GPS glitch."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "land",
+      "text": "Stop Elias from selling the island to a conservation trust and preserve her inheritance and development plan."
+    },
+    {
+      "id": "debts",
+      "text": "Take Elias's savings to cover her failing antiques business."
+    },
+    {
+      "id": "jealousy",
+      "text": "Punish Elias for a long-standing family betrayal."
+    },
+    {
+      "id": "job",
+      "text": "Help Tom Ridley keep his job as assistant keeper."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "lamp",
+      "text": "Confronted Elias over the sale, struck him twice with the brass storm lamp, staged a fall, and left on Cora's boat."
+    },
+    {
+      "id": "push",
+      "text": "Pushed Elias down the lighthouse stairs during an argument and left before Tom returned."
+    },
+    {
+      "id": "generator",
+      "text": "Caused the generator failure to create darkness, then attacked Elias at the stairs."
+    },
+    {
+      "id": "storm",
+      "text": "Lured Elias outside during the storm and let the wind throw him from the gallery."
+    }
+  ],
+  "hints": [
+    "Falls do not strike a person twice. The autopsy and the lamp are the first thread.",
+    "Mara's alibi depends on never leaving the inn. Check the lighthouse logbook and the boat's actual track.",
+    "Cora Bell's story has one trip. The GPS and harbor master record another. Find out what happened during the missing hour."
+  ],
+  "solution": {
+    "culpritId": "mara-voss",
+    "motiveId": "land",
+    "methodId": "lamp",
+    "evidenceIds": ["e-wounds", "e-lamp", "e-boat"],
+    "headline": "The sister used the storm to turn murder into a fall.",
+    "summary": "Mara Voss crossed to Cape Brannock on Cora Bell's launch, confronted Elias about the conservation sale, struck him twice with a brass storm lamp, and staged a fall. Cora lied about the time for money.",
+    "explanation": [
+      "The autopsy shows two separate impact wounds, which cannot be explained by a single fall down the stairs. A dented brass storm lamp matching the wounds was hidden behind a supply crate, with Elias's blood in its seam and Mara's fingerprint on the underside.",
+      "Elias's logbook records Mara's arrival at 22:20 and their argument about the sale. Tom Ridley heard the shouting and a heavy thud. Mara had told investigators she never left the Anchor Inn.",
+      "Cora Bell's statement that she collected Mara at 23:10 is contradicted by her launch GPS and the harbor master. The boat left at 22:04 and returned at 23:02; a fisherman saw a woman in Mara's yellow oilskin aboard. Cora was paid to lie.",
+      "The sale contract gave Mara a direct financial motive. Elias was transferring his share to the conservation trust, blocking her development plans while her antiques business slid toward bankruptcy. She killed him to stop the deal and claim the island."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "21:20",
+        "event": "Mara leaves the inn through the side door and meets Cora at the harbor."
+      },
+      {
+        "time": "22:20",
+        "event": "She reaches the lighthouse and argues with Elias about the sale."
+      },
+      {
+        "time": "22:35",
+        "event": "She strikes him twice with the brass lamp and stages a fall at the stairs."
+      },
+      {
+        "time": "22:55",
+        "event": "She boards Cora's launch and returns to the mainland, paying Cora to lie about the time."
+      }
+    ],
+    "redHerring": "Tom Ridley had been threatened with dismissal, but his generator log and radio checks place him away from the lighthouse. Cora Bell lied about the boat trip, but she was an accomplice after the fact, not the killer. The physical evidence — the two wounds, the lamp, the boot print, and the logbook — points to Mara."
+  }
+}

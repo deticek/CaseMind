@@ -1,0 +1,484 @@
+{
+  "id": "death-manor",
+  "slug": "death-at-the-manor",
+  "title": "Death at the Manor",
+  "subtitle": "Lord Ashcroft raised a toast to his family. Forty minutes later, he was dead.",
+  "difficulty": "medium",
+  "estimatedMinutes": 7,
+  "location": "Wrenfield Manor, Oxfordshire",
+  "date": "Saturday, 21 March 2026",
+  "timeWindow": "21:45 — 23:00",
+  "description": "After a tense family dinner, Lord Edmund Ashcroft retired to his study with a glass of brandy. He was found dead less than an hour later. The doctor calls it heart failure. The brandy glass says otherwise. Four people stand to gain from his death — and one of them wrote the death certificate.",
+  "briefing": "Lord Ashcroft, 68, collapsed in his study at approximately 22:40 and was pronounced dead by his personal physician, Dr. Julian Croft. The family is grieving, the will is disputed, and the doctor is unusually eager to sign the certificate. The house is snowed in until morning. No one has left.",
+  "cover": {
+    "accent": "#A56B4F",
+    "secondary": "#5B3428",
+    "motif": "manor"
+  },
+  "scene": {
+    "summary": "The study is warm, wood-panelled, and thick with the smell of peat smoke. Lord Ashcroft lies beside his leather chair, one hand on the rug. A crystal brandy glass sits on the side table, half empty. The fire has burned low.",
+    "details": [
+      "The victim's face is flushed; there is nausea staining his shirt cuff and a faint pulse had been absent for some time before help arrived.",
+      "A crystal brandy decanter stands on the sideboard. The glass on the table has a bitter, medicinal after-odour.",
+      "The victim's heart medication bottle is on the desk. The capsules inside do not match the label.",
+      "A physician's bag sits in the hall outside the study. Its clasp is open.",
+      "The garden door was unlocked, despite the snow."
+    ],
+    "initialObservations": [
+      "Symptoms suggest poisoning",
+      "Medical bag outside the study",
+      "Snow disturbed beneath the garden door"
+    ]
+  },
+  "victim": {
+    "name": "Lord Edmund Ashcroft",
+    "label": "Victim",
+    "age": 68,
+    "occupation": "Landowner and financier",
+    "status": "Deceased — 22:47",
+    "background": "Edmund inherited Wrenfield Manor at thirty and built a fortune in agricultural land. He was exacting with money, estranged from part of his family, and increasingly suspicious that someone had been forging his signature.",
+    "forensic": "Cause of death is digitalis toxicity. The concentration in the brandy glass is high enough to stop a healthy heart. The victim's own heart medication is present in the study, but the capsules have been replaced with a stronger dose."
+  },
+  "suspects": [
+    {
+      "id": "julian-croft",
+      "name": "Dr. Julian Croft",
+      "role": "Family physician",
+      "age": 52,
+      "occupation": "General practitioner",
+      "summary": "The Ashcroft family doctor for twenty years. Calm, well spoken, and the first person to pronounce the death. He also stands to lose everything if Edmund's land audit goes ahead.",
+      "background": "Croft has a private practice and a gambling problem known only to his bank. Edmund recently discovered that several land-transfer documents bore his forged signature. The transfers benefited a shell company linked to Croft.",
+      "motive": "Silence Edmund before the forged land transfers could be reported to the authorities.",
+      "alibi": "Says he left the manor at 22:05 after checking on Edmund and drove home.",
+      "relationship": "Family physician and secret business associate of the victim.",
+      "pressure": "He signed the death certificate before the police arrived.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "When did you last see Lord Ashcroft alive?",
+          "answer": "At about ten o'clock. I looked in on him in the study, said goodnight, and left through the front hall. He was in good spirits. A little flushed from the wine, nothing more."
+        },
+        {
+          "id": "q2",
+          "text": "What time did you leave the manor?",
+          "answer": "Just after ten. Perhaps five past. I drove straight home. The roads were already icing over, so I took my time."
+        },
+        {
+          "id": "q3",
+          "text": "Why is your medical bag open outside the study?",
+          "answer": "I treated him when I found him. I opened the bag in the hall, then went to call the ambulance. I never took it into the study. There was nothing in it that could have harmed him."
+        },
+        {
+          "id": "q4",
+          "text": "Lord Ashcroft's desk contains letters about forged land transfers signed with your name.",
+          "answer": "He was confused. He accused the wrong people. I handled some of his business, yes, but with his consent. A signature is easy to dispute once a man is dead."
+        }
+      ]
+    },
+    {
+      "id": "vivienne-ashcroft",
+      "name": "Lady Vivienne Ashcroft",
+      "role": "Widow",
+      "age": 45,
+      "occupation": "Arts patron",
+      "summary": "Elegant and remote, Vivienne married Edmund eight years ago. Their marriage had cooled, but she remained the principal beneficiary of his estate.",
+      "background": "Vivienne brought social connections and a failing gallery into the marriage. Edmund controlled the money. She was in the drawing room during the relevant hour, though no one watched her continuously.",
+      "motive": "Inheritance and freedom from a controlling marriage.",
+      "alibi": "In the drawing room with Clara from 22:00 until the body was found, except for a brief visit to the washroom.",
+      "relationship": "Wife of the victim; beneficiary of his will.",
+      "pressure": "The will leaves her the manor, but only if the estate passes probate intact.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you when your husband died?",
+          "answer": "In the drawing room, pretending to read. Clara was with me. I went to the washroom for perhaps five minutes. I heard nothing from the study."
+        },
+        {
+          "id": "q2",
+          "text": "Who benefits from his death?",
+          "answer": "I do, financially. And Clara receives a trust. The estate is complicated. But I did not kill him for a house I already live in."
+        },
+        {
+          "id": "q3",
+          "text": "Did you know about the forged land transfers?",
+          "answer": "Edmund mentioned them at dinner. He said he would 'deal with the doctor' after dessert. Julian went pale. I thought Edmund meant a lawsuit, not a death."
+        },
+        {
+          "id": "q4",
+          "text": "What was in the brandy?",
+          "answer": "I don't know. Thomas poured it. Edmund always drank the same thing after dinner. He said it settled his heart."
+        }
+      ]
+    },
+    {
+      "id": "clara-ashcroft",
+      "name": "Clara Ashcroft",
+      "role": "Niece",
+      "age": 26,
+      "occupation": "Architecture student",
+      "summary": "Edmund's outspoken niece and the only family member who openly argued with him. She was named in a trust but had recently been cut out of the main estate.",
+      "background": "Clara grew up at Wrenfield after her parents died. Edmund treated her like a daughter until she refused an arranged marriage to a business partner's son. Their relationship deteriorated.",
+      "motive": "Revenge for being disinherited, or financial desperation.",
+      "alibi": "In the drawing room with Vivienne from 22:00, though she admits she stepped onto the terrace for air near 22:20.",
+      "relationship": "Niece and former heir; recently removed from the will.",
+      "pressure": "She was heard shouting at Edmund during dinner.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about the argument at dinner.",
+          "answer": "He called me ungrateful. I called him a tyrant. That was the extent of it. I went to my room before he went to the study, then joined Vivienne in the drawing room."
+        },
+        {
+          "id": "q2",
+          "text": "You stepped outside. Where did you go?",
+          "answer": "Onto the terrace. I wanted cold air, not a murder weapon. I saw the doctor's car still in the drive. I thought he had already left. It was there until nearly quarter to eleven."
+        },
+        {
+          "id": "q3",
+          "text": "Were you written out of the will?",
+          "answer": "Yes. He told me at dinner. I was furious, but I have my own plans. I don't need Wrenfield. I certainly don't need it enough to poison him."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see Dr. Croft after dinner?",
+          "answer": "I saw a man in the east corridor around quarter past ten. Dark coat, bag in hand. I assumed it was Croft. He told us later that he'd left at ten."
+        }
+      ]
+    },
+    {
+      "id": "ada-finch",
+      "name": "Ada Finch",
+      "role": "Housekeeper",
+      "age": 61,
+      "occupation": "Housekeeper",
+      "summary": "She has run Wrenfield for thirty years. Fiercely loyal to Edmund, she knew every secret in the house — including who was drinking too much and who owed money.",
+      "background": "Ada's late husband worked on the estate. She has access to every room and knows the household routines. Her son has significant medical debts, which Edmund recently refused to help with.",
+      "motive": "Resentment over Edmund refusing to help her son, plus access to the study.",
+      "alibi": "In the kitchen from 21:45 until she heard Lady Vivienne scream at 22:55.",
+      "relationship": "Long-serving housekeeper and keeper of household secrets.",
+      "pressure": "Her son's debts have been discussed in the village.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Who had access to the study last night?",
+          "answer": "Lord Ashcroft, the family, and Dr. Croft. The garden door was locked before dinner; I checked it myself. I only went up when I heard the scream."
+        },
+        {
+          "id": "q2",
+          "text": "Where were you between ten and eleven?",
+          "answer": "In the kitchen with Poppy, the housemaid. We were polishing the silver. She stayed until half past ten, then took the service stairs. I remained below."
+        },
+        {
+          "id": "q3",
+          "text": "Did Lord Ashcroft confide in you about the doctor?",
+          "answer": "He asked me to bring the account books to his study at eight. He said the doctor had been 'borrowing' his signature. He was going to change his will and call the police in the morning."
+        },
+        {
+          "id": "q4",
+          "text": "What did you notice when you found the body?",
+          "answer": "The doctor was already there, kneeling beside him. He told me to stay back. His bag was open in the hall, and I saw a small glass vial rolling near the skirting board. I pointed it out; he picked it up before I could."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "thomas-reed",
+      "name": "Thomas Reed",
+      "role": "Butler",
+      "statement": "I poured Lord Ashcroft's brandy at 21:52 and left him in the study. Dr. Croft came down the main stairs at ten o'clock and told me he was leaving. At 22:15 I saw him in the east corridor, still carrying his bag. He said he had forgotten his gloves. His car did not leave the gate until 22:38.",
+      "reliability": "High",
+      "summary": "Croft was still in the house at 22:15 and left the gate at 22:38, not 22:05.",
+      "notes": "Reed has no motive and gave a statement before the cause of death was known."
+    },
+    {
+      "id": "poppy-lane",
+      "name": "Poppy Lane",
+      "role": "Housemaid",
+      "statement": "I was carrying clean linens to the east corridor at about ten past ten. I saw Dr. Croft standing outside the study with his bag open. He shut it quickly and asked me to fetch a glass of water. When I came back, the study door was closed and he was gone.",
+      "reliability": "Medium",
+      "summary": "Croft was at the study door with his bag open around 22:10.",
+      "notes": "Poppy is young and nervous, but her timing matches the butler's account."
+    },
+    {
+      "id": "victor-hale",
+      "name": "Victor Hale",
+      "role": "Groundskeeper",
+      "statement": "The garden door was locked when I checked it at six. By ten there was a narrow path of boot prints through the fresh snow leading to the side gate, away from the house. The prints were made by town shoes, not work boots. The snow filled them in by morning.",
+      "reliability": "Medium",
+      "summary": "Someone in town shoes left through the garden door during the evening.",
+      "notes": "No prints led back toward the house; the ground fogged over before a cast could be taken."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-brandy",
+      "name": "Brandy Glass Residue",
+      "category": "Forensic",
+      "summary": "The brandy contains a lethal concentration of digitoxin, a digitalis heart drug.",
+      "description": "The crystal glass contains brandy, digitalis compounds, and a bitter compound used to mask the taste. The dose is approximately ten times a therapeutic level. The decanter is clean, meaning the poison was placed in the glass or poured after the decanter was filled.",
+      "location": "Study side table",
+      "analysis": "The poison was delivered in the glass, not the shared decanter. It likely took effect within thirty to forty-five minutes, placing the dose between 21:50 and 22:10.",
+      "tags": ["forensic", "poison", "timeline"],
+      "relatedSuspects": ["julian-croft", "ada-finch"],
+      "foundAt": "23:20"
+    },
+    {
+      "id": "e-bag",
+      "name": "Physician's Bag",
+      "category": "Physical",
+      "summary": "An empty digitoxin vial is hidden in a side pocket of Croft's medical bag.",
+      "description": "A brown glass vial labelled Digitoxin Injection lies in an inner pocket of Dr. Croft's bag. The vial is empty, and its batch number matches a box collected from the Wrenfield pharmacy two days ago. The bag's clasp was wiped clean, but the vial bears a partial print.",
+      "location": "Hall outside study",
+      "analysis": "Croft's bag contained the poison. His claim that he never opened the bag in the study is false; Poppy Lane saw it open at the study door.",
+      "tags": ["physical", "vial", "medical"],
+      "relatedSuspects": ["julian-croft"],
+      "foundAt": "23:30"
+    },
+    {
+      "id": "e-gate",
+      "name": "Gate Log",
+      "category": "Digital",
+      "summary": "Croft's car left the manor at 22:38, thirty-three minutes after he claims to have departed.",
+      "description": "The electronic gate log records Dr. Croft's car exiting at 22:38:17. The butler saw him in the east corridor at 22:15. Clara saw the car still in the drive near 22:20. Croft says he left at 22:05.",
+      "location": "Wrenfield Manor gate",
+      "analysis": "Croft remained in or around the house until at least 22:38, after the poison would have begun acting. His alibi is demonstrably false.",
+      "tags": ["timeline", "alibi", "digital"],
+      "relatedSuspects": ["julian-croft"],
+      "foundAt": "07:10"
+    },
+    {
+      "id": "e-ledger",
+      "name": "Land Transfer Ledger",
+      "category": "Documentary",
+      "summary": "Forged land transfers paid money to a shell company linked to Croft.",
+      "description": "Edmund's desk ledger records four transfers of land to Caxton Holdings, backed by deeds bearing his forged signature. A handwritten note says: 'J.C. — explain after dinner or police Monday.' Caxton's registered agent is Julian Croft's brother-in-law.",
+      "location": "Study desk",
+      "analysis": "This establishes a specific motive: Edmund was about to expose Croft, who had been stealing land through forged signatures.",
+      "tags": ["motive", "documentary", "forgery"],
+      "relatedSuspects": ["julian-croft"],
+      "foundAt": "23:10"
+    },
+    {
+      "id": "e-pills",
+      "name": "Swapped Heart Medication",
+      "category": "Forensic",
+      "summary": "The capsules in Edmund's heart medication are a dangerous, stronger dose than the label states.",
+      "description": "The bottle on the desk is labelled Digoxin 0.1 mg, but the capsules inside contain 0.25 mg. The pharmacy seal was resealed. Croft is the prescribing physician and collected a box of 0.25 mg capsules two days ago.",
+      "location": "Study desk",
+      "analysis": "The swap created a plausible explanation for a heart event while also providing a source of digitalis. It required medical knowledge and access to prescription stock.",
+      "tags": ["forensic", "medical", "premeditation"],
+      "relatedSuspects": ["julian-croft"],
+      "foundAt": "23:15"
+    },
+    {
+      "id": "e-pharmacy",
+      "name": "Pharmacy Collection Record",
+      "category": "Documentary",
+      "summary": "Croft collected digitoxin two days before the death, without a corresponding patient prescription.",
+      "description": "The village pharmacy log shows Dr. Croft collecting a box of digitoxin ampoules on 19 March, signed for as 'practice stock'. No patient at his practice is prescribed injectable digitoxin. The batch matches the empty vial.",
+      "location": "Wrenfield Pharmacy",
+      "analysis": "This links Croft to the poison and undermines any claim that the fatal dose was accidental or came from Edmund's own medication.",
+      "tags": ["documentary", "source", "medical"],
+      "relatedSuspects": ["julian-croft"],
+      "foundAt": "08:50"
+    },
+    {
+      "id": "e-snow",
+      "name": "Garden Boot Prints",
+      "category": "Scene",
+      "summary": "Town-shoe prints lead from the study's garden door to the side gate.",
+      "description": "A narrow trail of prints passes through fresh snow from the garden door to a side gate. The tread matches a leather town shoe, roughly size 44, with a repaired heel. No prints return to the house.",
+      "location": "East garden",
+      "analysis": "The killer may have left through the garden to avoid the main hall. The repaired-heel pattern can be compared with the suspects' shoes.",
+      "tags": ["scene", "exit", "physical"],
+      "relatedSuspects": ["julian-croft"],
+      "foundAt": "07:30"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "19:30",
+      "title": "Family dinner begins",
+      "detail": "Edmund confronts Croft about forged land transfers at the table.",
+      "source": "Witness statements",
+      "verified": true,
+      "disputed": false,
+      "actors": ["julian-croft", "vivienne-ashcroft", "clara-ashcroft"]
+    },
+    {
+      "id": "t2",
+      "time": "21:50",
+      "title": "Brandy poured",
+      "detail": "Thomas Reed pours brandy for Edmund and leaves him in the study.",
+      "source": "Butler's statement",
+      "verified": true,
+      "disputed": false,
+      "actors": ["edmund-ashcroft"]
+    },
+    {
+      "id": "t3",
+      "time": "22:05",
+      "title": "Croft says he leaves",
+      "detail": "Croft claims he said goodnight and drove home.",
+      "source": "Suspect statement",
+      "verified": false,
+      "disputed": true,
+      "actors": ["julian-croft"]
+    },
+    {
+      "id": "t4",
+      "time": "22:10",
+      "title": "Doctor at the study door",
+      "detail": "Poppy Lane sees Croft with his medical bag open outside the study.",
+      "source": "Witness: Poppy Lane",
+      "verified": true,
+      "disputed": false,
+      "actors": ["julian-croft"]
+    },
+    {
+      "id": "t5",
+      "time": "22:15",
+      "title": "Butler sees Croft",
+      "detail": "Reed sees Croft in the east corridor with his bag, claiming he forgot his gloves.",
+      "source": "Witness: Thomas Reed",
+      "verified": true,
+      "disputed": false,
+      "actors": ["julian-croft"]
+    },
+    {
+      "id": "t6",
+      "time": "22:38",
+      "title": "Croft's car exits",
+      "detail": "The gate log records his car leaving the manor.",
+      "source": "Gate system",
+      "verified": true,
+      "disputed": false,
+      "actors": ["julian-croft"]
+    },
+    {
+      "id": "t7",
+      "time": "22:47",
+      "title": "Edmund collapses",
+      "detail": "The victim is heard falling in the study.",
+      "source": "Household timeline",
+      "verified": true,
+      "disputed": false,
+      "actors": ["edmund-ashcroft"]
+    },
+    {
+      "id": "t8",
+      "time": "22:55",
+      "title": "Body found",
+      "detail": "Lady Vivienne finds Edmund and calls for help.",
+      "source": "Witness statements",
+      "verified": true,
+      "disputed": false,
+      "actors": ["vivienne-ashcroft"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-croft-time",
+      "title": "Still in the house",
+      "detail": "Croft says he left at 22:05. Poppy saw him at the study door at 22:10, the butler saw him at 22:15, and his car did not pass the gate until 22:38.",
+      "suspectId": "julian-croft",
+      "evidenceIds": ["e-gate"],
+      "questions": ["julian-croft:q2"],
+      "hint": "Three independent timestamps place Croft in the house far longer than he admits."
+    },
+    {
+      "id": "c-croft-bag",
+      "title": "The open medical bag",
+      "detail": "Croft says he never opened his bag in the study. Poppy Lane saw it open at the study door, and an empty digitoxin vial was later found in its side pocket.",
+      "suspectId": "julian-croft",
+      "evidenceIds": ["e-bag"],
+      "questions": ["julian-croft:q3"],
+      "hint": "The poison and the lie about the bag belong together."
+    },
+    {
+      "id": "c-croft-motive",
+      "title": "A signature worth killing for",
+      "detail": "Croft dismisses the forged land transfers as confusion. The ledger names his brother-in-law's shell company and contains Edmund's note to confront Dr. Croft after dinner.",
+      "suspectId": "julian-croft",
+      "evidenceIds": ["e-ledger", "e-pharmacy"],
+      "questions": ["julian-croft:q4"],
+      "hint": "Read Edmund's last note in the ledger, then compare it with Croft's account of their business relationship."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "forgery",
+      "text": "Silence Lord Ashcroft before he exposed Croft's forged land transfers and financial fraud."
+    },
+    {
+      "id": "inheritance",
+      "text": "Inherit Wrenfield Manor through a secret clause in the will."
+    },
+    {
+      "id": "affair",
+      "text": "Punish Edmund for discovering an affair with Lady Vivienne."
+    },
+    {
+      "id": "mercy",
+      "text": "End the suffering of a terminally ill patient at his request."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "digitoxin",
+      "text": "Added concentrated digitoxin to the after-dinner brandy, then signed the death certificate to control the narrative."
+    },
+    {
+      "id": "capsules",
+      "text": "Replaced the heart medication with a lethal dose and waited for Edmund to take his evening pills."
+    },
+    {
+      "id": "arsenic",
+      "text": "Put arsenic in the dinner soup, using the brandy to mask the taste."
+    },
+    {
+      "id": "fall",
+      "text": "Struck him during an argument and staged a fall beside the study chair."
+    }
+  ],
+  "hints": [
+    "The poison is in the brandy, but the timing narrows the field. Work out when the glass could have been dosed.",
+    "The family physician's alibi is a story about leaving. The gate log is a machine that does not care about stories.",
+    "An empty vial can be as incriminating as a full one. Ask who had a reason to carry digitoxin into the manor."
+  ],
+  "solution": {
+    "culpritId": "julian-croft",
+    "motiveId": "forgery",
+    "methodId": "digitoxin",
+    "evidenceIds": ["e-brandy", "e-bag", "e-gate"],
+    "headline": "The doctor prescribed a fatal dose to bury a forged fortune.",
+    "summary": "Dr. Julian Croft poisoned Lord Edmund Ashcroft with digitoxin after Edmund discovered that Croft had forged his signature on land transfers. Croft then signed the death certificate and invented an early departure that the gate log disproves.",
+    "explanation": [
+      "Edmund's brandy contained a lethal concentration of digitoxin. The clean decanter shows the poison was placed in the glass, and the onset timing places the dose around 22:00–22:10, while Croft was still in the house.",
+      "Croft claimed he left at 22:05, never opened his medical bag, and found Edmund already dying. Poppy Lane saw the bag open at the study door at 22:10, the butler saw Croft at 22:15, and the gate log records his car leaving at 22:38.",
+      "An empty digitoxin vial was hidden in Croft's bag. Its batch matches a box he collected two days earlier, with no corresponding patient prescription. Croft also swapped Edmund's heart medication for a stronger dose, constructing a medical explanation in advance.",
+      "The motive is in the study ledger: forged land transfers, a shell company tied to Croft's brother-in-law, and Edmund's note to confront him after dinner. Croft killed to prevent the audit that would have destroyed him."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "19:30",
+        "event": "Edmund confronts Croft about the forged land transfers at dinner."
+      },
+      {
+        "time": "21:52",
+        "event": "Edmund takes a brandy to the study."
+      },
+      {
+        "time": "22:05",
+        "event": "Croft visits the study under the pretext of saying goodnight and doses the brandy."
+      },
+      {
+        "time": "22:38",
+        "event": "Croft finally leaves through the gate, after the poison has taken hold."
+      }
+    ],
+    "redHerring": "Vivienne and Clara both had inheritance motives and were not continuously supervised. Ada Finch had access to the study and a grudge about her son's debts. None of them had access to digitoxin, and none of them lied about a medical bag that contained the poison."
+  }
+}

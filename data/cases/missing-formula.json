@@ -1,0 +1,460 @@
+{
+  "id": "missing-formula",
+  "slug": "the-missing-formula",
+  "title": "The Missing Formula",
+  "subtitle": "The researcher is in a coma. His life's work is in a stolen freezer vial.",
+  "difficulty": "medium",
+  "estimatedMinutes": 7,
+  "location": "Helix Biotech, Cambridge Science Park",
+  "date": "Sunday, 22 March 2026",
+  "timeWindow": "01:20 — 02:40",
+  "description": "Dr. Aaron Feld was found unconscious in his lab at 02:35. The only sample of Solenoid-7 — a drought-resistant grain formula worth millions — is gone. His access badge was in his locker. Someone used a copy. The weekend skeleton crew gives you four possible witnesses and one very narrow window.",
+  "briefing": "Helix Biotech operates a locked-down research floor. At 02:35 a security patrol found Dr. Feld bleeding beside a reagent bench and the cryo-freezer open. The intruder used Feld's credentials, but Feld was not carrying his badge. The sample was taken from a locked rack, and the attacker left through the loading dock.",
+  "cover": {
+    "accent": "#72B58A",
+    "secondary": "#2F5E44",
+    "motif": "lab"
+  },
+  "scene": {
+    "summary": "The lab is cold and immaculate apart from the broken reagent bottle beside the bench. The cryo-freezer door hangs open, mist curling around the empty sample rack. A smear of blood leads toward the loading dock but stops at the threshold.",
+    "details": [
+      "Dr. Feld is alive but unconscious with a blunt head injury. He was found at 02:35.",
+      "His access badge is in his gym locker, not on his person.",
+      "The lab door was opened with Feld's credentials at 02:14, but the badge reader recorded a cloned token signature.",
+      "The cryo-freezer rack for Solenoid-7 was opened at 02:16 using Feld's secondary code.",
+      "A reagent bottle bearing Feld's blood was wiped clean of fingerprints.",
+      "A maintenance corridor camera captured a figure in a lab coat leaving at 02:24; the figure is approximately 171 cm tall."
+    ],
+    "initialObservations": [
+      "Victim alive but critical",
+      "Cloned access credential",
+      "Cryo sample removed"
+    ]
+  },
+  "victim": {
+    "name": "Dr. Aaron Feld",
+    "label": "Victim",
+    "age": 44,
+    "occupation": "Lead biochemist",
+    "status": "Critical — induced coma",
+    "background": "Feld spent six years developing Solenoid-7, a drought-resistant grain formula. He was weeks from publishing. His work was the flagship project of Helix Biotech and the subject of a pending corporate partnership.",
+    "forensic": "Blunt-force trauma to the back of the head from a heavy glass reagent bottle. The angle suggests a right-handed blow from close range. No defensive wounds, meaning he was likely struck from behind. Blood alcohol was zero."
+  },
+  "suspects": [
+    {
+      "id": "simone-arden",
+      "name": "Dr. Simone Arden",
+      "role": "Senior research partner",
+      "age": 39,
+      "occupation": "Biochemist",
+      "summary": "Feld's co-lead on Solenoid-7. Ambitious, polished, and publicly frustrated that Feld received top billing. She has the technical skill to clone a badge and the commercial contacts to sell the formula.",
+      "background": "Arden has worked with Feld for four years. She negotiated with Vantara Agro on Helix's behalf, then watched the partnership collapse. She recently applied for a directorship at Vantara and was seen arguing with Feld on Friday.",
+      "motive": "Sell Solenoid-7 to Vantara Agro, secure a directorship, and claim the breakthrough as her own.",
+      "alibi": "Says she left the lab at 01:20 after finishing a cell assay and went home.",
+      "relationship": "Co-lead researcher and professional rival.",
+      "pressure": "Her application to Vantara depends on delivering a commercially viable asset.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "When did you leave the lab last night?",
+          "answer": "Just after twenty past one. I finished the assay, saved the results, and drove home. I was in bed by two. I only heard about Aaron when HR called me this morning."
+        },
+        {
+          "id": "q2",
+          "text": "Why did you argue with Dr. Feld on Friday?",
+          "answer": "Credit. I did half the work and he put his name first on the paper. I was angry, not violent. If I wanted to hurt him, I could have ruined his publication."
+        },
+        {
+          "id": "q3",
+          "text": "Your laptop connected to a badge-writing tool at 01:40.",
+          "answer": "That tool is shared lab equipment. Anyone could have used my laptop; I left it charging in my office. The network log is not proof that I was sitting in front of it."
+        },
+        {
+          "id": "q4",
+          "text": "Vantara Agro received an offer for Solenoid-7 from your personal email.",
+          "answer": "I sent a general inquiry about a different project weeks ago. You are twisting an email. I never offered Aaron's formula."
+        }
+      ]
+    },
+    {
+      "id": "bo-lin",
+      "name": "Bo Lin",
+      "role": "Lab technician",
+      "age": 28,
+      "occupation": "Research technician",
+      "summary": "Quiet and meticulous, Bo maintains the sample freezers and the badge-booking system. He was the only other person scheduled on the weekend rota.",
+      "background": "Lin joined Helix two years ago and manages the cryo storage. He was denied a promotion last month. He has full freezer access but no authority to clone credentials.",
+      "motive": "Resentment over a denied promotion, and knowledge of the sample's value.",
+      "alibi": "In the cold-storage room from 01:30 to 02:20, then in the break room. A time-lapse camera shows the storage aisle but not every corner.",
+      "relationship": "Technician who maintained the sample and its freezer.",
+      "pressure": "He is the obvious person to blame if records are all anyone checks.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you during the theft?",
+          "answer": "Cold storage, checking humidity in the tissue bank. Then the break room. I didn't go into the main lab. I only saw Aaron's car arrive around quarter to two."
+        },
+        {
+          "id": "q2",
+          "text": "Who can open the Solenoid rack?",
+          "answer": "Aaron, Simone, and me. It needs a secondary code tied to the badge. Aaron's code is separate. I didn't use it. I don't even know it."
+        },
+        {
+          "id": "q3",
+          "text": "Did you clone Dr. Feld's badge?",
+          "answer": "No. I don't have the writer. Simone borrowed it for a vendor demo last month and never returned it to the equipment cage. It's been in her office drawer since."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see anyone else in the lab?",
+          "answer": "A figure in a lab coat went past the cold-storage window at about half past one, heading toward the main lab. I thought it was Aaron, but the height was wrong. Aaron is tall. This person wasn't."
+        }
+      ]
+    },
+    {
+      "id": "mara-voss",
+      "name": "Mara Voss",
+      "role": "Security lead",
+      "age": 36,
+      "occupation": "Security supervisor",
+      "summary": "A former military police officer who controls every camera and door log at Helix. She found Feld and called the ambulance, but her patrol timing has gaps.",
+      "background": "Voss has run Helix security for three years. She is under pressure after a previous breach. She was on a solo patrol during the critical window and has access to credential audit tools.",
+      "motive": "Financial trouble and the opportunity to sell access, though there is no direct link to the formula.",
+      "alibi": "On patrol through the west wing from 01:45 to 02:25. Her radio check-ins are logged, but there are no cameras in two stairwells.",
+      "relationship": "Security supervisor with master door access.",
+      "pressure": "A previous break-in damaged her reputation; another failure could end her career.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why did it take until 02:35 to find Dr. Feld?",
+          "answer": "My patrol covers the west wing first. I checked the main lab at half past two and found him on the floor. I called it in immediately. The delay was the patrol route, not negligence."
+        },
+        {
+          "id": "q2",
+          "text": "Did you clone Feld's badge?",
+          "answer": "I can audit credentials, not clone them. The reader shows a duplicate token signature. That requires physical access to his badge or the enrollment tool."
+        },
+        {
+          "id": "q3",
+          "text": "Who has access to the equipment cage?",
+          "answer": "Researchers and security. The badge writer was signed out to Simone a month ago. I filed a reminder for its return. It never came back."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see Simone Arden leave?",
+          "answer": "I saw her in the west corridor at 01:58 when I passed her. She said she was checking a freezer alarm. I thought she'd already gone home. She was wearing her lab coat and carrying her shoulder bag."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "yara-osei",
+      "name": "Yara Osei",
+      "role": "Night cleaner",
+      "statement": "I was cleaning the lobby around two o'clock when a woman in a lab coat came through the loading-dock corridor. She carried a silver case. I said good morning; she didn't answer. She went out the dock door. I didn't see her face clearly, but she was shorter than Dr. Feld.",
+      "reliability": "High",
+      "summary": "A shorter woman in a lab coat left through the loading dock with a silver case around 02:25.",
+      "notes": "Osei has no access to the lab and has worked at Helix for five years."
+    },
+    {
+      "id": "tomas-reid",
+      "name": "Tomas Reid",
+      "role": "Security patrol officer",
+      "statement": "Dr. Feld's car entered the car park at 01:45. He signed in at the lobby reader. Ms. Arden's badge entered the lab corridor at 01:58 and exited through the loading dock at 02:31. I was at the front gate until 02:20; I didn't see her leave.",
+      "reliability": "High",
+      "summary": "Feld arrived at 01:45; Arden's badge entered the lab at 01:58 and exited the loading dock at 02:31.",
+      "notes": "Reid's gate log is independent of the lab server."
+    },
+    {
+      "id": "vantara-mail",
+      "name": "Vantara Agro procurement",
+      "role": "Corporate statement",
+      "statement": "We received an unsolicited email from Dr. Simone Arden on Friday offering 'exclusive access to a drought-resistant grain platform' and a sample for validation. We did not respond. The email came from her personal address.",
+      "reliability": "High",
+      "summary": "Arden offered a sample of the formula to Vantara before the theft.",
+      "notes": "The email is preserved in Vantara's compliance archive."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-badge",
+      "name": "Cloned Badge Token",
+      "category": "Digital",
+      "summary": "Feld's badge was used at 02:14, but the signal was a cloned token and his real badge was in his locker.",
+      "description": "The lab reader recorded Feld's credential at 02:14:09, but the token signature lacks the rolling cryptographic element present on genuine badges. A duplicate token was created from Feld's badge data. His physical badge was found in his gym locker, untouched.",
+      "location": "Main lab door reader",
+      "analysis": "Someone cloned Feld's credential. The clone writer was checked out to Simone Arden and never returned.",
+      "tags": ["digital", "access", "clone"],
+      "relatedSuspects": ["simone-arden", "bo-lin"],
+      "foundAt": "03:10"
+    },
+    {
+      "id": "e-access",
+      "name": "Arden's Access Trail",
+      "category": "Digital",
+      "summary": "Simone Arden's badge entered the lab corridor at 01:58 and exited the loading dock at 02:31.",
+      "description": "Door controllers show Arden entering the research corridor at 01:58:22, entering the main lab at 02:03:47, and exiting through the loading dock at 02:31:11. The loading dock camera shows a woman in a lab coat carrying a silver case.",
+      "location": "Building access system",
+      "analysis": "Arden was in the building during the theft, almost an hour after she claimed to have gone home. Her exit coincides with the cleaner's sighting.",
+      "tags": ["timeline", "access", "alibi"],
+      "relatedSuspects": ["simone-arden"],
+      "foundAt": "03:20"
+    },
+    {
+      "id": "e-freezer",
+      "name": "Cryo-Freezer Log",
+      "category": "Digital",
+      "summary": "The Solenoid-7 rack opened at 02:16 using Feld's secondary code and removed one vial.",
+      "description": "The freezer records a secondary-code unlock at 02:16:44, the rack door opening, and a single vial removal at 02:17:02. The code belongs to Feld. The sample's backup was never created; the stolen vial is the only viable culture.",
+      "location": "Cryo-freezer, main lab",
+      "analysis": "The thief knew the exact rack and Feld's secondary code. This was not a random break-in.",
+      "tags": ["digital", "sample", "timeline"],
+      "relatedSuspects": ["simone-arden", "bo-lin"],
+      "foundAt": "03:25"
+    },
+    {
+      "id": "e-laptop",
+      "name": "Badge-Writer Connection",
+      "category": "Digital",
+      "summary": "The cloned badge was written at 01:40 from a laptop registered to Simone Arden's office.",
+      "description": "The credential management server logged a badge-write operation at 01:40:12 from laptop HELIX-LT-27. The device is assigned to Dr. Simone Arden. The writer's serial matches the unit signed out to Arden and never returned to the equipment cage.",
+      "location": "Credential server",
+      "analysis": "Arden's laptop and the missing writer were used to clone Feld's badge 34 minutes before the lab door was opened. Her claim that she left at 01:20 is false.",
+      "tags": ["digital", "premeditation", "badge"],
+      "relatedSuspects": ["simone-arden"],
+      "foundAt": "04:05"
+    },
+    {
+      "id": "e-email",
+      "name": "Vantara Offer Email",
+      "category": "Digital",
+      "summary": "Arden offered 'exclusive access' and a sample to Vantara Agro from her personal email on Friday.",
+      "description": "The email, preserved by Vantara, says: 'I can provide an exclusive validation sample of Solenoid-7 and am prepared to discuss a senior appointment. The lead researcher is unaware of this conversation.' It was sent two days before the theft.",
+      "location": "Vantara compliance archive",
+      "analysis": "This ties the theft to a commercial buyer, a personal career motive, and a plan to bypass Feld entirely.",
+      "tags": ["motive", "digital", "commerce"],
+      "relatedSuspects": ["simone-arden"],
+      "foundAt": "09:15"
+    },
+    {
+      "id": "e-reagent",
+      "name": "Bloodied Reagent Bottle",
+      "category": "Forensic",
+      "summary": "The weapon was a heavy reagent bottle from the bench, wiped clean but bearing Feld's blood.",
+      "description": "The bottle contains traces of Feld's blood and a blend of solvents consistent with the lab bench. It was handled after the attack; all fingerprints were wiped. The impact angle matches a right-handed downward blow.",
+      "location": "Floor beside the reagent bench",
+      "analysis": "The attacker used an object already in the lab, suggesting familiarity. They had enough time to wipe prints, then fled through the loading dock.",
+      "tags": ["forensic", "weapon", "attack"],
+      "relatedSuspects": ["simone-arden", "bo-lin"],
+      "foundAt": "02:45"
+    },
+    {
+      "id": "e-camera",
+      "name": "Corridor Camera Frame",
+      "category": "Digital",
+      "summary": "A figure approximately 171 cm tall, in a lab coat and shoulder bag, left toward the loading dock at 02:24.",
+      "description": "The only working camera on the route shows a slim figure in a lab coat. Their face is obscured by a hood. Height markers place them at about 171 cm. Dr. Feld is 185 cm. Bo Lin is 178 cm. Simone Arden is 169 cm.",
+      "location": "Maintenance corridor camera",
+      "analysis": "The figure is too short to be Feld and closer to Arden's height. The shoulder bag matches the one she carries.",
+      "tags": ["digital", "physical", "height"],
+      "relatedSuspects": ["simone-arden", "bo-lin", "mara-voss"],
+      "foundAt": "03:00"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "01:20",
+      "title": "Arden says she leaves",
+      "detail": "Simone claims she finished her assay and drove home.",
+      "source": "Suspect statement",
+      "verified": false,
+      "disputed": true,
+      "actors": ["simone-arden"]
+    },
+    {
+      "id": "t2",
+      "time": "01:40",
+      "title": "Badge cloned",
+      "detail": "The badge writer is used from Arden's laptop.",
+      "source": "Credential server",
+      "verified": true,
+      "disputed": false,
+      "actors": ["simone-arden"]
+    },
+    {
+      "id": "t3",
+      "time": "01:45",
+      "title": "Feld arrives unexpectedly",
+      "detail": "Dr. Feld's car enters the car park; he signs in at the lobby.",
+      "source": "Gate and lobby logs",
+      "verified": true,
+      "disputed": false,
+      "actors": ["aaron-feld"]
+    },
+    {
+      "id": "t4",
+      "time": "01:58",
+      "title": "Arden re-enters lab corridor",
+      "detail": "Her badge opens the research corridor door.",
+      "source": "Door controller",
+      "verified": true,
+      "disputed": false,
+      "actors": ["simone-arden"]
+    },
+    {
+      "id": "t5",
+      "time": "02:14",
+      "title": "Cloned badge opens lab",
+      "detail": "A duplicate of Feld's token unlocks the main lab.",
+      "source": "Lab reader",
+      "verified": true,
+      "disputed": false,
+      "actors": ["simone-arden"]
+    },
+    {
+      "id": "t6",
+      "time": "02:17",
+      "title": "Sample removed",
+      "detail": "The Solenoid-7 vial is taken from the cryo-freezer.",
+      "source": "Freezer log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["simone-arden"]
+    },
+    {
+      "id": "t7",
+      "time": "02:24",
+      "title": "Figure leaves lab",
+      "detail": "A 171 cm figure in a lab coat carries a case toward the loading dock.",
+      "source": "Corridor camera",
+      "verified": true,
+      "disputed": false,
+      "actors": ["simone-arden"]
+    },
+    {
+      "id": "t8",
+      "time": "02:31",
+      "title": "Arden exits",
+      "detail": "Arden's badge opens the loading dock door.",
+      "source": "Door controller",
+      "verified": true,
+      "disputed": false,
+      "actors": ["simone-arden"]
+    },
+    {
+      "id": "t9",
+      "time": "02:35",
+      "title": "Feld found",
+      "detail": "Security discovers the victim unconscious and calls an ambulance.",
+      "source": "Security log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["mara-voss"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-simone-time",
+      "title": "Home by two?",
+      "detail": "Arden says she left at 01:20. Her badge enters the lab corridor at 01:58, exits the loading dock at 02:31, and the cleaner sees a woman matching her description leave at 02:25.",
+      "suspectId": "simone-arden",
+      "evidenceIds": ["e-access", "e-camera"],
+      "questions": ["simone-arden:q1"],
+      "hint": "A statement about going home is easy to test against door logs."
+    },
+    {
+      "id": "c-simone-clone",
+      "title": "The borrowed laptop",
+      "detail": "Arden says anyone could have used her laptop. The badge writer was checked out to her, never returned, and was used from her assigned device at 01:40 to create the clone.",
+      "suspectId": "simone-arden",
+      "evidenceIds": ["e-laptop", "e-badge"],
+      "questions": ["simone-arden:q3"],
+      "hint": "The clone and the writer share an owner. Compare the equipment cage records with the credential log."
+    },
+    {
+      "id": "c-simone-email",
+      "title": "An offer she didn't make",
+      "detail": "Arden denies offering the formula to Vantara. The email from her personal address offers an exclusive Solenoid-7 sample and mentions a senior appointment — two days before the theft.",
+      "suspectId": "simone-arden",
+      "evidenceIds": ["e-email"],
+      "questions": ["simone-arden:q4"],
+      "hint": "The buyer kept the email. Read who it names and what it promises."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "vantara",
+      "text": "Sell Solenoid-7 to Vantara Agro and secure a senior position by claiming the breakthrough."
+    },
+    {
+      "id": "promotion",
+      "text": "Frame Bo Lin for the theft to eliminate a rival technician."
+    },
+    {
+      "id": "debt",
+      "text": "Pay off personal debts by selling lab equipment on the black market."
+    },
+    {
+      "id": "revenge",
+      "text": "Destroy Feld's research because he refused to share credit."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "clone",
+      "text": "Cloned Feld's badge, entered after he unexpectedly arrived, stole the vial from the cryo-freezer, struck him when he interrupted her, and left through the loading dock."
+    },
+    {
+      "id": "inside",
+      "text": "Used Bo Lin's maintenance access, took the sample while Feld was away, and staged the attack to look like a break-in."
+    },
+    {
+      "id": "security",
+      "text": "Abused security master keys during a patrol, deleted the camera feed, and hid the vial in the patrol van."
+    },
+    {
+      "id": "shipping",
+      "text": "Mailed the sample out in a courier package before the theft was discovered."
+    }
+  ],
+  "hints": [
+    "The badge that opened the lab was a copy. Find the equipment used to make the copy.",
+    "Dr. Feld arrived unexpectedly at 01:45. Reconstruct who else was in the building after that time.",
+    "The stolen sample is worthless without a buyer. Look for commercial contact before the crime."
+  ],
+  "solution": {
+    "culpritId": "simone-arden",
+    "motiveId": "vantara",
+    "methodId": "clone",
+    "evidenceIds": ["e-badge", "e-access", "e-email"],
+    "headline": "The co-lead cloned her way into the lab and sold the breakthrough.",
+    "summary": "Dr. Simone Arden cloned Aaron Feld's access badge, stole the only Solenoid-7 vial, and struck Feld when he arrived unexpectedly. She planned to sell the formula to Vantara Agro and use it to secure a senior position.",
+    "explanation": [
+      "The lab door was opened with a cloned token, not Feld's real badge. The badge-writer used to create it was checked out to Arden, and the operation came from her assigned laptop. Her claim that she left at 01:20 is contradicted by her own access trail.",
+      "Arden's badge entered the lab corridor at 01:58 and exited via the loading dock at 02:31. The cleaner saw a woman matching her height and lab coat leave with a silver case at 02:25. Arden is 169 cm; the figure on camera is 171 cm.",
+      "Feld's unexpected arrival at 01:45 turned a theft into an assault. He was struck from behind with a reagent bottle while Arden was stealing the vial from the cryo-freezer. She wiped the bottle and fled.",
+      "The Vantara email establishes both motive and buyer. Arden offered an exclusive Solenoid-7 sample and a senior appointment two days before the theft, while telling Feld nothing. The sample was never intended for a rival lab — it was her personal leverage."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "01:20",
+        "event": "Arden pretends to leave, but remains in the building."
+      },
+      {
+        "time": "01:40",
+        "event": "She clones Feld's badge using the writer and her laptop."
+      },
+      {
+        "time": "02:14",
+        "event": "The clone opens the lab. Feld, having arrived at 01:45, interrupts her at the freezer."
+      },
+      {
+        "time": "02:31",
+        "event": "After striking Feld and taking the vial, Arden exits through the loading dock."
+      }
+    ],
+    "redHerring": "Bo Lin maintained the freezer and knew the sample's value, but he lacked the badge writer and his access trail does not enter the main lab. Mara Voss had master access but not the cloning tool, and her patrol logs place her in the west wing during the theft."
+  }
+}

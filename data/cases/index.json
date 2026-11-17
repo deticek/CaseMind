@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "cases": [
+    "midnight-museum.json",
+    "last-passenger.json",
+    "death-manor.json",
+    "blackout.json",
+    "missing-formula.json",
+    "glasshouse.json",
+    "studio-4.json",
+    "sable-portrait.json",
+    "lighthouse-signal.json",
+    "vesper-lake.json"
+  ]
+}

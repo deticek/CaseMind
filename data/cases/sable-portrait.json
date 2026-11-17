@@ -1,0 +1,460 @@
+{
+  "id": "sable-portrait",
+  "slug": "the-sable-portrait",
+  "title": "The Sable Portrait",
+  "subtitle": "A locked archive. A dead authenticator. A masterpiece that may not be a masterpiece at all.",
+  "difficulty": "hard",
+  "estimatedMinutes": 9,
+  "location": "Sable Gallery, Mayfair, London",
+  "date": "Tuesday, 31 March 2026",
+  "timeWindow": "17:20 — 19:20",
+  "description": "Art authenticator Lucien Gray was found dead in the gallery's locked archive, an espresso cup beside him. The cause is a heart attack — until toxicology finds oleander. The Sable Portrait, insured for £8 million, is a forgery. Gray was about to say so. Someone locked the truth inside with him.",
+  "briefing": "Gray arrived at 17:30 to authenticate the Sable Portrait before a private sale. At 19:10 the gallery assistant found the archive locked and Gray unresponsive inside. Only the owner and the victim held archive keys. The security system shows the door was locked at 18:22 with Gray's own key. The cup says otherwise.",
+  "cover": {
+    "accent": "#9D83B8",
+    "secondary": "#4D3A61",
+    "motif": "gallery"
+  },
+  "scene": {
+    "summary": "The archive smells of old paper and bitter coffee. Lucien Gray is slumped in a chair beside the examination table, one hand open, the other still holding a jeweller's loupe. An espresso cup sits on the table. The Sable Portrait leans against the wall, half unwrapped.",
+    "details": [
+      "No signs of a struggle. The victim's face is pale, his lips faintly blue.",
+      "The archive door was locked with a mechanical deadbolt. The key was found in Gray's jacket pocket.",
+      "An espresso cup contains oleander extract. The bitterness was masked by dark roast.",
+      "The Sable Portrait shows modern pigments under UV light, inconsistent with its claimed seventeenth-century date.",
+      "A 3D-printed resin key blank was recovered from the gallery owner's office bin.",
+      "The service-corridor camera shows Margot Sable entering the archive corridor at 18:03 and leaving at 18:26."
+    ],
+    "initialObservations": [
+      "Locked-room death",
+      "Oleander poisoning",
+      "Portrait likely forged"
+    ]
+  },
+  "victim": {
+    "name": "Lucien Gray",
+    "label": "Victim",
+    "age": 61,
+    "occupation": "Art authenticator",
+    "status": "Deceased — 18:35 (estimated)",
+    "background": "Gray was one of Europe's most respected independent authenticators. He had worked with the Sable Gallery for a decade. His preliminary notes on the Sable Portrait were never delivered to the insurer.",
+    "forensic": "Cardiac arrest caused by oleandrin toxicity. The dose was sufficient to disrupt heart rhythm within 20–40 minutes. The espresso cup contained the same compound. No needle marks or defensive injuries. Time of death is consistent with ingestion between 18:05 and 18:15."
+  },
+  "suspects": [
+    {
+      "id": "margot-sable",
+      "name": "Margot Sable",
+      "role": "Gallery owner",
+      "age": 49,
+      "occupation": "Gallery director",
+      "summary": "Charismatic and immaculate, Margot built the Sable Gallery into a name. The Sable Portrait is her signature piece — and the centre of an £8 million insurance policy she increased two days ago.",
+      "background": "Sable inherited the gallery from her father and has been under financial pressure since a failed expansion. She commissioned the portrait's current restoration and arranged the private sale. She controls the archive and the insurance file.",
+      "motive": "Prevent Gray from declaring the portrait a forgery, which would destroy the sale, the insurance claim, and her reputation.",
+      "alibi": "Says she left the gallery at 17:45 and was at home until called at 19:15.",
+      "relationship": "Owner of the painting, Gray's long-time client, and holder of the archive key.",
+      "pressure": "The private buyer was due to complete the purchase next week.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "When did you last see Lucien Gray?",
+          "answer": "At half five. I showed him into the archive, gave him the painting, and left. He said he needed two hours. I had a headache and went home. The next call was Nell telling me he was dead."
+        },
+        {
+          "id": "q2",
+          "text": "The service-corridor camera shows you at the archive at 18:03 and again at 18:26.",
+          "answer": "That camera has been faulty for weeks. It often shows old frames. I was not there. You can ask my building manager; I was at home with a migraine."
+        },
+        {
+          "id": "q3",
+          "text": "Why is there a 3D-printed key blank in your bin?",
+          "answer": "I collect miniature architectural models. That is a piece of resin from a framing project, not a key. Anyone could have put it there."
+        },
+        {
+          "id": "q4",
+          "text": "The portrait is a modern forgery. Did Gray tell you?",
+          "answer": "Lucien was a drama queen. He told me he suspected a forgery every few years, then found a reason to charge more for his report. The painting is authentic. The insurance policy is normal business."
+        }
+      ]
+    },
+    {
+      "id": "nell-arden",
+      "name": "Nell Arden",
+      "role": "Gallery assistant",
+      "age": 27,
+      "occupation": "Art handler and restorer",
+      "summary": "A talented young restorer who prepared the portrait for examination. She found the body and has been visibly distraught since. Her fingerprints are on the frame.",
+      "background": "Nell has worked at the gallery for two years. She trained under a conservator and handles the archive keys only under supervision. She argued with Gray last month about his dismissal of her restoration notes.",
+      "motive": "Revenge for professional humiliation, or fear that Gray would expose a restoration error.",
+      "alibi": "On a video call with a paper conservator from 17:50 to 18:40, according to the call log. She was in the restoration studio, on a different floor.",
+      "relationship": "Assistant who prepared the painting and found the body.",
+      "pressure": "Her fingerprints are on the frame and the archive key cabinet.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me how you found him.",
+          "answer": "I knocked at ten past seven. He had asked not to be disturbed, but his phone kept ringing. When he didn't answer I used the intercom. The door was locked, so I called Margot, then used the spare key from the cabinet."
+        },
+        {
+          "id": "q2",
+          "text": "Where were you between six and half past six?",
+          "answer": "In the restoration studio on a video call with a paper conservator in Amsterdam. I was showing her a water stain. The call log and the recording will confirm it."
+        },
+        {
+          "id": "q3",
+          "text": "You argued with Gray about your restoration work.",
+          "answer": "He said my cleaning test was too aggressive. He was right, and I accepted it. I reworked the test. I was angry for a day, not for a month."
+        },
+        {
+          "id": "q4",
+          "text": "Who else knew the painting might be fake?",
+          "answer": "Margot. She was there when Lucien first examined it two weeks ago. She laughed it off, but I saw her face. She asked me to prepare a new UV lamp and said not to mention the first test to anyone."
+        }
+      ]
+    },
+    {
+      "id": "julian-cross",
+      "name": "Julian Cross",
+      "role": "Security chief",
+      "age": 38,
+      "occupation": "Gallery security manager",
+      "summary": "A former police officer who runs the gallery's access system. He has a master key, a patrol schedule full of gaps, and a recent reprimand for disabling a camera.",
+      "background": "Cross was hired after a theft at another gallery. He has access to all archive keys and the camera system. He was caught disabling a corridor camera six weeks ago and claimed it was a scheduling error.",
+      "motive": "Gray threatened to report security lapses that could cost Cross his job.",
+      "alibi": "On patrol in the east wing from 17:45 to 19:00. The patrol app records check-ins, but the archive service corridor has no camera coverage of its far end.",
+      "relationship": "Security manager with master-key access.",
+      "pressure": "His previous camera incident makes him look unreliable.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why was the service-corridor camera disabled?",
+          "answer": "It wasn't disabled. The recorder in the archive corridor loses sync for a few minutes every evening during the backup cycle. I've reported it twice. Margot knows."
+        },
+        {
+          "id": "q2",
+          "text": "Where were you at the time of death?",
+          "answer": "East wing patrol. I checked the loading bay at 17:52 and the roof door at 18:35. The app timestamps it. I didn't go to the archive."
+        },
+        {
+          "id": "q3",
+          "text": "Who has keys to the archive?",
+          "answer": "Margot, Gray, and me. The spare is in the key cabinet. Nell uses it only under supervision. Nobody else."
+        },
+        {
+          "id": "q4",
+          "text": "What do you know about the Sable Portrait?",
+          "answer": "Only that it's insured for more than this gallery is worth. Margot raised the policy two days ago. I thought that was odd. Gray was here to look at it. Then he's dead. You do the math."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "ivy-chen",
+      "name": "Ivy Chen",
+      "role": "Receptionist",
+      "statement": "At about five to six, Ms. Sable came through reception carrying two espresso cups. She said one was for Mr. Gray and asked me not to disturb them. I didn't see her leave the building before seven. I thought she was working in her office.",
+      "reliability": "High",
+      "summary": "Margot Sable took two espressos toward the archive at 17:55 and was still in the building.",
+      "notes": "Chen's desk faces the main corridor and she has no reason to protect Margot."
+    },
+    {
+      "id": "samir-haddad",
+      "name": "Samir Haddad",
+      "role": "Building manager",
+      "statement": "Ms. Sable called me at 19:20 to say she had been home with a migraine since six. I told the police she was in the building; I saw her in the service lift at half six when I was checking the fire door. She looked surprised to see me.",
+      "reliability": "High",
+      "summary": "Margot Sable was in the building at 18:30, contradicting her alibi.",
+      "notes": "Haddad has a key to the building but not to the archive."
+    },
+    {
+      "id": "sable-insurer",
+      "name": "Ashcombe Fine Art Insurance",
+      "role": "Insurer statement",
+      "statement": "The Sable Portrait's policy was increased from £3.2 million to £8 million on Sunday. The gallery requested a 'collector's valuation' without disclosing that an independent authenticator had been engaged. A claim would be investigated for provenance.",
+      "reliability": "High",
+      "summary": "The portrait's insurance was tripled two days before the murder.",
+      "notes": "The policy documents were signed by Margot Sable."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-coffee",
+      "name": "Oleander Espresso",
+      "category": "Forensic",
+      "summary": "Gray's espresso contained a lethal dose of oleander extract.",
+      "description": "The espresso cup contains oleandrin, a cardiac glycoside derived from oleander. The dark roast masked the bitterness. The dose was large enough to cause fatal arrhythmia within half an hour. The cup bears Gray's prints and a smudged partial print on the handle.",
+      "location": "Archive table",
+      "analysis": "The poison was delivered in the coffee, not food. Someone prepared or delivered the cup shortly before Gray's death.",
+      "tags": ["forensic", "poison", "coffee"],
+      "relatedSuspects": ["margot-sable", "nell-arden"],
+      "foundAt": "19:35"
+    },
+    {
+      "id": "e-key",
+      "name": "Printed Key Blank",
+      "category": "Physical",
+      "summary": "A resin 3D-printed copy of the archive key was found in Margot's office bin.",
+      "description": "The black resin blank matches the archive's restricted key profile. Its cuts align with the deadbolt, and microscopic resin transfer was found inside the lock. The bin also contains a receipt for resin from a 3D-printing shop two days earlier.",
+      "location": "Margot Sable's office bin",
+      "analysis": "Only Margot's office bin contained the blank. The copy allowed someone to lock the archive after leaving, staging a locked-room death.",
+      "tags": ["physical", "key", "locked-room"],
+      "relatedSuspects": ["margot-sable"],
+      "foundAt": "20:10"
+    },
+    {
+      "id": "e-camera",
+      "name": "Service Corridor Camera",
+      "category": "Digital",
+      "summary": "Margot entered the archive corridor at 18:03 and left at 18:26.",
+      "description": "The service-corridor camera is triggered by motion. It records Margot Sable entering at 18:03:19 carrying a small tray and leaving at 18:26:02 without it. The feed is time-synced with the building's access controller and has no backup gap that evening.",
+      "location": "Service corridor",
+      "analysis": "Margot was inside the archive during the period when the poison was ingested. Her claim that she left at 17:45 is false.",
+      "tags": ["digital", "timeline", "access"],
+      "relatedSuspects": ["margot-sable"],
+      "foundAt": "20:30"
+    },
+    {
+      "id": "e-forgery",
+      "name": "UV Examination Report",
+      "category": "Forensic",
+      "summary": "The Sable Portrait contains modern pigments and a synthetic varnish layer.",
+      "description": "UV examination reveals titanium white and phthalo blue, both modern pigments, in the portrait's shadow layer. The varnish contains a synthetic resin introduced after 1950. A hidden signature was traced from a photograph. The painting is a twentieth-century forgery, not a seventeenth-century original.",
+      "location": "Archive examination table",
+      "analysis": "Gray's authentication would have destroyed the painting's value and the insurance claim. The forgery is the reason someone needed him silenced.",
+      "tags": ["forensic", "art", "forgery"],
+      "relatedSuspects": ["margot-sable", "nell-arden"],
+      "foundAt": "20:40"
+    },
+    {
+      "id": "e-notes",
+      "name": "Gray's Preliminary Notes",
+      "category": "Documentary",
+      "summary": "Gray's notes conclude the portrait is a forgery and name Margot as the seller.",
+      "description": "A folded page in Gray's jacket reads: 'Sable Portrait — synthetic pigments. Not 17th c. M. Sable insists provenance is private. Warn insurer; do not sign certificate. Buyer must be told.' It is dated the same afternoon.",
+      "location": "Victim's jacket",
+      "analysis": "Gray had reached a conclusion and intended to disclose it. This gives Margot a direct, urgent motive.",
+      "tags": ["motive", "documentary", "authentication"],
+      "relatedSuspects": ["margot-sable"],
+      "foundAt": "20:55"
+    },
+    {
+      "id": "e-policy",
+      "name": "Increased Insurance Policy",
+      "category": "Documentary",
+      "summary": "The portrait's insurance was raised to £8 million two days before Gray's death.",
+      "description": "Ashcombe Fine Art Insurance records a policy endorsement dated Sunday, raising the Sable Portrait's coverage from £3.2 million to £8 million. The gallery did not disclose Gray's pending authentication. The policy excludes known forgeries and requires provenance disclosure.",
+      "location": "Insurer records",
+      "analysis": "A forged painting plus an inflated policy equals a potential insurance fraud worth millions. Gray's report would have prevented a claim.",
+      "tags": ["motive", "documentary", "insurance"],
+      "relatedSuspects": ["margot-sable"],
+      "foundAt": "21:10"
+    },
+    {
+      "id": "e-receipt",
+      "name": "Espresso Receipt",
+      "category": "Documentary",
+      "summary": "Margot bought two espressos and a bottle of 'bitter tonic' at 17:50.",
+      "description": "The gallery café receipt is time-stamped 17:50 and paid with Margot Sable's card. It lists two espressos and a small bottle of 'herbal tonic'. A bottle of oleander-based tincture was later found in her desk drawer; the receipt's tonic is missing.",
+      "location": "Gallery café",
+      "analysis": "This places the poison's delivery in Margot's hands. She carried the coffees to the archive shortly afterward.",
+      "tags": ["documentary", "poison", "timeline"],
+      "relatedSuspects": ["margot-sable"],
+      "foundAt": "21:25"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "17:30",
+      "title": "Gray arrives",
+      "detail": "The authenticator enters the gallery and is shown to the archive.",
+      "source": "Reception log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["lucien-gray", "margot-sable"]
+    },
+    {
+      "id": "t2",
+      "time": "17:45",
+      "title": "Margot says she leaves",
+      "detail": "She claims a migraine and says she went home.",
+      "source": "Suspect statement",
+      "verified": false,
+      "disputed": true,
+      "actors": ["margot-sable"]
+    },
+    {
+      "id": "t3",
+      "time": "17:50",
+      "title": "Espressos purchased",
+      "detail": "Margot buys two coffees and a herbal tonic at the gallery café.",
+      "source": "Café receipt",
+      "verified": true,
+      "disputed": false,
+      "actors": ["margot-sable"]
+    },
+    {
+      "id": "t4",
+      "time": "18:03",
+      "title": "Margot enters archive corridor",
+      "detail": "The motion camera records her carrying a tray toward the archive.",
+      "source": "Service corridor camera",
+      "verified": true,
+      "disputed": false,
+      "actors": ["margot-sable"]
+    },
+    {
+      "id": "t5",
+      "time": "18:10",
+      "title": "Gray drinks the espresso",
+      "detail": "Oleander toxin begins to act within the next half hour.",
+      "source": "Forensic estimate",
+      "verified": true,
+      "disputed": false,
+      "actors": ["lucien-gray"]
+    },
+    {
+      "id": "t6",
+      "time": "18:26",
+      "title": "Margot leaves",
+      "detail": "She exits the service corridor without the tray.",
+      "source": "Service corridor camera",
+      "verified": true,
+      "disputed": false,
+      "actors": ["margot-sable"]
+    },
+    {
+      "id": "t7",
+      "time": "18:30",
+      "title": "Building manager sees Margot",
+      "detail": "Haddad sees her in the service lift, though she claimed to be home.",
+      "source": "Witness: Samir Haddad",
+      "verified": true,
+      "disputed": false,
+      "actors": ["margot-sable"]
+    },
+    {
+      "id": "t8",
+      "time": "18:35",
+      "title": "Gray dies",
+      "detail": "Cardiac arrest from oleandrin toxicity.",
+      "source": "Medical examiner",
+      "verified": true,
+      "disputed": false,
+      "actors": ["lucien-gray"]
+    },
+    {
+      "id": "t9",
+      "time": "19:10",
+      "title": "Body found",
+      "detail": "Nell Arden opens the archive and finds Gray dead.",
+      "source": "Witness: Nell Arden",
+      "verified": true,
+      "disputed": false,
+      "actors": ["nell-arden"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-margot-time",
+      "title": "The migraine alibi",
+      "detail": "Margot says she left at 17:45 and was home by six. The service camera records her entering the archive corridor at 18:03 and leaving at 18:26, and the building manager saw her in the lift at 18:30.",
+      "suspectId": "margot-sable",
+      "evidenceIds": ["e-camera"],
+      "questions": ["margot-sable:q1", "margot-sable:q2"],
+      "hint": "The building manager and the camera both disagree with the migraine story."
+    },
+    {
+      "id": "c-margot-key",
+      "title": "The resin key",
+      "detail": "Margot calls the object in her bin a framing model. It matches the archive's restricted key profile, and resin transfer was found inside the deadbolt. The locked room was manufactured.",
+      "suspectId": "margot-sable",
+      "evidenceIds": ["e-key"],
+      "questions": ["margot-sable:q3"],
+      "hint": "The victim's key was in his pocket. Ask how the door was locked from outside."
+    },
+    {
+      "id": "c-margot-forgery",
+      "title": "The certificate she couldn't allow",
+      "detail": "Margot insists the portrait is authentic. UV analysis finds modern pigments; Gray's notes call it a forgery and name her; the insurance policy was tripled two days earlier.",
+      "suspectId": "margot-sable",
+      "evidenceIds": ["e-forgery", "e-notes", "e-policy"],
+      "questions": ["margot-sable:q4"],
+      "hint": "The painting's value, the insurance, and the authentication report form one motive."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "fraud",
+      "text": "Prevent Gray from exposing the Sable Portrait as a forgery and destroying an £8 million insurance fraud."
+    },
+    {
+      "id": "inheritance",
+      "text": "Inherit Gray's private collection through a secret clause."
+    },
+    {
+      "id": "jealousy",
+      "text": "Punish Gray for favouring Nell Arden's restoration career."
+    },
+    {
+      "id": "reputation",
+      "text": "Silence Gray after he publicly criticised the gallery's security."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "oleander",
+      "text": "Poisoned Gray's espresso with oleander extract, then locked the archive with a 3D-printed key to stage a locked-room death."
+    },
+    {
+      "id": "injection",
+      "text": "Injected oleander into Gray's arm during a fake examination and left the door unlocked."
+    },
+    {
+      "id": "assistant",
+      "text": "Persuaded Nell Arden to poison the coffee, then locked the archive from the security office."
+    },
+    {
+      "id": "gas",
+      "text": "Released a toxic solvent into the archive ventilation and waited for the room to seal."
+    }
+  ],
+  "hints": [
+    "The locked room is a story told by the door. The victim's key was in his pocket; look for another copy.",
+    "The poison entered through the coffee. Trace who carried a tray to the archive.",
+    "The painting's authentication, the insurance increase, and the victim's notes are one motive."
+  ],
+  "solution": {
+    "culpritId": "margot-sable",
+    "motiveId": "fraud",
+    "methodId": "oleander",
+    "evidenceIds": ["e-coffee", "e-key", "e-camera"],
+    "headline": "The gallery owner locked a forgery inside a locked room.",
+    "summary": "Margot Sable poisoned Lucien Gray's espresso with oleander, then used a 3D-printed copy of the archive key to lock the door after leaving. She killed to stop Gray exposing the Sable Portrait as a forgery and the £8 million insurance policy as fraud.",
+    "explanation": [
+      "Gray's espresso contained oleandrin, and the café receipt places Margot's purchase of two coffees and a herbal tonic at 17:50. She carried the tray to the archive, and the service camera records her entering at 18:03.",
+      "The archive's deadbolt was locked after Gray was already incapacitated. His key remained in his pocket. A resin copy of the restricted key was found in Margot's office bin, matching the lock and bearing recent resin transfer.",
+      "Margot's alibi collapses against three independent timestamps: the camera at 18:03, the camera at 18:26, and the building manager seeing her in the lift at 18:30. She claimed she had been home since 17:45.",
+      "The motive is documented by UV analysis, Gray's notes, and the insurance policy. The Sable Portrait is a modern forgery. Gray had concluded it was fake and intended to warn the insurer and the buyer. Margot had tripled the policy two days earlier. Killing Gray was an attempt to preserve both the sale and the claim."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "17:50",
+        "event": "Margot buys two espressos and a herbal tonic, preparing the poison."
+      },
+      {
+        "time": "18:03",
+        "event": "She carries the tray into the archive, where Gray is examining the portrait."
+      },
+      {
+        "time": "18:26",
+        "event": "She leaves and locks the archive with the printed key after Gray is incapacitated."
+      },
+      {
+        "time": "18:35",
+        "event": "Gray dies of oleander toxicity. Margot is already planning her migraine alibi."
+      }
+    ],
+    "redHerring": "Nell Arden's prints were on the frame, and she had argued with Gray, but a recorded video call places her in the restoration studio throughout the poison window. Julian Cross had master-key access, but his patrol app and the absence of the printed key in his possession exclude him. Margot alone had the key, the poison, the insurance motive, and a reason to manufacture a locked room."
+  }
+}

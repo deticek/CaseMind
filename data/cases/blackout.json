@@ -1,0 +1,484 @@
+{
+  "id": "blackout",
+  "slug": "the-blackout",
+  "title": "The Blackout",
+  "subtitle": "Fourteen minutes of darkness. One missing diamond. A perfect alibi built from broken lights.",
+  "difficulty": "easy",
+  "estimatedMinutes": 6,
+  "location": "Meridian Jewelry Exchange, Birmingham",
+  "date": "Friday, 20 March 2026",
+  "timeWindow": "21:00 — 21:40",
+  "description": "At 21:12 the Meridian Jewelry Exchange lost power. When the lights returned, the Heart of the Vale — a 14-carat blue diamond — was gone. The street outside stayed lit. The emergency exit was open. The security engineer says it was a grid surge. The evidence says it was a plan.",
+  "briefing": "The Exchange was closing for the weekend when the lights failed. Three staff and one external engineer were inside. The display case was opened with a service override, not smashed. The alarm never sounded. You have until the morning security handover to identify who turned the blackout into a doorway.",
+  "cover": {
+    "accent": "#5AC8D8",
+    "secondary": "#246B76",
+    "motif": "blackout"
+  },
+  "scene": {
+    "summary": "The showroom is dark except for emergency strips. The Heart of the Vale case stands open, its glass unbroken, the velvet pad dented where the stone once sat. A faint smell of hot copper hangs near the basement stairs.",
+    "details": [
+      "The display case lock was opened with an electronic service override. There is no impact damage.",
+      "The blackout affected only the Exchange and its basement; neighbouring buildings and streetlights remained on.",
+      "The rear emergency exit opened at 21:17 and closed at 21:18. Its alarm was in engineer test mode.",
+      "Graphite dust from the server-room floor is tracked toward the rear exit.",
+      "A maintenance login at 21:08 was used to place the alarm system in test mode."
+    ],
+    "initialObservations": [
+      "Localised power failure",
+      "Alarm bypassed before blackout",
+      "Display case opened without force"
+    ]
+  },
+  "victim": {
+    "name": "The Heart of the Vale",
+    "label": "Stolen diamond",
+    "age": "Certified 2019",
+    "occupation": "14.2-carat blue diamond",
+    "status": "Missing, presumed stolen",
+    "background": "A fancy vivid blue diamond insured for £3.1 million. It was on a private viewing display for a buyer arriving Monday. Only six people knew the stone was still in the building over the weekend.",
+    "forensic": "The display case lock recorded a valid service override at 21:15. The velvet pad bears a fresh compression mark. No fingerprints were recovered. A single graphite smudge was found on the case frame."
+  },
+  "suspects": [
+    {
+      "id": "niko-rask",
+      "name": "Niko Rask",
+      "role": "Security systems engineer",
+      "age": 33,
+      "occupation": "Freelance systems engineer",
+      "summary": "He installed the Exchange's alarm and display-lock system. He was on site for a routine service call when the power failed, and he knows every override in the building.",
+      "background": "Rask has worked for the Exchange for four years. He has a gambling habit and recently missed two loan payments. He was alone in the server room during the blackout.",
+      "motive": "A large gambling debt and pressure from a private lender.",
+      "alibi": "In the server room from 21:00 until 21:26, restoring power.",
+      "relationship": "External contractor with system-level access and knowledge of the display case.",
+      "pressure": "His phone has received repeated payment demands.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What were you doing when the lights went out?",
+          "answer": "Resetting the monitoring server. The power dropped at 21:12. I used the emergency console to diagnose it. I stayed in the server room until I restored the main feed at 21:26."
+        },
+        {
+          "id": "q2",
+          "text": "Why did only this building lose power?",
+          "answer": "Old building, single feed, sensitive load. It happens. The breaker probably tripped from a surge. I found it reset when I checked the panel afterward."
+        },
+        {
+          "id": "q3",
+          "text": "The rear exit opened with your override card at 21:17.",
+          "answer": "That's not possible. My card was in the server room with me. The readers can glitch when the power is unstable. I didn't leave the room."
+        },
+        {
+          "id": "q4",
+          "text": "You installed the display case lock. Can it be opened without a key?",
+          "answer": "There is a service override, but it requires the physical maintenance key and the panel code. I don't carry the key. Celia keeps it in her office safe."
+        }
+      ]
+    },
+    {
+      "id": "celia-ward",
+      "name": "Celia Ward",
+      "role": "Store manager",
+      "age": 41,
+      "occupation": "Jewelry exchange manager",
+      "summary": "Composed and meticulous, Celia controls the keys, the safe, and the weekend schedule. She was on the phone with the insurer when the lights failed.",
+      "background": "Ward has managed the Exchange for six years. She was the one who insisted the Heart of the Vale remain on site until Monday. She has no known debts, but her contract includes a generous loss bonus.",
+      "motive": "Financial gain through the loss bonus, or resentment after being passed over for a regional role.",
+      "alibi": "In her office on a recorded call with the insurer from 21:05 to 21:24.",
+      "relationship": "Manager and keyholder; Niko's primary contact at the Exchange.",
+      "pressure": "She is responsible for the diamond and its insurance file.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Where were you during the blackout?",
+          "answer": "In my office, on hold with the insurer. The call log will show it. I had a battery lamp and a very long wait. I did not leave the office until the lights came back."
+        },
+        {
+          "id": "q2",
+          "text": "Who has access to the display case key?",
+          "answer": "I do. It lives in the safe in my office. Niko has a service key for maintenance, but it is supposed to be sealed in a tamper bag. I checked the safe after the theft; the key was still there."
+        },
+        {
+          "id": "q3",
+          "text": "Why was the alarm in test mode?",
+          "answer": "Niko was on site for a service call. He asked me to authorise a brief test after closing. I signed the work order. I did not authorise him to open the case."
+        },
+        {
+          "id": "q4",
+          "text": "Did you notice anything strange before the lights went out?",
+          "answer": "The server-room door was propped open. That was unusual; Niko always keeps it shut for cooling. I saw him walking toward the basement stairs around nine, carrying his tool case."
+        }
+      ]
+    },
+    {
+      "id": "anton-vale",
+      "name": "Anton Vale",
+      "role": "Owner's son",
+      "age": 27,
+      "occupation": "Company director",
+      "summary": "The owner's son, charming and impatient. He was supposed to deliver the diamond to a buyer on Monday, but the sale depended on his father's approval.",
+      "background": "Anton works in the family business and arranged the private viewing. He has a reputation for risky investments and recently borrowed against his inheritance. His father controls the company's cash.",
+      "motive": "Sell the diamond privately to cover a failed investment, or claim insurance while hiding a sale.",
+      "alibi": "Across the street at the Vintner's Bar from 20:55 to 21:30. The bartender and a card receipt confirm it.",
+      "relationship": "Son of the owner and organiser of the private viewing.",
+      "pressure": "His father was preparing to remove him from the board.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Why were you across the street?",
+          "answer": "I wasn't needed for the close. I was having a drink and waiting for a call from my father. The bar staff know me. I was there when the lights went out; half the street turned to look."
+        },
+        {
+          "id": "q2",
+          "text": "Who knew the diamond was on site?",
+          "answer": "Me, my father, Celia, the insurer, and the security contractor. Niko installed the case. He knew the viewing was Monday. He also knew the building would be quiet on Friday night."
+        },
+        {
+          "id": "q3",
+          "text": "Did the sale depend on your father's approval?",
+          "answer": "Yes. He was dragging his feet. If the stone vanished, the insurance would pay, but that wouldn't help my debts. I needed the sale, not a police investigation."
+        },
+        {
+          "id": "q4",
+          "text": "Did you see anything from the bar?",
+          "answer": "I saw the Exchange go dark. A minute later, a man in a dark maintenance jacket came out the rear service door, walked to a grey van, and drove off without lights. I assumed it was Niko."
+        }
+      ]
+    },
+    {
+      "id": "grace-lin",
+      "name": "Grace Lin",
+      "role": "Sales associate",
+      "age": 24,
+      "occupation": "Sales associate",
+      "summary": "The newest employee, efficient and observant. She was locking the front display when the power failed and saw a figure near the rear exit.",
+      "background": "Lin joined the Exchange four months ago. She is studying gemology and hopes to become a buyer. She has no access to the safe or the service overrides.",
+      "motive": "None established, though she knew the diamond's value and disliked being left out of the private viewing.",
+      "alibi": "In the showroom with the security guard from 21:05 until the lights returned.",
+      "relationship": "Junior employee; no keyholder authority.",
+      "pressure": "She is worried about being blamed for a theft she witnessed.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What did you see during the blackout?",
+          "answer": "Emergency lights only. I saw a man move from the server-room corridor toward the rear exit. He wore a maintenance jacket and carried a slim black case. I couldn't see his face, but he moved like he knew the floor."
+        },
+        {
+          "id": "q2",
+          "text": "Where was Celia Ward?",
+          "answer": "In her office. I heard her on the phone. She sounded annoyed and kept saying 'I'm still holding'. She didn't come out until the lights came back."
+        },
+        {
+          "id": "q3",
+          "text": "Did you see the display case open?",
+          "answer": "Not until the power returned. It was open and the diamond was gone. I didn't hear glass break. It was like someone had simply lifted the stone out."
+        },
+        {
+          "id": "q4",
+          "text": "What do you know about Niko Rask?",
+          "answer": "He's been here a few times. He's friendly but nervous lately. Last week he asked me whether the weekend viewing had been confirmed and whether Celia would be alone on Friday. I thought he was making conversation."
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "martin-cole",
+      "name": "Martin Cole",
+      "role": "Security guard",
+      "statement": "I was locking the front doors when the power failed. My torch worked, but the alarm panel showed 'engineer test'. I went to the rear exit and found it closed, but the push bar was warm. I did not see anyone. The lights came back at 21:26.",
+      "reliability": "High",
+      "summary": "The alarm was already in engineer test mode when the blackout began.",
+      "notes": "Cole has worked at the Exchange for eleven months and had no access to service overrides."
+    },
+    {
+      "id": "rosa-mendel",
+      "name": "Rosa Mendel",
+      "role": "Bartender, Vintner's Bar",
+      "statement": "Anton Vale was at the bar from before nine until about half past. He kept checking his phone. When the lights across the street went out, he stood up and watched through the window. He didn't leave.",
+      "reliability": "High",
+      "summary": "Anton Vale remained in the bar throughout the blackout.",
+      "notes": "A card receipt and two staff members corroborate the alibi."
+    },
+    {
+      "id": "utility-record",
+      "name": "City Grid Control",
+      "role": "Utility statement",
+      "statement": "No outage was recorded on the street feed during the relevant period. The Exchange is on a private sub-panel. Any loss of power inside the building originated from that panel.",
+      "reliability": "High",
+      "summary": "The blackout was internal, not a grid failure.",
+      "notes": "The sub-panel serves only the Exchange and its basement."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-jumper",
+      "name": "Copper Breaker Jumper",
+      "category": "Physical",
+      "summary": "A copper wire was found bridging the Exchange's main breaker, forcing a deliberate shutdown.",
+      "description": "A short length of copper wire connects the main breaker's trip coil to the panel ground. It is a crude but effective timer: when the server load peaks, the breaker trips and the local feed dies. The wire was installed by someone with panel access and electrical knowledge.",
+      "location": "Basement electrical panel",
+      "analysis": "The blackout was engineered. The jumper is not a utility fault and would not occur naturally. It also explains why the street stayed lit.",
+      "tags": ["physical", "sabotage", "power"],
+      "relatedSuspects": ["niko-rask"],
+      "foundAt": "21:50"
+    },
+    {
+      "id": "e-login",
+      "name": "Maintenance Console Login",
+      "category": "Digital",
+      "summary": "An engineer-level login at 21:08 placed the alarm in test mode and disabled exit alarms.",
+      "description": "The security console records an engineer login at 21:08:31 using Niko Rask's credentials. The session enabled test mode on the rear exit and silenced door alarms. The console shows no logout; the session ended when power was cut.",
+      "location": "Security server room",
+      "analysis": "The alarm was deliberately disabled before the blackout. Only one engineer account was active in the building.",
+      "tags": ["digital", "access", "alarm"],
+      "relatedSuspects": ["niko-rask"],
+      "foundAt": "22:10"
+    },
+    {
+      "id": "e-exit",
+      "name": "Rear Exit Access Record",
+      "category": "Digital",
+      "summary": "The rear exit opened with Niko's override card at 21:17 and closed one minute later.",
+      "description": "The door controller recorded Rask's card at 21:17:04 and a closure at 21:18:02. The card was not reported lost. The exit leads to the service lane where a grey van was seen leaving without headlights.",
+      "location": "Rear exit controller",
+      "analysis": "Rask left the building during the blackout, despite claiming he never moved from the server room. The minute-long opening is consistent with carrying a small item to a vehicle.",
+      "tags": ["timeline", "access", "exit"],
+      "relatedSuspects": ["niko-rask"],
+      "foundAt": "22:15"
+    },
+    {
+      "id": "e-servicekey",
+      "name": "Service Key Audit",
+      "category": "Documentary",
+      "summary": "Niko retained an unsealed service key for the display case, contrary to policy.",
+      "description": "The maintenance log shows two service keys were issued to Rask when the case was installed. Only one was returned. The tamper bag for the second key is empty. The service override records at 21:15 match the missing key's serial.",
+      "location": "Maintenance records",
+      "analysis": "Rask had the means to open the case without force. His statement that he does not carry the key is false.",
+      "tags": ["documentary", "access", "case"],
+      "relatedSuspects": ["niko-rask"],
+      "foundAt": "22:30"
+    },
+    {
+      "id": "e-phone",
+      "name": "Cell Site Record",
+      "category": "Digital",
+      "summary": "Niko's phone connected to a tower near the rear service lane at 21:18.",
+      "description": "Cell site data places Rask's phone within 40 metres of the Exchange's rear service lane at 21:18, not in the basement server room. The phone also received three messages from a lender that evening.",
+      "location": "Mobile carrier record",
+      "analysis": "The location data independently places Rask outside the server room during the exit window. His phone was moving toward the lane.",
+      "tags": ["digital", "location", "alibi"],
+      "relatedSuspects": ["niko-rask"],
+      "foundAt": "08:20"
+    },
+    {
+      "id": "e-debt",
+      "name": "Loan Demand Messages",
+      "category": "Digital",
+      "summary": "Niko received escalating payment demands and a threat to visit his workplace.",
+      "description": "Three messages from an unregistered lender demand £18,000 by Friday. The final message reads: 'We know where you work. We can make a scene.' The messages were sent to Rask's phone and found in a backup.",
+      "location": "Backup of Rask's phone",
+      "analysis": "This establishes immediate financial pressure and a motive to steal a highly liquid asset.",
+      "tags": ["motive", "digital", "debt"],
+      "relatedSuspects": ["niko-rask"],
+      "foundAt": "09:00"
+    },
+    {
+      "id": "e-guard",
+      "name": "Guard's Torch Log",
+      "category": "Documentary",
+      "summary": "The guard's patrol log places him at the front doors during the blackout.",
+      "description": "Martin Cole's patrol log and radio check-ins show him at the front entrance from 21:10 to 21:25. He had no access to the service panel, the display case, or the engineer console. His body camera confirms the time.",
+      "location": "Security office",
+      "analysis": "The guard's movements are documented and inconsistent with the theft. His role is investigative, not culpable.",
+      "tags": ["alibi", "security", "timeline"],
+      "relatedSuspects": [],
+      "foundAt": "21:45"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "time": "20:50",
+      "title": "Store closes",
+      "detail": "The last customer leaves. The Heart of the Vale is returned to its case.",
+      "source": "Floor log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["celia-ward", "grace-lin"]
+    },
+    {
+      "id": "t2",
+      "time": "21:05",
+      "title": "Niko enters server room",
+      "detail": "Rask begins a service session while the store is closing.",
+      "source": "Server log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["niko-rask"]
+    },
+    {
+      "id": "t3",
+      "time": "21:08",
+      "title": "Alarm test mode enabled",
+      "detail": "An engineer login silences the rear exit alarms.",
+      "source": "Security console",
+      "verified": true,
+      "disputed": false,
+      "actors": ["niko-rask"]
+    },
+    {
+      "id": "t4",
+      "time": "21:12",
+      "title": "Power fails",
+      "detail": "Only the Exchange loses power. Emergency lights activate.",
+      "source": "Utility and panel records",
+      "verified": true,
+      "disputed": false,
+      "actors": []
+    },
+    {
+      "id": "t5",
+      "time": "21:15",
+      "title": "Display case opened",
+      "detail": "The case records a service override; the diamond is removed.",
+      "source": "Case lock log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["niko-rask"]
+    },
+    {
+      "id": "t6",
+      "time": "21:17",
+      "title": "Rear exit opens",
+      "detail": "Rask's override card opens the rear door for one minute.",
+      "source": "Exit controller",
+      "verified": true,
+      "disputed": false,
+      "actors": ["niko-rask"]
+    },
+    {
+      "id": "t7",
+      "time": "21:26",
+      "title": "Power restored",
+      "detail": "Rask claims to have reset the main feed; the lights return.",
+      "source": "Server log",
+      "verified": true,
+      "disputed": false,
+      "actors": ["niko-rask"]
+    },
+    {
+      "id": "t8",
+      "time": "21:30",
+      "title": "Empty case found",
+      "detail": "Grace Lin sees the open case and raises the alarm.",
+      "source": "Witness: Grace Lin",
+      "verified": true,
+      "disputed": false,
+      "actors": ["grace-lin"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "c-niko-room",
+      "title": "Never left the server room?",
+      "detail": "Rask says he stayed in the server room. His override card opened the rear exit at 21:17, and his phone connected to a tower near the service lane at 21:18.",
+      "suspectId": "niko-rask",
+      "evidenceIds": ["e-exit", "e-phone"],
+      "questions": ["niko-rask:q3"],
+      "hint": "Two independent systems put Rask outside the room during the theft window."
+    },
+    {
+      "id": "c-niko-surge",
+      "title": "A surge with a copper tail",
+      "detail": "Rask blames a utility surge. The utility recorded no outage, and a copper jumper was found bridging the building's main breaker.",
+      "suspectId": "niko-rask",
+      "evidenceIds": ["e-jumper"],
+      "questions": ["niko-rask:q2"],
+      "hint": "The power company and the electrical panel tell different stories."
+    },
+    {
+      "id": "c-niko-key",
+      "title": "The missing service key",
+      "detail": "Rask says he does not carry the display-case key. Maintenance records show two keys were issued to him and only one was returned; the missing key's serial matches the 21:15 override.",
+      "suspectId": "niko-rask",
+      "evidenceIds": ["e-servicekey"],
+      "questions": ["niko-rask:q4"],
+      "hint": "Check the maintenance inventory against Rask's account of the key."
+    }
+  ],
+  "motiveOptions": [
+    {
+      "id": "debts",
+      "text": "Steal the diamond to pay off gambling debts and stop a lender's threats."
+    },
+    {
+      "id": "bonus",
+      "text": "Help the store manager claim a generous loss bonus."
+    },
+    {
+      "id": "inheritance",
+      "text": "Fund a family inheritance dispute by selling the stone privately."
+    },
+    {
+      "id": "revenge",
+      "text": "Sabotage the Exchange after being denied a permanent contract."
+    }
+  ],
+  "methodOptions": [
+    {
+      "id": "engineered",
+      "text": "Engineered a local blackout with a breaker jumper, used his retained service key and override card, and exited through the rear service door."
+    },
+    {
+      "id": "grid",
+      "text": "Waited for a genuine grid failure, smashed the display case in the dark, and hid until the lights returned."
+    },
+    {
+      "id": "manager",
+      "text": "Used the manager's safe key while she was on the phone, then left through the front door."
+    },
+    {
+      "id": "drone",
+      "text": "Used a drone to lift the diamond through the ventilation shaft during the blackout."
+    }
+  ],
+  "hints": [
+    "A blackout that affects one building is not a grid failure. Look at the electrical panel, not the sky.",
+    "The alarm did not sound for a reason. Trace the engineer login and the door controller records.",
+    "The service key inventory is short one key. Find out who kept it."
+  ],
+  "solution": {
+    "culpritId": "niko-rask",
+    "motiveId": "debts",
+    "methodId": "engineered",
+    "evidenceIds": ["e-jumper", "e-exit", "e-servicekey"],
+    "headline": "The security expert built his own darkness.",
+    "summary": "Niko Rask rigged the Exchange's breaker with a copper jumper, disabled the alarms from the engineer console, opened the display case with a retained service key, and left through the rear exit with the Heart of the Vale. He needed the money to settle gambling debts.",
+    "explanation": [
+      "The blackout was local and deliberate. A copper jumper on the main breaker forced the Exchange's private feed to trip. The utility confirmed no street outage, and the jumper required electrical knowledge and panel access.",
+      "Rask disabled the rear exit alarm with his engineer login at 21:08. At 21:17 his override card opened the rear door for one minute, and cell data placed his phone near the service lane at 21:18. He was not in the server room.",
+      "The display case was opened with a service override. Maintenance records show Rask retained one of two service keys and left its tamper bag empty. The override serial matches the missing key.",
+      "The motive is financial pressure: messages from a lender demanded £18,000 and threatened to visit his workplace. The Heart of the Vale was small, highly valuable, and easy to carry out through a door he controlled."
+    ],
+    "timelineReconstruction": [
+      {
+        "time": "21:08",
+        "event": "Rask logs into the console and disables the rear exit alarms."
+      },
+      {
+        "time": "21:12",
+        "event": "The copper jumper trips the main breaker, plunging the Exchange into darkness."
+      },
+      {
+        "time": "21:15",
+        "event": "Rask opens the display case with his retained service key and takes the diamond."
+      },
+      {
+        "time": "21:17",
+        "event": "He exits through the rear door with a slim case and leaves in a grey van."
+      }
+    ],
+    "redHerring": "Celia Ward controlled the safe key and had a loss-bonus clause, but her recorded insurer call covers the blackout. Anton Vale had financial problems, but he remained in the bar across the street. Grace Lin saw the figure but had no keyholder access. Only Rask had the technical knowledge, the service key, and the access log."
+  }
+}
